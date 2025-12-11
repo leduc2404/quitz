@@ -1,728 +1,1448 @@
 <!DOCTYPE html>
 <html lang="vi">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Quiz Ôn Tập - Tâm Lý & Triết Học</title>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
     <style>
-        :root {
-            --primary: #6366f1;
-            --primary-dark: #4f46e5;
-            --secondary: #ec4899;
-            --success: #10b981;
-            --danger: #ef4444;
-            --warning: #f59e0b;
-            --dark: #0f172a;
-            --dark-light: #1e293b;
-            --gray: #64748b;
-            --light: #f1f5f9;
-            --white: #ffffff;
-            --gradient-1: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-            --gradient-2: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
-            --gradient-3: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);
-            --gradient-4: linear-gradient(135deg, #43e97b 0%, #38f9d7 100%);
+      :root {
+        --primary: #6366f1;
+        --primary-dark: #4f46e5;
+        --secondary: #ec4899;
+        --success: #10b981;
+        --danger: #ef4444;
+        --warning: #f59e0b;
+        --dark: #0f172a;
+        --dark-light: #1e293b;
+        --gray: #64748b;
+        --light: #f1f5f9;
+        --white: #ffffff;
+        --gradient-1: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        --gradient-2: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+        --gradient-3: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);
+        --gradient-4: linear-gradient(135deg, #43e97b 0%, #38f9d7 100%);
+      }
+
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        font-family: "Inter", -apple-system, BlinkMacSystemFont, sans-serif;
+        background: linear-gradient(
+          135deg,
+          #1a1a2e 0%,
+          #16213e 50%,
+          #0f3460 100%
+        );
+        min-height: 100vh;
+        color: var(--white);
+        overflow-x: hidden;
+      }
+
+      .bg-animation {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+        z-index: -1;
+      }
+      .bg-animation span {
+        position: absolute;
+        display: block;
+        width: 20px;
+        height: 20px;
+        background: rgba(255, 255, 255, 0.05);
+        animation: animate 25s linear infinite;
+        bottom: -150px;
+        border-radius: 50%;
+      }
+      .bg-animation span:nth-child(1) {
+        left: 25%;
+        width: 80px;
+        height: 80px;
+        animation-delay: 0s;
+      }
+      .bg-animation span:nth-child(2) {
+        left: 10%;
+        width: 20px;
+        height: 20px;
+        animation-delay: 2s;
+        animation-duration: 12s;
+      }
+      .bg-animation span:nth-child(3) {
+        left: 70%;
+        width: 20px;
+        height: 20px;
+        animation-delay: 4s;
+      }
+      .bg-animation span:nth-child(4) {
+        left: 40%;
+        width: 60px;
+        height: 60px;
+        animation-delay: 0s;
+        animation-duration: 18s;
+      }
+      .bg-animation span:nth-child(5) {
+        left: 65%;
+        width: 20px;
+        height: 20px;
+        animation-delay: 0s;
+      }
+      .bg-animation span:nth-child(6) {
+        left: 75%;
+        width: 110px;
+        height: 110px;
+        animation-delay: 3s;
+      }
+      .bg-animation span:nth-child(7) {
+        left: 35%;
+        width: 150px;
+        height: 150px;
+        animation-delay: 7s;
+      }
+      .bg-animation span:nth-child(8) {
+        left: 50%;
+        width: 25px;
+        height: 25px;
+        animation-delay: 15s;
+        animation-duration: 45s;
+      }
+
+      @keyframes animate {
+        0% {
+          transform: translateY(0) rotate(0deg);
+          opacity: 1;
         }
-
-        * { margin: 0; padding: 0; box-sizing: border-box; }
-
-        body {
-            font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
-            background: linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%);
-            min-height: 100vh;
-            color: var(--white);
-            overflow-x: hidden;
+        100% {
+          transform: translateY(-1000px) rotate(720deg);
+          opacity: 0;
         }
+      }
 
-        .bg-animation {
-            position: fixed; top: 0; left: 0; width: 100%; height: 100%;
-            overflow: hidden; z-index: -1;
+      .container {
+        max-width: 900px;
+        margin: 0 auto;
+        padding: 20px;
+      }
+
+      .header {
+        text-align: center;
+        padding: 40px 20px;
+        animation: fadeInDown 0.8s ease;
+      }
+      @keyframes fadeInDown {
+        from {
+          opacity: 0;
+          transform: translateY(-30px);
         }
-        .bg-animation span {
-            position: absolute; display: block; width: 20px; height: 20px;
-            background: rgba(255, 255, 255, 0.05); animation: animate 25s linear infinite;
-            bottom: -150px; border-radius: 50%;
+        to {
+          opacity: 1;
+          transform: translateY(0);
         }
-        .bg-animation span:nth-child(1) { left: 25%; width: 80px; height: 80px; animation-delay: 0s; }
-        .bg-animation span:nth-child(2) { left: 10%; width: 20px; height: 20px; animation-delay: 2s; animation-duration: 12s; }
-        .bg-animation span:nth-child(3) { left: 70%; width: 20px; height: 20px; animation-delay: 4s; }
-        .bg-animation span:nth-child(4) { left: 40%; width: 60px; height: 60px; animation-delay: 0s; animation-duration: 18s; }
-        .bg-animation span:nth-child(5) { left: 65%; width: 20px; height: 20px; animation-delay: 0s; }
-        .bg-animation span:nth-child(6) { left: 75%; width: 110px; height: 110px; animation-delay: 3s; }
-        .bg-animation span:nth-child(7) { left: 35%; width: 150px; height: 150px; animation-delay: 7s; }
-        .bg-animation span:nth-child(8) { left: 50%; width: 25px; height: 25px; animation-delay: 15s; animation-duration: 45s; }
+      }
 
-        @keyframes animate {
-            0% { transform: translateY(0) rotate(0deg); opacity: 1; }
-            100% { transform: translateY(-1000px) rotate(720deg); opacity: 0; }
+      .header h1 {
+        font-size: 2.5rem;
+        font-weight: 800;
+        background: linear-gradient(
+          135deg,
+          #667eea 0%,
+          #764ba2 50%,
+          #f5576c 100%
+        );
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        margin-bottom: 10px;
+      }
+      .header p {
+        color: var(--gray);
+        font-size: 1.1rem;
+      }
+
+      /* Modal */
+      .modal-overlay {
+        display: none;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0, 0.8);
+        z-index: 1000;
+        align-items: center;
+        justify-content: center;
+        animation: fadeIn 0.3s ease;
+      }
+      .modal-overlay.show {
+        display: flex;
+      }
+      .modal {
+        background: rgba(30, 41, 59, 0.98);
+        backdrop-filter: blur(20px);
+        border-radius: 24px;
+        padding: 40px;
+        max-width: 500px;
+        width: 90%;
+        border: 1px solid rgba(255, 255, 255, 0.1);
+        text-align: center;
+        animation: slideUp 0.3s ease;
+      }
+      @keyframes slideUp {
+        from {
+          opacity: 0;
+          transform: translateY(30px);
         }
+        to {
+          opacity: 1;
+          transform: translateY(0);
+        }
+      }
+      .modal h2 {
+        font-size: 1.5rem;
+        margin-bottom: 15px;
+      }
+      .modal p {
+        color: rgba(255, 255, 255, 0.7);
+        margin-bottom: 25px;
+        line-height: 1.6;
+      }
+      .modal-info {
+        background: rgba(99, 102, 241, 0.2);
+        border-radius: 12px;
+        padding: 15px;
+        margin-bottom: 25px;
+        text-align: left;
+      }
+      .modal-info p {
+        margin: 8px 0;
+        color: var(--white);
+        font-size: 0.95rem;
+      }
+      .modal-buttons {
+        display: flex;
+        gap: 15px;
+        justify-content: center;
+        flex-wrap: wrap;
+      }
+      .modal-btn {
+        padding: 14px 28px;
+        border-radius: 50px;
+        font-size: 1rem;
+        font-weight: 600;
+        cursor: pointer;
+        transition: all 0.3s ease;
+        border: none;
+      }
+      .modal-btn.primary {
+        background: var(--gradient-1);
+        color: var(--white);
+      }
+      .modal-btn.secondary {
+        background: rgba(255, 255, 255, 0.1);
+        color: var(--white);
+        border: 2px solid rgba(255, 255, 255, 0.2);
+      }
+      .modal-btn:hover {
+        transform: translateY(-2px);
+      }
 
-        .container { max-width: 900px; margin: 0 auto; padding: 20px; }
+      /* Menu Screen */
+      .menu-screen {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        padding: 20px;
+        animation: fadeIn 0.6s ease;
+      }
+      @keyframes fadeIn {
+        from {
+          opacity: 0;
+        }
+        to {
+          opacity: 1;
+        }
+      }
 
-        .header { text-align: center; padding: 40px 20px; animation: fadeInDown 0.8s ease; }
-        @keyframes fadeInDown { from { opacity: 0; transform: translateY(-30px); } to { opacity: 1; transform: translateY(0); } }
+      .subject-card {
+        background: rgba(255, 255, 255, 0.08);
+        backdrop-filter: blur(20px);
+        border-radius: 24px;
+        padding: 35px;
+        cursor: pointer;
+        transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+        border: 1px solid rgba(255, 255, 255, 0.1);
+        position: relative;
+        overflow: hidden;
+      }
+      .subject-card:hover {
+        transform: translateY(-10px) scale(1.02);
+        box-shadow: 0 30px 60px rgba(0, 0, 0, 0.3);
+      }
+      .subject-card.tamly {
+        background: linear-gradient(
+          135deg,
+          rgba(99, 102, 241, 0.2) 0%,
+          rgba(139, 92, 246, 0.2) 100%
+        );
+      }
+      .subject-card.triet {
+        background: linear-gradient(
+          135deg,
+          rgba(236, 72, 153, 0.2) 0%,
+          rgba(244, 63, 94, 0.2) 100%
+        );
+      }
+      .subject-icon {
+        font-size: 3.5rem;
+        margin-bottom: 20px;
+        display: block;
+      }
+      .subject-card h2 {
+        font-size: 1.8rem;
+        font-weight: 700;
+        margin-bottom: 10px;
+      }
+      .subject-card p {
+        color: rgba(255, 255, 255, 0.7);
+        font-size: 1rem;
+        line-height: 1.6;
+      }
+      .subject-stats {
+        display: flex;
+        gap: 20px;
+        margin-top: 20px;
+        flex-wrap: wrap;
+      }
+      .stat-item {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        padding: 8px 16px;
+        background: rgba(255, 255, 255, 0.1);
+        border-radius: 50px;
+        font-size: 0.9rem;
+      }
 
+      /* Quiz Screen */
+      .quiz-screen {
+        display: none;
+        animation: slideIn 0.5s ease;
+      }
+      @keyframes slideIn {
+        from {
+          opacity: 0;
+          transform: translateX(30px);
+        }
+        to {
+          opacity: 1;
+          transform: translateX(0);
+        }
+      }
+
+      .quiz-header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 30px;
+        flex-wrap: wrap;
+        gap: 15px;
+      }
+      .back-btn {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        padding: 12px 24px;
+        background: rgba(255, 255, 255, 0.1);
+        border: none;
+        border-radius: 50px;
+        color: var(--white);
+        font-size: 1rem;
+        cursor: pointer;
+        transition: all 0.3s ease;
+      }
+      .back-btn:hover {
+        background: rgba(255, 255, 255, 0.2);
+        transform: translateX(-5px);
+      }
+
+      .progress-container {
+        flex: 1;
+        max-width: 400px;
+      }
+      .progress-text {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 8px;
+        font-size: 0.9rem;
+        color: rgba(255, 255, 255, 0.8);
+      }
+      .progress-bar {
+        height: 10px;
+        background: rgba(255, 255, 255, 0.1);
+        border-radius: 50px;
+        overflow: hidden;
+      }
+      .progress-fill {
+        height: 100%;
+        background: var(--gradient-1);
+        border-radius: 50px;
+        transition: width 0.5s ease;
+      }
+      .score-display {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        padding: 12px 20px;
+        background: linear-gradient(
+          135deg,
+          rgba(16, 185, 129, 0.2) 0%,
+          rgba(5, 150, 105, 0.2) 100%
+        );
+        border-radius: 50px;
+        font-weight: 600;
+      }
+
+      /* Question Card */
+      .question-card {
+        background: rgba(255, 255, 255, 0.08);
+        backdrop-filter: blur(20px);
+        border-radius: 24px;
+        padding: 35px;
+        margin-bottom: 25px;
+        border: 1px solid rgba(255, 255, 255, 0.1);
+        animation: fadeInUp 0.5s ease;
+      }
+      @keyframes fadeInUp {
+        from {
+          opacity: 0;
+          transform: translateY(20px);
+        }
+        to {
+          opacity: 1;
+          transform: translateY(0);
+        }
+      }
+
+      .question-id {
+        font-size: 0.85rem;
+        color: rgba(255, 255, 255, 0.5);
+        margin-bottom: 10px;
+      }
+      .topic-badge {
+        display: inline-block;
+        padding: 8px 16px;
+        background: var(--gradient-1);
+        border-radius: 50px;
+        font-size: 0.85rem;
+        font-weight: 600;
+        margin-bottom: 20px;
+      }
+      .question-text {
+        font-size: 1.25rem;
+        font-weight: 600;
+        line-height: 1.7;
+        margin-bottom: 25px;
+      }
+      .options-container {
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+      }
+
+      .option-btn {
+        width: 100%;
+        padding: 18px 24px;
+        background: rgba(255, 255, 255, 0.05);
+        border: 2px solid rgba(255, 255, 255, 0.1);
+        border-radius: 16px;
+        color: var(--white);
+        font-size: 1rem;
+        text-align: left;
+        cursor: pointer;
+        transition: all 0.3s ease;
+        position: relative;
+        overflow: hidden;
+      }
+      .option-btn:hover:not(.disabled) {
+        border-color: var(--primary);
+        background: rgba(99, 102, 241, 0.15);
+        transform: translateX(10px);
+      }
+      .option-btn.correct {
+        border-color: var(--success);
+        background: rgba(16, 185, 129, 0.2);
+      }
+      .option-btn.incorrect {
+        border-color: var(--danger);
+        background: rgba(239, 68, 68, 0.2);
+      }
+      .option-btn.disabled {
+        cursor: not-allowed;
+        opacity: 0.7;
+      }
+
+      .next-btn {
+        width: 100%;
+        padding: 18px;
+        background: var(--gradient-1);
+        border: none;
+        border-radius: 16px;
+        color: var(--white);
+        font-size: 1.1rem;
+        font-weight: 600;
+        cursor: pointer;
+        transition: all 0.3s ease;
+        margin-top: 20px;
+        display: none;
+      }
+      .next-btn:hover {
+        transform: translateY(-3px);
+        box-shadow: 0 15px 30px rgba(99, 102, 241, 0.4);
+      }
+      .next-btn.show {
+        display: block;
+        animation: fadeInUp 0.3s ease;
+      }
+
+      /* Result Screen */
+      .result-screen {
+        display: none;
+        text-align: center;
+        padding: 20px;
+        animation: fadeIn 0.6s ease;
+      }
+      .result-card {
+        background: rgba(255, 255, 255, 0.08);
+        backdrop-filter: blur(20px);
+        border-radius: 24px;
+        padding: 40px;
+        border: 1px solid rgba(255, 255, 255, 0.1);
+      }
+      .result-icon {
+        font-size: 4rem;
+        margin-bottom: 15px;
+      }
+      .result-title {
+        font-size: 1.8rem;
+        font-weight: 700;
+        margin-bottom: 10px;
+        background: var(--gradient-1);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+      }
+      .result-score {
+        font-size: 3.5rem;
+        font-weight: 800;
+        margin: 20px 0;
+      }
+      .result-score span {
+        color: var(--success);
+      }
+      .result-message {
+        font-size: 1.1rem;
+        color: rgba(255, 255, 255, 0.8);
+        margin-bottom: 30px;
+      }
+      .result-buttons {
+        display: flex;
+        gap: 15px;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin-bottom: 30px;
+      }
+      .result-btn {
+        padding: 14px 28px;
+        border-radius: 50px;
+        font-size: 1rem;
+        font-weight: 600;
+        cursor: pointer;
+        transition: all 0.3s ease;
+        border: none;
+      }
+      .result-btn.primary {
+        background: var(--gradient-1);
+        color: var(--white);
+      }
+      .result-btn.secondary {
+        background: rgba(255, 255, 255, 0.1);
+        color: var(--white);
+        border: 2px solid rgba(255, 255, 255, 0.2);
+      }
+      .result-btn.danger {
+        background: linear-gradient(
+          135deg,
+          rgba(239, 68, 68, 0.8) 0%,
+          rgba(220, 38, 38, 0.8) 100%
+        );
+        color: var(--white);
+      }
+      .result-btn:hover {
+        transform: translateY(-3px);
+      }
+
+      /* Wrong Answers Review */
+      .wrong-answers-section {
+        margin-top: 30px;
+        text-align: left;
+      }
+      .wrong-answers-header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 20px;
+        cursor: pointer;
+        padding: 15px 20px;
+        background: rgba(239, 68, 68, 0.15);
+        border-radius: 16px;
+        border: 1px solid rgba(239, 68, 68, 0.3);
+      }
+      .wrong-answers-header h3 {
+        font-size: 1.1rem;
+        color: #f87171;
+      }
+      .wrong-answers-header .toggle-icon {
+        font-size: 1.5rem;
+        transition: transform 0.3s ease;
+      }
+      .wrong-answers-header.open .toggle-icon {
+        transform: rotate(180deg);
+      }
+      .wrong-answers-list {
+        display: none;
+        flex-direction: column;
+        gap: 20px;
+        margin-top: 15px;
+      }
+      .wrong-answers-list.show {
+        display: flex;
+      }
+
+      .wrong-item {
+        background: rgba(255, 255, 255, 0.05);
+        border-radius: 16px;
+        padding: 20px;
+        border-left: 4px solid var(--danger);
+      }
+      .wrong-item .question-label {
+        font-size: 0.85rem;
+        color: rgba(255, 255, 255, 0.5);
+        margin-bottom: 8px;
+      }
+      .wrong-item .question {
+        font-weight: 600;
+        margin-bottom: 15px;
+        line-height: 1.5;
+      }
+      .wrong-item .your-answer {
+        color: #f87171;
+        margin-bottom: 8px;
+        padding: 10px 15px;
+        background: rgba(239, 68, 68, 0.1);
+        border-radius: 8px;
+      }
+      .wrong-item .correct-answer {
+        color: #34d399;
+        padding: 10px 15px;
+        background: rgba(16, 185, 129, 0.1);
+        border-radius: 8px;
+      }
+      .wrong-item .answer-label {
+        font-size: 0.8rem;
+        opacity: 0.7;
+        margin-bottom: 4px;
+      }
+
+      /* Topic Selection */
+      .topic-selection {
+        display: none;
+        animation: fadeIn 0.5s ease;
+      }
+      .topic-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+        gap: 20px;
+        margin-top: 30px;
+      }
+      .topic-card {
+        background: rgba(255, 255, 255, 0.08);
+        backdrop-filter: blur(20px);
+        border-radius: 16px;
+        padding: 24px;
+        cursor: pointer;
+        transition: all 0.3s ease;
+        border: 1px solid rgba(255, 255, 255, 0.1);
+      }
+      .topic-card:hover {
+        transform: translateY(-5px);
+        border-color: var(--primary);
+        background: rgba(99, 102, 241, 0.15);
+      }
+      .topic-card h3 {
+        font-size: 1rem;
+        font-weight: 600;
+        margin-bottom: 10px;
+        line-height: 1.4;
+      }
+      .topic-card .question-count {
+        color: rgba(255, 255, 255, 0.6);
+        font-size: 0.9rem;
+      }
+      .all-topics-btn {
+        width: 100%;
+        padding: 20px;
+        background: var(--gradient-1);
+        border: none;
+        border-radius: 16px;
+        color: var(--white);
+        font-size: 1.1rem;
+        font-weight: 600;
+        cursor: pointer;
+        transition: all 0.3s ease;
+        margin-bottom: 20px;
+      }
+      .all-topics-btn:hover {
+        transform: translateY(-3px);
+        box-shadow: 0 15px 30px rgba(99, 102, 241, 0.4);
+      }
+
+      /* Responsive */
+      @media (max-width: 768px) {
         .header h1 {
-            font-size: 2.5rem; font-weight: 800;
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 50%, #f5576c 100%);
-            -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text;
-            margin-bottom: 10px;
+          font-size: 1.8rem;
         }
-        .header p { color: var(--gray); font-size: 1.1rem; }
-
-        /* Modal */
-        .modal-overlay {
-            display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%;
-            background: rgba(0,0,0,0.8); z-index: 1000; align-items: center; justify-content: center;
-            animation: fadeIn 0.3s ease;
-        }
-        .modal-overlay.show { display: flex; }
-        .modal {
-            background: rgba(30, 41, 59, 0.98); backdrop-filter: blur(20px);
-            border-radius: 24px; padding: 40px; max-width: 500px; width: 90%;
-            border: 1px solid rgba(255,255,255,0.1); text-align: center;
-            animation: slideUp 0.3s ease;
-        }
-        @keyframes slideUp { from { opacity: 0; transform: translateY(30px); } to { opacity: 1; transform: translateY(0); } }
-        .modal h2 { font-size: 1.5rem; margin-bottom: 15px; }
-        .modal p { color: rgba(255,255,255,0.7); margin-bottom: 25px; line-height: 1.6; }
-        .modal-info { background: rgba(99,102,241,0.2); border-radius: 12px; padding: 15px; margin-bottom: 25px; text-align: left; }
-        .modal-info p { margin: 8px 0; color: var(--white); font-size: 0.95rem; }
-        .modal-buttons { display: flex; gap: 15px; justify-content: center; flex-wrap: wrap; }
-        .modal-btn {
-            padding: 14px 28px; border-radius: 50px; font-size: 1rem; font-weight: 600;
-            cursor: pointer; transition: all 0.3s ease; border: none;
-        }
-        .modal-btn.primary { background: var(--gradient-1); color: var(--white); }
-        .modal-btn.secondary { background: rgba(255,255,255,0.1); color: var(--white); border: 2px solid rgba(255,255,255,0.2); }
-        .modal-btn:hover { transform: translateY(-2px); }
-
-        /* Menu Screen */
-        .menu-screen { display: flex; flex-direction: column; gap: 30px; padding: 20px; animation: fadeIn 0.6s ease; }
-        @keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } }
-
         .subject-card {
-            background: rgba(255, 255, 255, 0.08); backdrop-filter: blur(20px);
-            border-radius: 24px; padding: 35px; cursor: pointer;
-            transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
-            border: 1px solid rgba(255, 255, 255, 0.1); position: relative; overflow: hidden;
+          padding: 25px;
         }
-        .subject-card:hover { transform: translateY(-10px) scale(1.02); box-shadow: 0 30px 60px rgba(0, 0, 0, 0.3); }
-        .subject-card.tamly { background: linear-gradient(135deg, rgba(99, 102, 241, 0.2) 0%, rgba(139, 92, 246, 0.2) 100%); }
-        .subject-card.triet { background: linear-gradient(135deg, rgba(236, 72, 153, 0.2) 0%, rgba(244, 63, 94, 0.2) 100%); }
-        .subject-icon { font-size: 3.5rem; margin-bottom: 20px; display: block; }
-        .subject-card h2 { font-size: 1.8rem; font-weight: 700; margin-bottom: 10px; }
-        .subject-card p { color: rgba(255, 255, 255, 0.7); font-size: 1rem; line-height: 1.6; }
-        .subject-stats { display: flex; gap: 20px; margin-top: 20px; flex-wrap: wrap; }
-        .stat-item { display: flex; align-items: center; gap: 8px; padding: 8px 16px; background: rgba(255, 255, 255, 0.1); border-radius: 50px; font-size: 0.9rem; }
-
-        /* Quiz Screen */
-        .quiz-screen { display: none; animation: slideIn 0.5s ease; }
-        @keyframes slideIn { from { opacity: 0; transform: translateX(30px); } to { opacity: 1; transform: translateX(0); } }
-
-        .quiz-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 30px; flex-wrap: wrap; gap: 15px; }
-        .back-btn {
-            display: flex; align-items: center; gap: 8px; padding: 12px 24px;
-            background: rgba(255, 255, 255, 0.1); border: none; border-radius: 50px;
-            color: var(--white); font-size: 1rem; cursor: pointer; transition: all 0.3s ease;
+        .subject-icon {
+          font-size: 2.5rem;
         }
-        .back-btn:hover { background: rgba(255, 255, 255, 0.2); transform: translateX(-5px); }
-
-        .progress-container { flex: 1; max-width: 400px; }
-        .progress-text { display: flex; justify-content: space-between; margin-bottom: 8px; font-size: 0.9rem; color: rgba(255, 255, 255, 0.8); }
-        .progress-bar { height: 10px; background: rgba(255, 255, 255, 0.1); border-radius: 50px; overflow: hidden; }
-        .progress-fill { height: 100%; background: var(--gradient-1); border-radius: 50px; transition: width 0.5s ease; }
-        .score-display { display: flex; align-items: center; gap: 10px; padding: 12px 20px; background: linear-gradient(135deg, rgba(16, 185, 129, 0.2) 0%, rgba(5, 150, 105, 0.2) 100%); border-radius: 50px; font-weight: 600; }
-
-        /* Question Card */
+        .subject-card h2 {
+          font-size: 1.4rem;
+        }
         .question-card {
-            background: rgba(255, 255, 255, 0.08); backdrop-filter: blur(20px);
-            border-radius: 24px; padding: 35px; margin-bottom: 25px;
-            border: 1px solid rgba(255, 255, 255, 0.1); animation: fadeInUp 0.5s ease;
+          padding: 25px;
         }
-        @keyframes fadeInUp { from { opacity: 0; transform: translateY(20px); } to { opacity: 1; transform: translateY(0); } }
-
-        .question-id { font-size: 0.85rem; color: rgba(255,255,255,0.5); margin-bottom: 10px; }
-        .topic-badge { display: inline-block; padding: 8px 16px; background: var(--gradient-1); border-radius: 50px; font-size: 0.85rem; font-weight: 600; margin-bottom: 20px; }
-        .question-text { font-size: 1.25rem; font-weight: 600; line-height: 1.7; margin-bottom: 25px; }
-        .options-container { display: flex; flex-direction: column; gap: 12px; }
-
-        .option-btn {
-            width: 100%; padding: 18px 24px; background: rgba(255, 255, 255, 0.05);
-            border: 2px solid rgba(255, 255, 255, 0.1); border-radius: 16px;
-            color: var(--white); font-size: 1rem; text-align: left; cursor: pointer;
-            transition: all 0.3s ease; position: relative; overflow: hidden;
+        .question-text {
+          font-size: 1.1rem;
         }
-        .option-btn:hover:not(.disabled) { border-color: var(--primary); background: rgba(99, 102, 241, 0.15); transform: translateX(10px); }
-        .option-btn.correct { border-color: var(--success); background: rgba(16, 185, 129, 0.2); }
-        .option-btn.incorrect { border-color: var(--danger); background: rgba(239, 68, 68, 0.2); }
-        .option-btn.disabled { cursor: not-allowed; opacity: 0.7; }
-
-        .next-btn {
-            width: 100%; padding: 18px; background: var(--gradient-1); border: none;
-            border-radius: 16px; color: var(--white); font-size: 1.1rem; font-weight: 600;
-            cursor: pointer; transition: all 0.3s ease; margin-top: 20px; display: none;
+        .quiz-header {
+          flex-direction: column;
+          align-items: stretch;
         }
-        .next-btn:hover { transform: translateY(-3px); box-shadow: 0 15px 30px rgba(99, 102, 241, 0.4); }
-        .next-btn.show { display: block; animation: fadeInUp 0.3s ease; }
-
-        /* Result Screen */
-        .result-screen { display: none; text-align: center; padding: 20px; animation: fadeIn 0.6s ease; }
-        .result-card { background: rgba(255, 255, 255, 0.08); backdrop-filter: blur(20px); border-radius: 24px; padding: 40px; border: 1px solid rgba(255, 255, 255, 0.1); }
-        .result-icon { font-size: 4rem; margin-bottom: 15px; }
-        .result-title { font-size: 1.8rem; font-weight: 700; margin-bottom: 10px; background: var(--gradient-1); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; }
-        .result-score { font-size: 3.5rem; font-weight: 800; margin: 20px 0; }
-        .result-score span { color: var(--success); }
-        .result-message { font-size: 1.1rem; color: rgba(255, 255, 255, 0.8); margin-bottom: 30px; }
-        .result-buttons { display: flex; gap: 15px; justify-content: center; flex-wrap: wrap; margin-bottom: 30px; }
-        .result-btn { padding: 14px 28px; border-radius: 50px; font-size: 1rem; font-weight: 600; cursor: pointer; transition: all 0.3s ease; border: none; }
-        .result-btn.primary { background: var(--gradient-1); color: var(--white); }
-        .result-btn.secondary { background: rgba(255, 255, 255, 0.1); color: var(--white); border: 2px solid rgba(255, 255, 255, 0.2); }
-        .result-btn.danger { background: linear-gradient(135deg, rgba(239, 68, 68, 0.8) 0%, rgba(220, 38, 38, 0.8) 100%); color: var(--white); }
-        .result-btn:hover { transform: translateY(-3px); }
-
-        /* Wrong Answers Review */
-        .wrong-answers-section { margin-top: 30px; text-align: left; }
-        .wrong-answers-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 20px; cursor: pointer; padding: 15px 20px; background: rgba(239, 68, 68, 0.15); border-radius: 16px; border: 1px solid rgba(239, 68, 68, 0.3); }
-        .wrong-answers-header h3 { font-size: 1.1rem; color: #f87171; }
-        .wrong-answers-header .toggle-icon { font-size: 1.5rem; transition: transform 0.3s ease; }
-        .wrong-answers-header.open .toggle-icon { transform: rotate(180deg); }
-        .wrong-answers-list { display: none; flex-direction: column; gap: 20px; margin-top: 15px; }
-        .wrong-answers-list.show { display: flex; }
-
-        .wrong-item {
-            background: rgba(255, 255, 255, 0.05); border-radius: 16px; padding: 20px;
-            border-left: 4px solid var(--danger);
+        .progress-container {
+          max-width: 100%;
         }
-        .wrong-item .question-label { font-size: 0.85rem; color: rgba(255,255,255,0.5); margin-bottom: 8px; }
-        .wrong-item .question { font-weight: 600; margin-bottom: 15px; line-height: 1.5; }
-        .wrong-item .your-answer { color: #f87171; margin-bottom: 8px; padding: 10px 15px; background: rgba(239, 68, 68, 0.1); border-radius: 8px; }
-        .wrong-item .correct-answer { color: #34d399; padding: 10px 15px; background: rgba(16, 185, 129, 0.1); border-radius: 8px; }
-        .wrong-item .answer-label { font-size: 0.8rem; opacity: 0.7; margin-bottom: 4px; }
-
-        /* Topic Selection */
-        .topic-selection { display: none; animation: fadeIn 0.5s ease; }
-        .topic-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 20px; margin-top: 30px; }
-        .topic-card { background: rgba(255, 255, 255, 0.08); backdrop-filter: blur(20px); border-radius: 16px; padding: 24px; cursor: pointer; transition: all 0.3s ease; border: 1px solid rgba(255, 255, 255, 0.1); }
-        .topic-card:hover { transform: translateY(-5px); border-color: var(--primary); background: rgba(99, 102, 241, 0.15); }
-        .topic-card h3 { font-size: 1rem; font-weight: 600; margin-bottom: 10px; line-height: 1.4; }
-        .topic-card .question-count { color: rgba(255, 255, 255, 0.6); font-size: 0.9rem; }
-        .all-topics-btn { width: 100%; padding: 20px; background: var(--gradient-1); border: none; border-radius: 16px; color: var(--white); font-size: 1.1rem; font-weight: 600; cursor: pointer; transition: all 0.3s ease; margin-bottom: 20px; }
-        .all-topics-btn:hover { transform: translateY(-3px); box-shadow: 0 15px 30px rgba(99, 102, 241, 0.4); }
-
-        /* Responsive */
-        @media (max-width: 768px) {
-            .header h1 { font-size: 1.8rem; }
-            .subject-card { padding: 25px; }
-            .subject-icon { font-size: 2.5rem; }
-            .subject-card h2 { font-size: 1.4rem; }
-            .question-card { padding: 25px; }
-            .question-text { font-size: 1.1rem; }
-            .quiz-header { flex-direction: column; align-items: stretch; }
-            .progress-container { max-width: 100%; }
-            .result-score { font-size: 2.5rem; }
-            .modal { padding: 25px; }
+        .result-score {
+          font-size: 2.5rem;
         }
+        .modal {
+          padding: 25px;
+        }
+      }
     </style>
-</head>
-<body>
+  </head>
+  <body>
     <div class="bg-animation">
-        <span></span><span></span><span></span><span></span>
-        <span></span><span></span><span></span><span></span>
+      <span></span><span></span><span></span><span></span> <span></span
+      ><span></span><span></span><span></span>
     </div>
 
     <!-- Continue Modal -->
     <div class="modal-overlay" id="continueModal">
-        <div class="modal">
-            <h2>📚 Tiếp tục ôn tập?</h2>
-            <p>Bạn có bài quiz chưa hoàn thành từ lần trước.</p>
-            <div class="modal-info" id="savedInfo"></div>
-            <div class="modal-buttons">
-                <button class="modal-btn primary" onclick="continueQuiz()">✅ Tiếp tục</button>
-                <button class="modal-btn secondary" onclick="startFresh()">🔄 Làm mới</button>
-            </div>
+      <div class="modal">
+        <h2>📚 Tiếp tục ôn tập?</h2>
+        <p>Bạn có bài quiz chưa hoàn thành từ lần trước.</p>
+        <div class="modal-info" id="savedInfo"></div>
+        <div class="modal-buttons">
+          <button class="modal-btn primary" onclick="continueQuiz()">
+            ✅ Tiếp tục
+          </button>
+          <button class="modal-btn secondary" onclick="startFresh()">
+            🔄 Làm mới
+          </button>
         </div>
+      </div>
     </div>
 
     <div class="container">
-        <header class="header">
-            <h1>🎓 Quiz Ôn Tập</h1>
-            <p>Tâm Lý Học & Triết Học Mác-Lênin</p>
-        </header>
+      <header class="header">
+        <h1>🎓 Quiz Ôn Tập</h1>
+        <p>Tâm Lý Học & Triết Học Mác-Lênin</p>
+      </header>
 
-        <!-- Menu Screen -->
-        <div class="menu-screen" id="menuScreen">
-            <div class="subject-card tamly" onclick="selectSubject('tamly')">
-                <span class="subject-icon">🧠</span>
-                <h2>Tâm Lý Học</h2>
-                <p>Ôn tập các chủ đề về tâm lý học đại cương, nhận thức, trí tuệ, trí nhớ, động cơ học tập...</p>
-                <div class="subject-stats">
-                    <span class="stat-item">📚 Nhiều chủ đề</span>
-                    <span class="stat-item" id="tamlyCount">⏳ Đang tải...</span>
-                </div>
+      <!-- Menu Screen -->
+      <div class="menu-screen" id="menuScreen">
+        <div class="subject-card tamly" onclick="selectSubject('tamly')">
+          <span class="subject-icon">🧠</span>
+          <h2>Tâm Lý Học</h2>
+          <p>
+            Ôn tập các chủ đề về tâm lý học đại cương, nhận thức, trí tuệ, trí
+            nhớ, động cơ học tập...
+          </p>
+          <div class="subject-stats">
+            <span class="stat-item">📚 Nhiều chủ đề</span>
+            <span class="stat-item" id="tamlyCount">⏳ Đang tải...</span>
+          </div>
+        </div>
+        <div class="subject-card triet" onclick="selectSubject('triet')">
+          <span class="subject-icon">📖</span>
+          <h2>Triết Học Mác-Lênin</h2>
+          <p>
+            Ôn tập triết học từ Chương 1 đến Chương 3: Khái lược triết học, Chủ
+            nghĩa duy vật biện chứng...
+          </p>
+          <div class="subject-stats">
+            <span class="stat-item">📚 3 Chương</span>
+            <span class="stat-item" id="trietCount">⏳ Đang tải...</span>
+          </div>
+        </div>
+        <div class="subject-card triet" onclick="selectSubject('triet2')">
+          <span class="subject-icon">📚</span>
+          <h2>Triết Học 2 - Nguyên Lý CBC</h2>
+          <p>
+            Câu hỏi trắc nghiệm tham khảo môn Những nguyên lý CBC chủ nghĩa
+            Mác-Lênin...
+          </p>
+          <div class="subject-stats">
+            <span class="stat-item">📚 Tổng hợp</span>
+            <span class="stat-item" id="triet2Count">⏳ Đang tải...</span>
+          </div>
+        </div>
+        <div class="subject-card triet" onclick="selectSubject('triet3')">
+          <span class="subject-icon">📕</span>
+          <h2>Triết Học 3 - Nguyên Lý Cơ Bản P1</h2>
+          <p>Những nguyên lý cơ bản của chủ nghĩa Mác-Lênin - Phần I...</p>
+          <div class="subject-stats">
+            <span class="stat-item">📚 Phần 1</span>
+            <span class="stat-item" id="triet3Count">⏳ Đang tải...</span>
+          </div>
+        </div>
+        <div class="subject-card triet" onclick="selectSubject('triet4')">
+          <span class="subject-icon">📗</span>
+          <h2>Triết Học 4 - Triết Học Mác-Lênin</h2>
+          <p>Triết học Mác-Lênin - Tổng hợp câu hỏi đa dạng...</p>
+          <div class="subject-stats">
+            <span class="stat-item">📚 Tổng hợp</span>
+            <span class="stat-item" id="triet4Count">⏳ Đang tải...</span>
+          </div>
+        </div>
+        <div class="subject-card triet" onclick="selectSubject('triet5')">
+          <span class="subject-icon">📘</span>
+          <h2>Triết Học 5 - 100 Câu Trắc Nghiệm</h2>
+          <p>
+            100 câu hỏi trắc nghiệm Triết học Mác-Lênin - Tổng hợp đa dạng...
+          </p>
+          <div class="subject-stats">
+            <span class="stat-item">📚 Tổng hợp</span>
+            <span class="stat-item" id="triet5Count">⏳ Đang tải...</span>
+          </div>
+        </div>
+        <div class="subject-card tamly" onclick="selectSubject('tamly2')">
+          <span class="subject-icon">🧠</span>
+          <h2>Tâm Lý 2 - Sư Phạm</h2>
+          <p>
+            Trắc nghiệm Tâm Lý Học Sư Phạm - Chương 1 đến 6...
+          </p>
+          <div class="subject-stats">
+            <span class="stat-item">📚 6 Chương</span>
+            <span class="stat-item" id="tamly2Count">⏳ Đang tải...</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Topic Selection Screen -->
+      <div class="topic-selection" id="topicSelection">
+        <button class="back-btn" onclick="goToMenu()">← Quay lại</button>
+        <h2 style="margin: 20px 0; font-size: 1.5rem" id="subjectTitle"></h2>
+        <button class="all-topics-btn" onclick="startQuizAllTopics()">
+          🚀 Làm tất cả câu hỏi
+        </button>
+        <p style="color: rgba(255, 255, 255, 0.7); margin-bottom: 20px">
+          Hoặc chọn một chủ đề cụ thể:
+        </p>
+        <div class="topic-grid" id="topicGrid"></div>
+      </div>
+
+      <!-- Quiz Screen -->
+      <div class="quiz-screen" id="quizScreen">
+        <div class="quiz-header">
+          <button class="back-btn" onclick="confirmExit()">← Thoát</button>
+          <div class="progress-container">
+            <div class="progress-text">
+              <span id="questionCounter">Câu 1/10</span>
+              <span id="progressPercent">0%</span>
             </div>
-            <div class="subject-card triet" onclick="selectSubject('triet')">
-                <span class="subject-icon">📖</span>
-                <h2>Triết Học Mác-Lênin</h2>
-                <p>Ôn tập triết học từ Chương 1 đến Chương 3: Khái lược triết học, Chủ nghĩa duy vật biện chứng...</p>
-                <div class="subject-stats">
-                    <span class="stat-item">📚 3 Chương</span>
-                    <span class="stat-item" id="trietCount">⏳ Đang tải...</span>
-                </div>
+            <div class="progress-bar">
+              <div
+                class="progress-fill"
+                id="progressFill"
+                style="width: 0%"
+              ></div>
             </div>
-            <div class="subject-card triet" onclick="selectSubject('triet2')">
-                <span class="subject-icon">📚</span>
-                <h2>Triết Học 2 - Nguyên Lý CBC</h2>
-                <p>Câu hỏi trắc nghiệm tham khảo môn Những nguyên lý CBC chủ nghĩa Mác-Lênin...</p>
-                <div class="subject-stats">
-                    <span class="stat-item">📚 Tổng hợp</span>
-                    <span class="stat-item" id="triet2Count">⏳ Đang tải...</span>
-                </div>
-            </div>
-            <div class="subject-card triet" onclick="selectSubject('triet3')">
-                <span class="subject-icon">📕</span>
-                <h2>Triết Học 3 - Nguyên Lý Cơ Bản P1</h2>
-                <p>Những nguyên lý cơ bản của chủ nghĩa Mác-Lênin - Phần I...</p>
-                <div class="subject-stats">
-                    <span class="stat-item">📚 Phần 1</span>
-                    <span class="stat-item" id="triet3Count">⏳ Đang tải...</span>
-                </div>
-            </div>
-            <div class="subject-card triet" onclick="selectSubject('triet4')">
-                <span class="subject-icon">📗</span>
-                <h2>Triết Học 4 - Triết Học Mác-Lênin</h2>
-                <p>Triết học Mác-Lênin - Tổng hợp câu hỏi đa dạng...</p>
-                <div class="subject-stats">
-                    <span class="stat-item">📚 Tổng hợp</span>
-                    <span class="stat-item" id="triet4Count">⏳ Đang tải...</span>
-                </div>
-            </div>
+          </div>
+          <div class="score-display">
+            ✅ <span id="scoreDisplay">0</span> điểm
+          </div>
         </div>
 
-        <!-- Topic Selection Screen -->
-        <div class="topic-selection" id="topicSelection">
-            <button class="back-btn" onclick="goToMenu()">← Quay lại</button>
-            <h2 style="margin: 20px 0; font-size: 1.5rem;" id="subjectTitle"></h2>
-            <button class="all-topics-btn" onclick="startQuizAllTopics()">🚀 Làm tất cả câu hỏi</button>
-            <p style="color: rgba(255,255,255,0.7); margin-bottom: 20px;">Hoặc chọn một chủ đề cụ thể:</p>
-            <div class="topic-grid" id="topicGrid"></div>
+        <div class="question-card" id="questionCard">
+          <div class="question-id" id="questionId"></div>
+          <span class="topic-badge" id="topicBadge"></span>
+          <p class="question-text" id="questionText"></p>
+          <div class="options-container" id="optionsContainer"></div>
         </div>
 
-        <!-- Quiz Screen -->
-        <div class="quiz-screen" id="quizScreen">
-            <div class="quiz-header">
-                <button class="back-btn" onclick="confirmExit()">← Thoát</button>
-                <div class="progress-container">
-                    <div class="progress-text">
-                        <span id="questionCounter">Câu 1/10</span>
-                        <span id="progressPercent">0%</span>
-                    </div>
-                    <div class="progress-bar">
-                        <div class="progress-fill" id="progressFill" style="width: 0%"></div>
-                    </div>
-                </div>
-                <div class="score-display">✅ <span id="scoreDisplay">0</span> điểm</div>
-            </div>
+        <button class="next-btn" id="nextBtn" onclick="nextQuestion()">
+          Câu tiếp theo →
+        </button>
+      </div>
 
-            <div class="question-card" id="questionCard">
-                <div class="question-id" id="questionId"></div>
-                <span class="topic-badge" id="topicBadge"></span>
-                <p class="question-text" id="questionText"></p>
-                <div class="options-container" id="optionsContainer"></div>
-            </div>
+      <!-- Result Screen -->
+      <div class="result-screen" id="resultScreen">
+        <div class="result-card">
+          <span class="result-icon" id="resultIcon">🎉</span>
+          <h2 class="result-title" id="resultTitle">Tuyệt vời!</h2>
+          <div class="result-score">
+            <span id="finalScore">0</span> / <span id="totalQuestions">0</span>
+          </div>
+          <p class="result-message" id="resultMessage">
+            Bạn đã hoàn thành bài quiz!
+          </p>
 
-            <button class="next-btn" id="nextBtn" onclick="nextQuestion()">Câu tiếp theo →</button>
+          <div class="result-buttons">
+            <button class="result-btn primary" onclick="restartQuiz()">
+              🔄 Làm lại
+            </button>
+            <button
+              class="result-btn secondary"
+              onclick="retryWrongAnswers()"
+              id="retryWrongBtn"
+              style="display: none"
+            >
+              ❌ Làm lại câu sai
+            </button>
+            <button class="result-btn secondary" onclick="goToMenu()">
+              🏠 Về menu
+            </button>
+          </div>
+
+          <!-- Wrong Answers Section -->
+          <div
+            class="wrong-answers-section"
+            id="wrongAnswersSection"
+            style="display: none"
+          >
+            <div class="wrong-answers-header" onclick="toggleWrongAnswers()">
+              <h3>
+                ❌ Xem lại các câu trả lời sai (<span id="wrongCount">0</span>
+                câu)
+              </h3>
+              <span class="toggle-icon">▼</span>
+            </div>
+            <div class="wrong-answers-list" id="wrongAnswersList"></div>
+          </div>
         </div>
-
-        <!-- Result Screen -->
-        <div class="result-screen" id="resultScreen">
-            <div class="result-card">
-                <span class="result-icon" id="resultIcon">🎉</span>
-                <h2 class="result-title" id="resultTitle">Tuyệt vời!</h2>
-                <div class="result-score"><span id="finalScore">0</span> / <span id="totalQuestions">0</span></div>
-                <p class="result-message" id="resultMessage">Bạn đã hoàn thành bài quiz!</p>
-                
-                <div class="result-buttons">
-                    <button class="result-btn primary" onclick="restartQuiz()">🔄 Làm lại</button>
-                    <button class="result-btn secondary" onclick="retryWrongAnswers()" id="retryWrongBtn" style="display:none;">❌ Làm lại câu sai</button>
-                    <button class="result-btn secondary" onclick="goToMenu()">🏠 Về menu</button>
-                </div>
-
-                <!-- Wrong Answers Section -->
-                <div class="wrong-answers-section" id="wrongAnswersSection" style="display:none;">
-                    <div class="wrong-answers-header" onclick="toggleWrongAnswers()">
-                        <h3>❌ Xem lại các câu trả lời sai (<span id="wrongCount">0</span> câu)</h3>
-                        <span class="toggle-icon">▼</span>
-                    </div>
-                    <div class="wrong-answers-list" id="wrongAnswersList"></div>
-                </div>
-            </div>
-        </div>
+      </div>
     </div>
 
     <script>
-        // Quiz State
-        let currentSubject = null;
-        let currentQuestions = [];
-        let currentQuestionIndex = 0;
-        let score = 0;
-        let answered = false;
-        let subjectData = {};
-        let wrongAnswers = [];
-        let selectedTopicIndex = null;
-        let isRetryMode = false;
+      // Quiz State
+      let currentSubject = null;
+      let currentQuestions = [];
+      let currentQuestionIndex = 0;
+      let score = 0;
+      let answered = false;
+      let subjectData = {};
+      let wrongAnswers = [];
+      let selectedTopicIndex = null;
+      let isRetryMode = false;
 
-        const STORAGE_KEY = 'quiz_progress';
+      const STORAGE_KEY = "quiz_progress";
 
-        // Load data on page load
-        document.addEventListener('DOMContentLoaded', async () => {
-            await loadAllData();
-            checkSavedProgress();
+      // Load data on page load
+      document.addEventListener("DOMContentLoaded", async () => {
+        await loadAllData();
+        checkSavedProgress();
+      });
+
+      // Check for saved progress
+      function checkSavedProgress() {
+        const saved = localStorage.getItem(STORAGE_KEY);
+        if (saved) {
+          const data = JSON.parse(saved);
+          const info = document.getElementById("savedInfo");
+          const subjectNames = {
+            tamly: "Tâm Lý Học",
+            triet: "Triết Học",
+            triet2: "Triết Học 2",
+            triet3: "Triết Học 3",
+            triet4: "Triết Học 4",
+            triet5: "Triết Học 5",
+            tamly2: "Tâm Lý 2",
+          };
+          const subjectName = subjectNames[data.subject] || "Quiz";
+          info.innerHTML = `
+                    <p>📖 <strong>Môn:</strong> ${subjectName}</p>
+                    <p>📝 <strong>Tiến độ:</strong> Câu ${
+                      data.questionIndex + 1
+                    }/${data.totalQuestions}</p>
+                    <p>✅ <strong>Điểm hiện tại:</strong> ${data.score} điểm</p>
+                    <p>🕐 <strong>Lưu lúc:</strong> ${new Date(
+                      data.savedAt
+                    ).toLocaleString("vi-VN")}</p>
+                `;
+          document.getElementById("continueModal").classList.add("show");
+        }
+      }
+
+      function continueQuiz() {
+        const saved = JSON.parse(localStorage.getItem(STORAGE_KEY));
+        currentSubject = saved.subject;
+        currentQuestions = saved.questions;
+        currentQuestionIndex = saved.questionIndex;
+        score = saved.score;
+        wrongAnswers = saved.wrongAnswers || [];
+
+        document.getElementById("continueModal").classList.remove("show");
+        document.getElementById("menuScreen").style.display = "none";
+        document.getElementById("quizScreen").style.display = "block";
+        document.getElementById("scoreDisplay").textContent = score;
+        showQuestion();
+      }
+
+      function startFresh() {
+        localStorage.removeItem(STORAGE_KEY);
+        document.getElementById("continueModal").classList.remove("show");
+      }
+
+      // Save progress
+      function saveProgress() {
+        const data = {
+          subject: currentSubject,
+          questions: currentQuestions,
+          questionIndex: currentQuestionIndex,
+          totalQuestions: currentQuestions.length,
+          score: score,
+          wrongAnswers: wrongAnswers,
+          savedAt: new Date().toISOString(),
+        };
+        localStorage.setItem(STORAGE_KEY, JSON.stringify(data));
+      }
+
+      async function loadAllData() {
+        try {
+          const tamlyResponse = await fetch("TamLy.json");
+          const tamlyData = await tamlyResponse.json();
+          subjectData.tamly = tamlyData;
+
+          let tamlyCount = 0;
+          tamlyData.forEach((topic) => {
+            tamlyCount += topic.questions.length;
+          });
+          document.getElementById(
+            "tamlyCount"
+          ).textContent = `📝 ${tamlyCount} câu hỏi`;
+
+          const [triet1, triet2, triet3] = await Promise.all([
+            fetch("TrietHoc_C1.json").then((r) => r.json()),
+            fetch("TrietHoc_C2.json").then((r) => r.json()),
+            fetch("TrietHoc_C3.json").then((r) => r.json()),
+          ]);
+
+          subjectData.triet = [triet1, triet2, triet3];
+          let trietCount =
+            triet1.questions.length +
+            triet2.questions.length +
+            triet3.questions.length;
+          document.getElementById(
+            "trietCount"
+          ).textContent = `📝 ${trietCount} câu hỏi`;
+
+          // Load TrietHoc2.json
+          const trietHoc2Data = await fetch("TrietHoc2.json").then((r) =>
+            r.json()
+          );
+          subjectData.triet2 = trietHoc2Data;
+          document.getElementById(
+            "triet2Count"
+          ).textContent = `📝 ${trietHoc2Data.questions.length} câu hỏi`;
+
+          // Load TrietHoc3.json (array format)
+          const trietHoc3Data = await fetch("TrietHoc3.json").then((r) =>
+            r.json()
+          );
+          subjectData.triet3 = trietHoc3Data;
+          let triet3Count = 0;
+          trietHoc3Data.forEach((topic) => {
+            triet3Count += topic.questions.length;
+          });
+          document.getElementById(
+            "triet3Count"
+          ).textContent = `📝 ${triet3Count} câu hỏi`;
+
+          // Load TrietHoc4.json (array format)
+          const trietHoc4Data = await fetch("TrietHoc4.json").then((r) =>
+            r.json()
+          );
+          subjectData.triet4 = trietHoc4Data;
+          let triet4Count = 0;
+          trietHoc4Data.forEach((topic) => {
+            triet4Count += topic.questions.length;
+          });
+          document.getElementById(
+            "triet4Count"
+          ).textContent = `📝 ${triet4Count} câu hỏi`;
+
+          // Load TrietHoc5.json (array format)
+          const trietHoc5Data = await fetch("TrietHoc5.json").then((r) =>
+            r.json()
+          );
+          subjectData.triet5 = trietHoc5Data;
+          let triet5Count = 0;
+          trietHoc5Data.forEach((topic) => {
+            triet5Count += topic.questions.length;
+          });
+          document.getElementById(
+            "triet5Count"
+          ).textContent = `📝 ${triet5Count} câu hỏi`;
+
+          // Load TamLy2.json (single object format)
+          const tamLy2Data = await fetch("TamLy2.json").then((r) =>
+            r.json()
+          );
+          subjectData.tamly2 = tamLy2Data;
+          document.getElementById(
+            "tamly2Count"
+          ).textContent = `📝 ${tamLy2Data.questions.length} câu hỏi`;
+        } catch (error) {
+          console.error("Lỗi tải dữ liệu:", error);
+          alert("Không thể tải dữ liệu. Vui lòng chạy với Live Server!");
+        }
+      }
+
+      function selectSubject(subject) {
+        currentSubject = subject;
+        document.getElementById("menuScreen").style.display = "none";
+        document.getElementById("topicSelection").style.display = "block";
+
+        const topicGrid = document.getElementById("topicGrid");
+        topicGrid.innerHTML = "";
+
+        if (subject === "tamly") {
+          document.getElementById("subjectTitle").textContent = "🧠 Tâm Lý Học";
+          subjectData.tamly.forEach((topic, index) => {
+            const card = document.createElement("div");
+            card.className = "topic-card";
+            card.onclick = () => startQuizTopic(index);
+            card.innerHTML = `<h3>${topic.topic}</h3><p class="question-count">📝 ${topic.questions.length} câu hỏi</p>`;
+            topicGrid.appendChild(card);
+          });
+        } else if (subject === "triet") {
+          document.getElementById("subjectTitle").textContent =
+            "📖 Triết Học Mác-Lênin";
+          subjectData.triet.forEach((chapter, index) => {
+            const card = document.createElement("div");
+            card.className = "topic-card";
+            card.onclick = () => startQuizTopic(index);
+            card.innerHTML = `<h3>${chapter.topic}</h3><p class="question-count">📝 ${chapter.questions.length} câu hỏi</p>`;
+            topicGrid.appendChild(card);
+          });
+        } else if (subject === "triet2") {
+          document.getElementById("subjectTitle").textContent =
+            "📚 Triết Học 2 - Nguyên Lý CBC";
+          const card = document.createElement("div");
+          card.className = "topic-card";
+          card.onclick = () => startQuizTopic(0);
+          card.innerHTML = `<h3>${subjectData.triet2.topic}</h3><p class="question-count">📝 ${subjectData.triet2.questions.length} câu hỏi</p>`;
+          topicGrid.appendChild(card);
+        } else if (subject === "triet3") {
+          document.getElementById("subjectTitle").textContent =
+            "📕 Triết Học 3 - Nguyên Lý Cơ Bản P1";
+          subjectData.triet3.forEach((topic, index) => {
+            const card = document.createElement("div");
+            card.className = "topic-card";
+            card.onclick = () => startQuizTopic(index);
+            card.innerHTML = `<h3>${topic.topic}</h3><p class="question-count">📝 ${topic.questions.length} câu hỏi</p>`;
+            topicGrid.appendChild(card);
+          });
+        } else if (subject === "triet4") {
+          document.getElementById("subjectTitle").textContent =
+            "📗 Triết Học 4 - Triết Học Mác-Lênin";
+          subjectData.triet4.forEach((topic, index) => {
+            const card = document.createElement("div");
+            card.className = "topic-card";
+            card.onclick = () => startQuizTopic(index);
+            card.innerHTML = `<h3>${topic.topic}</h3><p class="question-count">📝 ${topic.questions.length} câu hỏi</p>`;
+            topicGrid.appendChild(card);
+          });
+        } else if (subject === "triet5") {
+          document.getElementById("subjectTitle").textContent =
+            "📘 Triết Học 5 - 100 Câu Trắc Nghiệm";
+          subjectData.triet5.forEach((topic, index) => {
+            const card = document.createElement("div");
+            card.className = "topic-card";
+            card.onclick = () => startQuizTopic(index);
+            card.innerHTML = `<h3>${topic.topic}</h3><p class="question-count">📝 ${topic.questions.length} câu hỏi</p>`;
+            topicGrid.appendChild(card);
+          });
+        } else if (subject === "tamly2") {
+          document.getElementById("subjectTitle").textContent =
+            "🧠 Tâm Lý 2 - Sư Phạm";
+          const card = document.createElement("div");
+          card.className = "topic-card";
+          card.onclick = () => startQuizTopic(0);
+          card.innerHTML = `<h3>${subjectData.tamly2.topic}</h3><p class="question-count">📝 ${subjectData.tamly2.questions.length} câu hỏi</p>`;
+          topicGrid.appendChild(card);
+        }
+      }
+
+      function startQuizAllTopics() {
+        currentQuestions = [];
+        selectedTopicIndex = null;
+
+        if (currentSubject === "tamly") {
+          subjectData.tamly.forEach((topic) => {
+            topic.questions.forEach((q) => {
+              currentQuestions.push({ ...q, topic: topic.topic });
+            });
+          });
+        } else if (currentSubject === "triet") {
+          subjectData.triet.forEach((chapter) => {
+            chapter.questions.forEach((q) => {
+              currentQuestions.push({ ...q, topic: chapter.topic });
+            });
+          });
+        } else if (currentSubject === "triet2") {
+          subjectData.triet2.questions.forEach((q) => {
+            currentQuestions.push({ ...q, topic: subjectData.triet2.topic });
+          });
+        } else if (currentSubject === "triet3") {
+          subjectData.triet3.forEach((topic) => {
+            topic.questions.forEach((q) => {
+              currentQuestions.push({ ...q, topic: topic.topic });
+            });
+          });
+        } else if (currentSubject === "triet4") {
+          subjectData.triet4.forEach((topic) => {
+            topic.questions.forEach((q) => {
+              currentQuestions.push({ ...q, topic: topic.topic });
+            });
+          });
+        } else if (currentSubject === "triet5") {
+          subjectData.triet5.forEach((topic) => {
+            topic.questions.forEach((q) => {
+              currentQuestions.push({ ...q, topic: topic.topic });
+            });
+          });
+        } else if (currentSubject === "tamly2") {
+          subjectData.tamly2.questions.forEach((q) => {
+            currentQuestions.push({ ...q, topic: subjectData.tamly2.topic });
+          });
+        }
+        startQuiz();
+      }
+
+      function startQuizTopic(topicIndex) {
+        currentQuestions = [];
+        selectedTopicIndex = topicIndex;
+
+        if (currentSubject === "tamly") {
+          const topic = subjectData.tamly[topicIndex];
+          topic.questions.forEach((q) => {
+            currentQuestions.push({ ...q, topic: topic.topic });
+          });
+        } else if (currentSubject === "triet") {
+          const chapter = subjectData.triet[topicIndex];
+          chapter.questions.forEach((q) => {
+            currentQuestions.push({ ...q, topic: chapter.topic });
+          });
+        } else if (currentSubject === "triet2") {
+          subjectData.triet2.questions.forEach((q) => {
+            currentQuestions.push({ ...q, topic: subjectData.triet2.topic });
+          });
+        } else if (currentSubject === "triet3") {
+          const topic = subjectData.triet3[topicIndex];
+          topic.questions.forEach((q) => {
+            currentQuestions.push({ ...q, topic: topic.topic });
+          });
+        } else if (currentSubject === "triet4") {
+          const topic = subjectData.triet4[topicIndex];
+          topic.questions.forEach((q) => {
+            currentQuestions.push({ ...q, topic: topic.topic });
+          });
+        } else if (currentSubject === "triet5") {
+          const topic = subjectData.triet5[topicIndex];
+          topic.questions.forEach((q) => {
+            currentQuestions.push({ ...q, topic: topic.topic });
+          });
+        } else if (currentSubject === "tamly2") {
+          subjectData.tamly2.questions.forEach((q) => {
+            currentQuestions.push({ ...q, topic: subjectData.tamly2.topic });
+          });
+        }
+        startQuiz();
+      }
+
+      function startQuiz() {
+        currentQuestionIndex = 0;
+        score = 0;
+        answered = false;
+        wrongAnswers = [];
+        isRetryMode = false;
+
+        document.getElementById("topicSelection").style.display = "none";
+        document.getElementById("quizScreen").style.display = "block";
+        document.getElementById("scoreDisplay").textContent = "0";
+
+        saveProgress();
+        showQuestion();
+      }
+
+      function showQuestion() {
+        answered = false;
+        const question = currentQuestions[currentQuestionIndex];
+
+        const progress = (currentQuestionIndex / currentQuestions.length) * 100;
+        document.getElementById("progressFill").style.width = `${progress}%`;
+        document.getElementById("progressPercent").textContent = `${Math.round(
+          progress
+        )}%`;
+        document.getElementById("questionCounter").textContent = `Câu ${
+          currentQuestionIndex + 1
+        }/${currentQuestions.length}`;
+
+        document.getElementById("questionId").textContent = `ID: ${
+          question.id || "N/A"
+        }`;
+        document.getElementById("topicBadge").textContent = question.topic;
+        document.getElementById("questionText").textContent = question.question;
+
+        const optionsContainer = document.getElementById("optionsContainer");
+        optionsContainer.innerHTML = "";
+
+        question.options.forEach((option, index) => {
+          const btn = document.createElement("button");
+          btn.className = "option-btn";
+          btn.textContent = option;
+          btn.onclick = () => selectOption(btn, option, question);
+          optionsContainer.appendChild(btn);
         });
 
-        // Check for saved progress
-        function checkSavedProgress() {
-            const saved = localStorage.getItem(STORAGE_KEY);
-            if (saved) {
-                const data = JSON.parse(saved);
-                const info = document.getElementById('savedInfo');
-                const subjectNames = {'tamly': 'Tâm Lý Học', 'triet': 'Triết Học', 'triet2': 'Triết Học 2', 'triet3': 'Triết Học 3', 'triet4': 'Triết Học 4'};
-                const subjectName = subjectNames[data.subject] || 'Quiz';
-                info.innerHTML = `
-                    <p>📖 <strong>Môn:</strong> ${subjectName}</p>
-                    <p>📝 <strong>Tiến độ:</strong> Câu ${data.questionIndex + 1}/${data.totalQuestions}</p>
-                    <p>✅ <strong>Điểm hiện tại:</strong> ${data.score} điểm</p>
-                    <p>🕐 <strong>Lưu lúc:</strong> ${new Date(data.savedAt).toLocaleString('vi-VN')}</p>
-                `;
-                document.getElementById('continueModal').classList.add('show');
-            }
+        document.getElementById("nextBtn").classList.remove("show");
+
+        const questionCard = document.getElementById("questionCard");
+        questionCard.style.animation = "none";
+        questionCard.offsetHeight;
+        questionCard.style.animation = "fadeInUp 0.5s ease";
+      }
+
+      function selectOption(btn, selectedOption, question) {
+        if (answered) return;
+        answered = true;
+
+        const allBtns = document.querySelectorAll(".option-btn");
+        allBtns.forEach((b) => {
+          b.classList.add("disabled");
+          if (b.textContent === question.answer) {
+            b.classList.add("correct");
+          }
+        });
+
+        if (selectedOption === question.answer) {
+          btn.classList.add("correct");
+          score++;
+          document.getElementById("scoreDisplay").textContent = score;
+        } else {
+          btn.classList.add("incorrect");
+          wrongAnswers.push({
+            id: question.id,
+            topic: question.topic,
+            question: question.question,
+            yourAnswer: selectedOption,
+            correctAnswer: question.answer,
+            options: question.options,
+          });
         }
 
-        function continueQuiz() {
-            const saved = JSON.parse(localStorage.getItem(STORAGE_KEY));
-            currentSubject = saved.subject;
-            currentQuestions = saved.questions;
-            currentQuestionIndex = saved.questionIndex;
-            score = saved.score;
-            wrongAnswers = saved.wrongAnswers || [];
-            
-            document.getElementById('continueModal').classList.remove('show');
-            document.getElementById('menuScreen').style.display = 'none';
-            document.getElementById('quizScreen').style.display = 'block';
-            document.getElementById('scoreDisplay').textContent = score;
-            showQuestion();
+        document.getElementById("nextBtn").classList.add("show");
+        saveProgress();
+      }
+
+      function nextQuestion() {
+        currentQuestionIndex++;
+
+        if (currentQuestionIndex >= currentQuestions.length) {
+          localStorage.removeItem(STORAGE_KEY);
+          showResult();
+        } else {
+          saveProgress();
+          showQuestion();
+        }
+      }
+
+      function showResult() {
+        document.getElementById("quizScreen").style.display = "none";
+        document.getElementById("resultScreen").style.display = "block";
+
+        const percentage = (score / currentQuestions.length) * 100;
+
+        document.getElementById("finalScore").textContent = score;
+        document.getElementById("totalQuestions").textContent =
+          currentQuestions.length;
+
+        let icon, title, message;
+        if (percentage >= 90) {
+          icon = "🏆";
+          title = "Xuất sắc!";
+          message = "Bạn đã làm rất tốt! Tiếp tục phát huy nhé!";
+        } else if (percentage >= 70) {
+          icon = "🎉";
+          title = "Tuyệt vời!";
+          message = "Kết quả rất tốt! Chỉ cần cố gắng thêm một chút!";
+        } else if (percentage >= 50) {
+          icon = "💪";
+          title = "Khá tốt!";
+          message = "Hãy ôn tập thêm để đạt kết quả cao hơn!";
+        } else {
+          icon = "📚";
+          title = "Cần cố gắng!";
+          message = "Đừng nản, hãy ôn tập lại và thử lại nhé!";
         }
 
-        function startFresh() {
-            localStorage.removeItem(STORAGE_KEY);
-            document.getElementById('continueModal').classList.remove('show');
-        }
+        document.getElementById("resultIcon").textContent = icon;
+        document.getElementById("resultTitle").textContent = title;
+        document.getElementById("resultMessage").textContent = message;
 
-        // Save progress
-        function saveProgress() {
-            const data = {
-                subject: currentSubject,
-                questions: currentQuestions,
-                questionIndex: currentQuestionIndex,
-                totalQuestions: currentQuestions.length,
-                score: score,
-                wrongAnswers: wrongAnswers,
-                savedAt: new Date().toISOString()
-            };
-            localStorage.setItem(STORAGE_KEY, JSON.stringify(data));
-        }
+        // Show wrong answers section
+        if (wrongAnswers.length > 0) {
+          document.getElementById("wrongAnswersSection").style.display =
+            "block";
+          document.getElementById("retryWrongBtn").style.display =
+            "inline-block";
+          document.getElementById("wrongCount").textContent =
+            wrongAnswers.length;
 
-        async function loadAllData() {
-            try {
-                const tamlyResponse = await fetch('TamLy.json');
-                const tamlyData = await tamlyResponse.json();
-                subjectData.tamly = tamlyData;
-                
-                let tamlyCount = 0;
-                tamlyData.forEach(topic => { tamlyCount += topic.questions.length; });
-                document.getElementById('tamlyCount').textContent = `📝 ${tamlyCount} câu hỏi`;
+          const list = document.getElementById("wrongAnswersList");
+          list.innerHTML = "";
 
-                const [triet1, triet2, triet3] = await Promise.all([
-                    fetch('TrietHoc_C1.json').then(r => r.json()),
-                    fetch('TrietHoc_C2.json').then(r => r.json()),
-                    fetch('TrietHoc_C3.json').then(r => r.json())
-                ]);
-
-                subjectData.triet = [triet1, triet2, triet3];
-                let trietCount = triet1.questions.length + triet2.questions.length + triet3.questions.length;
-                document.getElementById('trietCount').textContent = `📝 ${trietCount} câu hỏi`;
-
-                // Load TrietHoc2.json
-                const trietHoc2Data = await fetch('TrietHoc2.json').then(r => r.json());
-                subjectData.triet2 = trietHoc2Data;
-                document.getElementById('triet2Count').textContent = `📝 ${trietHoc2Data.questions.length} câu hỏi`;
-
-                // Load TrietHoc3.json (array format)
-                const trietHoc3Data = await fetch('TrietHoc3.json').then(r => r.json());
-                subjectData.triet3 = trietHoc3Data;
-                let triet3Count = 0;
-                trietHoc3Data.forEach(topic => { triet3Count += topic.questions.length; });
-                document.getElementById('triet3Count').textContent = `📝 ${triet3Count} câu hỏi`;
-
-                // Load TrietHoc4.json (array format)
-                const trietHoc4Data = await fetch('TrietHoc4.json').then(r => r.json());
-                subjectData.triet4 = trietHoc4Data;
-                let triet4Count = 0;
-                trietHoc4Data.forEach(topic => { triet4Count += topic.questions.length; });
-                document.getElementById('triet4Count').textContent = `📝 ${triet4Count} câu hỏi`;
-
-            } catch (error) {
-                console.error('Lỗi tải dữ liệu:', error);
-                alert('Không thể tải dữ liệu. Vui lòng chạy với Live Server!');
-            }
-        }
-
-        function selectSubject(subject) {
-            currentSubject = subject;
-            document.getElementById('menuScreen').style.display = 'none';
-            document.getElementById('topicSelection').style.display = 'block';
-            
-            const topicGrid = document.getElementById('topicGrid');
-            topicGrid.innerHTML = '';
-            
-            if (subject === 'tamly') {
-                document.getElementById('subjectTitle').textContent = '🧠 Tâm Lý Học';
-                subjectData.tamly.forEach((topic, index) => {
-                    const card = document.createElement('div');
-                    card.className = 'topic-card';
-                    card.onclick = () => startQuizTopic(index);
-                    card.innerHTML = `<h3>${topic.topic}</h3><p class="question-count">📝 ${topic.questions.length} câu hỏi</p>`;
-                    topicGrid.appendChild(card);
-                });
-            } else if (subject === 'triet') {
-                document.getElementById('subjectTitle').textContent = '📖 Triết Học Mác-Lênin';
-                subjectData.triet.forEach((chapter, index) => {
-                    const card = document.createElement('div');
-                    card.className = 'topic-card';
-                    card.onclick = () => startQuizTopic(index);
-                    card.innerHTML = `<h3>${chapter.topic}</h3><p class="question-count">📝 ${chapter.questions.length} câu hỏi</p>`;
-                    topicGrid.appendChild(card);
-                });
-            } else if (subject === 'triet2') {
-                document.getElementById('subjectTitle').textContent = '📚 Triết Học 2 - Nguyên Lý CBC';
-                const card = document.createElement('div');
-                card.className = 'topic-card';
-                card.onclick = () => startQuizTopic(0);
-                card.innerHTML = `<h3>${subjectData.triet2.topic}</h3><p class="question-count">📝 ${subjectData.triet2.questions.length} câu hỏi</p>`;
-                topicGrid.appendChild(card);
-            } else if (subject === 'triet3') {
-                document.getElementById('subjectTitle').textContent = '📕 Triết Học 3 - Nguyên Lý Cơ Bản P1';
-                subjectData.triet3.forEach((topic, index) => {
-                    const card = document.createElement('div');
-                    card.className = 'topic-card';
-                    card.onclick = () => startQuizTopic(index);
-                    card.innerHTML = `<h3>${topic.topic}</h3><p class="question-count">📝 ${topic.questions.length} câu hỏi</p>`;
-                    topicGrid.appendChild(card);
-                });
-            } else if (subject === 'triet4') {
-                document.getElementById('subjectTitle').textContent = '📗 Triết Học 4 - Triết Học Mác-Lênin';
-                subjectData.triet4.forEach((topic, index) => {
-                    const card = document.createElement('div');
-                    card.className = 'topic-card';
-                    card.onclick = () => startQuizTopic(index);
-                    card.innerHTML = `<h3>${topic.topic}</h3><p class="question-count">📝 ${topic.questions.length} câu hỏi</p>`;
-                    topicGrid.appendChild(card);
-                });
-            }
-        }
-
-        function startQuizAllTopics() {
-            currentQuestions = [];
-            selectedTopicIndex = null;
-            
-            if (currentSubject === 'tamly') {
-                subjectData.tamly.forEach(topic => {
-                    topic.questions.forEach(q => {
-                        currentQuestions.push({ ...q, topic: topic.topic });
-                    });
-                });
-            } else if (currentSubject === 'triet') {
-                subjectData.triet.forEach(chapter => {
-                    chapter.questions.forEach(q => {
-                        currentQuestions.push({ ...q, topic: chapter.topic });
-                    });
-                });
-            } else if (currentSubject === 'triet2') {
-                subjectData.triet2.questions.forEach(q => {
-                    currentQuestions.push({ ...q, topic: subjectData.triet2.topic });
-                });
-            } else if (currentSubject === 'triet3') {
-                subjectData.triet3.forEach(topic => {
-                    topic.questions.forEach(q => {
-                        currentQuestions.push({ ...q, topic: topic.topic });
-                    });
-                });
-            } else if (currentSubject === 'triet4') {
-                subjectData.triet4.forEach(topic => {
-                    topic.questions.forEach(q => {
-                        currentQuestions.push({ ...q, topic: topic.topic });
-                    });
-                });
-            }
-            startQuiz();
-        }
-
-        function startQuizTopic(topicIndex) {
-            currentQuestions = [];
-            selectedTopicIndex = topicIndex;
-            
-            if (currentSubject === 'tamly') {
-                const topic = subjectData.tamly[topicIndex];
-                topic.questions.forEach(q => {
-                    currentQuestions.push({ ...q, topic: topic.topic });
-                });
-            } else if (currentSubject === 'triet') {
-                const chapter = subjectData.triet[topicIndex];
-                chapter.questions.forEach(q => {
-                    currentQuestions.push({ ...q, topic: chapter.topic });
-                });
-            } else if (currentSubject === 'triet2') {
-                subjectData.triet2.questions.forEach(q => {
-                    currentQuestions.push({ ...q, topic: subjectData.triet2.topic });
-                });
-            } else if (currentSubject === 'triet3') {
-                const topic = subjectData.triet3[topicIndex];
-                topic.questions.forEach(q => {
-                    currentQuestions.push({ ...q, topic: topic.topic });
-                });
-            } else if (currentSubject === 'triet4') {
-                const topic = subjectData.triet4[topicIndex];
-                topic.questions.forEach(q => {
-                    currentQuestions.push({ ...q, topic: topic.topic });
-                });
-            }
-            startQuiz();
-        }
-
-        function startQuiz() {
-            currentQuestionIndex = 0;
-            score = 0;
-            answered = false;
-            wrongAnswers = [];
-            isRetryMode = false;
-            
-            document.getElementById('topicSelection').style.display = 'none';
-            document.getElementById('quizScreen').style.display = 'block';
-            document.getElementById('scoreDisplay').textContent = '0';
-            
-            saveProgress();
-            showQuestion();
-        }
-
-        function showQuestion() {
-            answered = false;
-            const question = currentQuestions[currentQuestionIndex];
-            
-            const progress = ((currentQuestionIndex) / currentQuestions.length) * 100;
-            document.getElementById('progressFill').style.width = `${progress}%`;
-            document.getElementById('progressPercent').textContent = `${Math.round(progress)}%`;
-            document.getElementById('questionCounter').textContent = `Câu ${currentQuestionIndex + 1}/${currentQuestions.length}`;
-            
-            document.getElementById('questionId').textContent = `ID: ${question.id || 'N/A'}`;
-            document.getElementById('topicBadge').textContent = question.topic;
-            document.getElementById('questionText').textContent = question.question;
-            
-            const optionsContainer = document.getElementById('optionsContainer');
-            optionsContainer.innerHTML = '';
-            
-            question.options.forEach((option, index) => {
-                const btn = document.createElement('button');
-                btn.className = 'option-btn';
-                btn.textContent = option;
-                btn.onclick = () => selectOption(btn, option, question);
-                optionsContainer.appendChild(btn);
-            });
-            
-            document.getElementById('nextBtn').classList.remove('show');
-            
-            const questionCard = document.getElementById('questionCard');
-            questionCard.style.animation = 'none';
-            questionCard.offsetHeight;
-            questionCard.style.animation = 'fadeInUp 0.5s ease';
-        }
-
-        function selectOption(btn, selectedOption, question) {
-            if (answered) return;
-            answered = true;
-            
-            const allBtns = document.querySelectorAll('.option-btn');
-            allBtns.forEach(b => {
-                b.classList.add('disabled');
-                if (b.textContent === question.answer) {
-                    b.classList.add('correct');
-                }
-            });
-            
-            if (selectedOption === question.answer) {
-                btn.classList.add('correct');
-                score++;
-                document.getElementById('scoreDisplay').textContent = score;
-            } else {
-                btn.classList.add('incorrect');
-                wrongAnswers.push({
-                    id: question.id,
-                    topic: question.topic,
-                    question: question.question,
-                    yourAnswer: selectedOption,
-                    correctAnswer: question.answer,
-                    options: question.options
-                });
-            }
-            
-            document.getElementById('nextBtn').classList.add('show');
-            saveProgress();
-        }
-
-        function nextQuestion() {
-            currentQuestionIndex++;
-            
-            if (currentQuestionIndex >= currentQuestions.length) {
-                localStorage.removeItem(STORAGE_KEY);
-                showResult();
-            } else {
-                saveProgress();
-                showQuestion();
-            }
-        }
-
-        function showResult() {
-            document.getElementById('quizScreen').style.display = 'none';
-            document.getElementById('resultScreen').style.display = 'block';
-            
-            const percentage = (score / currentQuestions.length) * 100;
-            
-            document.getElementById('finalScore').textContent = score;
-            document.getElementById('totalQuestions').textContent = currentQuestions.length;
-            
-            let icon, title, message;
-            if (percentage >= 90) { icon = '🏆'; title = 'Xuất sắc!'; message = 'Bạn đã làm rất tốt! Tiếp tục phát huy nhé!'; }
-            else if (percentage >= 70) { icon = '🎉'; title = 'Tuyệt vời!'; message = 'Kết quả rất tốt! Chỉ cần cố gắng thêm một chút!'; }
-            else if (percentage >= 50) { icon = '💪'; title = 'Khá tốt!'; message = 'Hãy ôn tập thêm để đạt kết quả cao hơn!'; }
-            else { icon = '📚'; title = 'Cần cố gắng!'; message = 'Đừng nản, hãy ôn tập lại và thử lại nhé!'; }
-            
-            document.getElementById('resultIcon').textContent = icon;
-            document.getElementById('resultTitle').textContent = title;
-            document.getElementById('resultMessage').textContent = message;
-            
-            // Show wrong answers section
-            if (wrongAnswers.length > 0) {
-                document.getElementById('wrongAnswersSection').style.display = 'block';
-                document.getElementById('retryWrongBtn').style.display = 'inline-block';
-                document.getElementById('wrongCount').textContent = wrongAnswers.length;
-                
-                const list = document.getElementById('wrongAnswersList');
-                list.innerHTML = '';
-                
-                wrongAnswers.forEach((item, idx) => {
-                    const div = document.createElement('div');
-                    div.className = 'wrong-item';
-                    div.innerHTML = `
-                        <div class="question-label">Câu ${idx + 1} - ${item.id} | ${item.topic}</div>
+          wrongAnswers.forEach((item, idx) => {
+            const div = document.createElement("div");
+            div.className = "wrong-item";
+            div.innerHTML = `
+                        <div class="question-label">Câu ${idx + 1} - ${
+              item.id
+            } | ${item.topic}</div>
                         <div class="question">${item.question}</div>
                         <div class="your-answer">
                             <div class="answer-label">❌ Câu trả lời của bạn:</div>
@@ -733,66 +1453,66 @@
                             ${item.correctAnswer}
                         </div>
                     `;
-                    list.appendChild(div);
-                });
-            } else {
-                document.getElementById('wrongAnswersSection').style.display = 'none';
-                document.getElementById('retryWrongBtn').style.display = 'none';
-            }
+            list.appendChild(div);
+          });
+        } else {
+          document.getElementById("wrongAnswersSection").style.display = "none";
+          document.getElementById("retryWrongBtn").style.display = "none";
         }
+      }
 
-        function toggleWrongAnswers() {
-            const header = document.querySelector('.wrong-answers-header');
-            const list = document.getElementById('wrongAnswersList');
-            header.classList.toggle('open');
-            list.classList.toggle('show');
-        }
+      function toggleWrongAnswers() {
+        const header = document.querySelector(".wrong-answers-header");
+        const list = document.getElementById("wrongAnswersList");
+        header.classList.toggle("open");
+        list.classList.toggle("show");
+      }
 
-        function retryWrongAnswers() {
-            if (wrongAnswers.length === 0) return;
-            
-            currentQuestions = wrongAnswers.map(w => ({
-                id: w.id,
-                topic: w.topic,
-                question: w.question,
-                options: w.options,
-                answer: w.correctAnswer
-            }));
-            
-            isRetryMode = true;
-            currentQuestionIndex = 0;
-            score = 0;
-            wrongAnswers = [];
-            
-            document.getElementById('resultScreen').style.display = 'none';
-            document.getElementById('quizScreen').style.display = 'block';
-            document.getElementById('scoreDisplay').textContent = '0';
-            
-            showQuestion();
-        }
+      function retryWrongAnswers() {
+        if (wrongAnswers.length === 0) return;
 
-        function restartQuiz() {
-            document.getElementById('resultScreen').style.display = 'none';
-            currentQuestionIndex = 0;
-            score = 0;
-            wrongAnswers = [];
-            document.getElementById('scoreDisplay').textContent = '0';
-            document.getElementById('quizScreen').style.display = 'block';
-            showQuestion();
-        }
+        currentQuestions = wrongAnswers.map((w) => ({
+          id: w.id,
+          topic: w.topic,
+          question: w.question,
+          options: w.options,
+          answer: w.correctAnswer,
+        }));
 
-        function goToMenu() {
-            document.getElementById('quizScreen').style.display = 'none';
-            document.getElementById('resultScreen').style.display = 'none';
-            document.getElementById('topicSelection').style.display = 'none';
-            document.getElementById('menuScreen').style.display = 'flex';
-        }
+        isRetryMode = true;
+        currentQuestionIndex = 0;
+        score = 0;
+        wrongAnswers = [];
 
-        function confirmExit() {
-            if (confirm('Bạn có chắc muốn thoát? Tiến độ đã được lưu tự động.')) {
-                goToMenu();
-            }
+        document.getElementById("resultScreen").style.display = "none";
+        document.getElementById("quizScreen").style.display = "block";
+        document.getElementById("scoreDisplay").textContent = "0";
+
+        showQuestion();
+      }
+
+      function restartQuiz() {
+        document.getElementById("resultScreen").style.display = "none";
+        currentQuestionIndex = 0;
+        score = 0;
+        wrongAnswers = [];
+        document.getElementById("scoreDisplay").textContent = "0";
+        document.getElementById("quizScreen").style.display = "block";
+        showQuestion();
+      }
+
+      function goToMenu() {
+        document.getElementById("quizScreen").style.display = "none";
+        document.getElementById("resultScreen").style.display = "none";
+        document.getElementById("topicSelection").style.display = "none";
+        document.getElementById("menuScreen").style.display = "flex";
+      }
+
+      function confirmExit() {
+        if (confirm("Bạn có chắc muốn thoát? Tiến độ đã được lưu tự động.")) {
+          goToMenu();
         }
+      }
     </script>
-</body>
+  </body>
 </html>

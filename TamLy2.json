@@ -1,0 +1,2115 @@
+{
+  "topic": "TRẮC NGHIỆM TÂM LÝ HỌC SƯ PHẠM (CHƯƠNG 1 - 6)",
+  "questions": [
+    {
+      "id": "C1_1",
+      "question": "Sự phát triển tâm lí của trẻ em là:",
+      "options": [
+        "A. Sự tăng lên hoặc giảm đi về số lượng các hiện tượng tâm lí.",
+        "B. Sự nâng cao khả năng của con người trong cuộc sống.",
+        "C. Sự thay đổi về chất lượng các hiện tượng tâm lí.",
+        "D. Sự tăng lên hoặc giảm về số lượng dẫn đến biến đổi về chất lượng của hiện tượng đang được phát triển."
+      ],
+      "answer": "D. Sự tăng lên hoặc giảm về số lượng dẫn đến biến đổi về chất lượng của hiện tượng đang được phát triển."
+    },
+    {
+      "id": "C1_2",
+      "question": "Trẻ em là:",
+      "options": [
+        "A. Người lớn thu nhỏ lại.",
+        "B. Trẻ em là thực thể phát triển tự nhiên.",
+        "C. Trẻ em là thực thể phát triển độc lập.",
+        "D. Trẻ em là thực thể đang phát triển theo những quy luật riêng của nó."
+      ],
+      "answer": "D. Trẻ em là thực thể đang phát triển theo những quy luật riêng của nó."
+    },
+    {
+      "id": "C1_3",
+      "question": "Yếu tố bẩm sinh, di truyền có vai trò:",
+      "options": [
+        "A. Quy định sự phát triển tâm lí.",
+        "B. Là điều kiện vật chất của sự phát triển tâm lí.",
+        "C. Quy định khả năng của sự phát triển tâm lí.",
+        "D. Quy định chiều hướng của sự phát triển tâm lí."
+      ],
+      "answer": "B. Là điều kiện vật chất của sự phát triển tâm lí."
+    },
+    {
+      "id": "C1_4",
+      "question": "Hoàn cảnh sống của đứa trẻ, trước hết là hoàn cảnh gia đình là:",
+      "options": [
+        "A. Là nguyên nhân của sự phát triển tâm lí.",
+        "B. Quyết định gián tiếp sự phát triển tâm lí.",
+        "C. Là tiền đề của sự phát triển tâm lí.",
+        "D. Là điều kiện cần thiết của sự phát triển tâm lí."
+      ],
+      "answer": "D. Là điều kiện cần thiết của sự phát triển tâm lí."
+    },
+    {
+      "id": "C1_5",
+      "question": "Tính tích cực hoạt động và giao tiếp của mỗi người trong cuộc sống có vai trò là:",
+      "options": [
+        "A. Điều kiện cần thiết của sự phát triển tâm lí.",
+        "B. Quyết định trực tiếp sự phát triển tâm lí.",
+        "C. Tiền đề của sự phát triển tâm lí.",
+        "D. Quy định chiều hướng của sự phát triển tâm lí."
+      ],
+      "answer": "B. Quyết định trực tiếp sự phát triển tâm lí."
+    },
+    {
+      "id": "C1_6",
+      "question": "Kinh nghiệm sống của cá nhân là:",
+      "options": [
+        "A. Kinh nghiệm chung của loài.",
+        "B. Kinh nghiệm do cá thể tự tạo ra trong cuộc sống.",
+        "C. Kinh nghiệm lịch sử - xã hội do cá nhân tiếp thu được trong hoạt động và giao tiếp xã hội.",
+        "D. Cả a, b, c."
+      ],
+      "answer": "D. Cả a, b, c."
+    },
+    {
+      "id": "C1_7",
+      "question": "Nội dung chủ yếu trong đời sống tâm lí cá nhân là:",
+      "options": [
+        "A. Các kinh nghiệm mang tính loài.",
+        "B. Các kinh nghiệm tự tạo ra trong cuộc sống cá thể.",
+        "C. Kinh nghiệm lịch sử - xã hội do cá nhân tiếp thu được trong hoạt động và giao tiếp xã hội.",
+        "D. Cả a, b, c."
+      ],
+      "answer": "D. Cả a, b, c."
+    },
+    {
+      "id": "C1_8",
+      "question": "Kinh nghiệm lịch sử - xã hội của mỗi cá nhân chủ yếu được hình thành bằng con đường:",
+      "options": [
+        "A. Di truyền từ thế hệ trước theo con đường sinh học.",
+        "B. Bắt chước.",
+        "C. Hành động có tính mò mẫm theo cơ chế thử - sai.",
+        "D. Theo cơ chế lĩnh hội (học tập)."
+      ],
+      "answer": "D. Theo cơ chế lĩnh hội (học tập)."
+    },
+    {
+      "id": "C1_9",
+      "question": "Sự hình thành và phát triển tâm lí người được diễn ra theo cơ chế:",
+      "options": [
+        "A. Hình thành hoạt động từ bên ngoài và chuyển hoạt động đó vào bên trong của cá nhân và cải tổ lại hình thức của hoạt động đó.",
+        "B. Sự tác động của môi trường bên ngoài làm biến đổi các yếu tố tâm lí bên trong của cá nhân cho phù hợp với sự biến đổi của môi trường bên ngoài.",
+        "C. Sự tác động qua lại giữa yếu tố tâm lí đã có bên trong với môi trường bên ngoài.",
+        "D. Hình thành các yếu tố tâm lí từ bên ngoài sau đó chuyển vào bên trong của chủ thể."
+      ],
+      "answer": "A. Hình thành hoạt động từ bên ngoài và chuyển hoạt động đó vào bên trong của cá nhân và cải tổ lại hình thức của hoạt động đó."
+    },
+    {
+      "id": "C1_10",
+      "question": "Nguyên nhân cơ bản của sự phát triển tâm lí ở trẻ là:",
+      "options": [
+        "A. Hoàn cảnh sống và quan hệ của chính đứa trẻ.",
+        "B. Môi trường sống của trẻ.",
+        "C. Hoàn cảnh xã hội khi đứa trẻ ra đời.",
+        "D. Hoàn cảnh kinh tế của gia đình đứa trẻ."
+      ],
+      "answer": "A. Hoàn cảnh sống và quan hệ của chính đứa trẻ."
+    },
+    {
+      "id": "C1_11",
+      "question": "Nội dung và tính chất của sự tiếp xúc giữa người lớn với trẻ là:",
+      "options": [
+        "A. Yếu tố chủ đạo của sự phát triển tâm lí.",
+        "B. Nguyên nhân của sự phát triển tâm lí.",
+        "C. Khả năng của sự phát triển tâm lí.",
+        "D. Điều kiện đầu tiên của sự phát triển tâm lí."
+      ],
+      "answer": "D. Điều kiện đầu tiên của sự phát triển tâm lí."
+    },
+    {
+      "id": "C1_12",
+      "question": "Quy luật về tính không đồng đều của sự phát triển được thể hiện ở:",
+      "options": [
+        "A. Sự phát triển tâm lí con người.",
+        "B. Sự phát triển cơ thể con người.",
+        "C. Sự phát triển về mặt xã hội của con người.",
+        "D. Cả a, b và c."
+      ],
+      "answer": "D. Cả a, b và c."
+    },
+    {
+      "id": "C1_13",
+      "question": "Trong quá trình phát triển tâm lí cá nhân, các giai đoạn phát triển là:",
+      "options": [
+        "A. Có tính tuyệt đối.",
+        "B. Là kết quả của sự tích luỹ các tri thức, kĩ năng, kĩ xảo của cá nhân.",
+        "C. Chỉ có ý nghĩa tương đối.",
+        "D. Các giai đoạn phát triển tâm lí do sự phát triển cơ thể quy định."
+      ],
+      "answer": "C. Chỉ có ý nghĩa tương đối."
+    },
+    {
+      "id": "C1_14",
+      "question": "Trong sự phát triển tâm lí của cá nhân, nền văn hoá xã hội có vai trò:",
+      "options": [
+        "A. Quy định trước sự phát triển tâm lí của con người.",
+        "B. Quyết định gián tiếp sự phát triển tâm lí con người trong mỗi giai đoạn của cuộc đời.",
+        "C. Quyết định sự phát triển tâm lí của trẻ nhỏ.",
+        "D. Chỉ ảnh hưởng phần nào tới sự phát triển tâm lí của người trẻ tuổi."
+      ],
+      "answer": "B. Quyết định gián tiếp sự phát triển tâm lí con người trong mỗi giai đoạn của cuộc đời."
+    },
+    {
+      "id": "C1_15",
+      "question": "Anh chị không tán thành quan niệm nào dưới đây:",
+      "options": [
+        "A. Con người tỏ thái độ tích cực trước hoàn cảnh ngay từ những tháng, năm đầu tiên của cuộc đời.",
+        "B. Con người chỉ tích cực hoạt động khi được xã hội đánh giá.",
+        "C. Tính tích cực hoạt động sẽ giúp trẻ phát triển tốt nếu được người lớn hướng dẫn chu đáo.",
+        "D. Càng phát triển, hoạt động của cá nhân càng có tính tự giác."
+      ],
+      "answer": "B. Con người chỉ tích cực hoạt động khi được xã hội đánh giá."
+    },
+    {
+      "id": "C1_16",
+      "question": "Sự phát triển tâm lí của trẻ diễn ra:",
+      "options": [
+        "A. Phẳng lặng, không có khủng hoảng và đột biến.",
+        "B. Diễn ra cực kì nhanh chóng.",
+        "C. Là một quá trình diễn ra cực kì nhanh chóng, nó không phẳng lặng mà có khủng hoảng và đột biến.",
+        "D. Không phẳng lặng, mà có khủng hoảng và đột biến."
+      ],
+      "answer": "C. Là một quá trình diễn ra cực kì nhanh chóng, nó không phẳng lặng mà có khủng hoảng và đột biến."
+    },
+    {
+      "id": "C1_17",
+      "question": "Tâm lí học lứa tuổi nghiên cứu:",
+      "options": [
+        "A. Đặc điểm của các quá trình và các phẩm chất tâm lí riêng lẻ của cá nhân. Sự khác biệt của chúng ở mỗi cá nhân trong phạm vi cùng một lứa tuổi.",
+        "B. Khả năng lứa tuổi của việc lĩnh hội tri thức, phương thức hành động.",
+        "C. Các dạng hoạt động khác nhau của cá nhân đang được phát triển.",
+        "D. Cả a, b và c."
+      ],
+      "answer": "D. Cả a, b và c."
+    },
+    {
+      "id": "C1_18",
+      "question": "Tâm lí học Sư phạm nghiên cứu:",
+      "options": [
+        "A. Những vấn đề tâm lí học của việc điều khiển quá trình dạy học.",
+        "B. Sự hình thành những quá trình nhận thức, xác định những tiêu chuẩn của sự phát triển trí tuệ và những điều kiện đảm bảo cho sự phát triển trí tuệ có hiệu quả trong quá trình dạy học.",
+        "C. Mối quan hệ qua lại giữa giáo viên - học sinh, học sinh - học sinh.",
+        "D. Cả a, b và c."
+      ],
+      "answer": "D. Cả a, b và c."
+    },
+    {
+      "id": "C1_19",
+      "question": "Quan niệm: \"Trẻ em không phải là người lớn thu nhỏ lại\" là quan điểm của:",
+      "options": [
+        "A. Thuyết tiền định.",
+        "B. Thuyết duy cảm.",
+        "C. Thuyết hội tụ hai yếu tố.",
+        "D. Tâm lí học macxit"
+      ],
+      "answer": "D. Tâm lí học macxit"
+    },
+    {
+      "id": "C1_20",
+      "question": "Thuyết tiền định, thuyết duy cảm và thuyết hội tụ hai yếu tố đều có sai lầm chung là thừa nhận đặc điểm tâm lí của con người là do:",
+      "options": [
+        "A. Tiền định hoặc bất biến.",
+        "B. Tiềm năng sinh vật di truyền quyết định.",
+        "C. Ảnh hưởng của môi trường bất biến.",
+        "D. Cả a, b và c."
+      ],
+      "answer": "D. Cả a, b và c."
+    },
+    {
+      "id": "C1_21",
+      "question": "Bản chất sự phát triển tâm lí trẻ em là:",
+      "options": [
+        "A. Sự tăng lên hoặc giảm đi về số lượng các hiện tượng tâm lí.",
+        "B. Quá trình biến đổi về chất trong tâm lí gắn liền với sự xuất hiện những cấu tạo tâm lí mới.",
+        "C. Quá trình trẻ em lĩnh hội nền văn hoá - xã hội loài người, bằng chính hoạt động của bản thân đứa trẻ thông qua vai trò trung gian của người lớn.",
+        "D. Cả b và c."
+      ],
+      "answer": "D. Cả b và c."
+    },
+    {
+      "id": "C1_22",
+      "question": "Quy luật chung của sự phát triển tâm lí trẻ em được thể hiện ở:",
+      "options": [
+        "A. Tính không đồng đều của sự phát triển tâm lí.",
+        "B. Tính toàn vẹn của tâm lí.",
+        "C. Tính mềm dẻo và khả năng bù trừ.",
+        "D. Cả a, b và c."
+      ],
+      "answer": "D. Cả a, b và c."
+    },
+    {
+      "id": "C1_23",
+      "question": "Sự phát triển tâm lí trẻ em tuân theo:",
+      "options": [
+        "A. Quy luật sinh học.",
+        "B. Quy luật xã hội.",
+        "C. Quy luật sinh học và quy luật xã hội.",
+        "D. Không theo quy luật nào cả."
+      ],
+      "answer": "B. Quy luật xã hội."
+    },
+    {
+      "id": "C1_24",
+      "question": "Yếu tố giữ vai trò chủ đạo trong sự hình thành và phát triển tâm lí trẻ em là:",
+      "options": [
+        "A. Di truyền.",
+        "B. Môi trường gia đình và xã hội.",
+        "C. Giáo dục.",
+        "D. Cả a và b."
+      ],
+      "answer": "C. Giáo dục."
+    },
+    {
+      "id": "C1_25",
+      "question": "Hoạt động chủ đạo có đặc điểm:",
+      "options": [
+        "A. Là hoạt động lần đầu tiên xuất hiện trong một giai đoạn lứa tuổi, sau đó tồn tại trong suốt cuộc sống của cá nhân.",
+        "B. Là hoạt động mà trong đó các chức năng tâm lí của trẻ em được cải tổ lại thành chức năng tâm lí mới.",
+        "C. Là hoạt động chi phối các hoạt động khác và tiền đề làm xuất hiện hoạt động mới trong các giai đoạn lứa tuổi tiếp theo.",
+        "D. Cả a, b, c."
+      ],
+      "answer": "D. Cả a, b, c."
+    },
+    {
+      "id": "C1_26",
+      "question": "Việc phân chia các giai đoạn lứa tuổi của trẻ em chủ yếu căn cứ vào:",
+      "options": [
+        "A. Đặc điểm tâm lí của lứa tuổi đó.",
+        "B. Sự phát triển của các yếu tố cơ thể.",
+        "C. Hoạt động đóng vai trò chủ đạo.",
+        "D. Tính chất của các quan hệ xã hội của trẻ em."
+      ],
+      "answer": "C. Hoạt động đóng vai trò chủ đạo."
+    },
+    {
+      "id": "C1_27",
+      "question": "Quy luật không đồng đều của sự phát triển tâm lí trẻ em được biểu hiện:",
+      "options": [
+        "A. Trong toàn bộ quá trình phát triển có nhiều giai đoạn và các giai đoạn đó phát triển không đều nhau về nhiều phương diện.",
+        "B. Trong từng giai đoạn phát triển của trẻ có sự phát triển không đều nhau giữa các chức năng tâm lí.",
+        "C. Tất cả trẻ em đều trải qua các giai đoạn phát triển nhưng ở mỗi trẻ em sự phát triển không đều giữa các giai đoạn.",
+        "D. Cả a, b, c."
+      ],
+      "answer": "D. Cả a, b, c."
+    },
+    {
+      "id": "C1_28",
+      "question": "Nội dung hoạt động và giao tiếp của trẻ em được quy định bởi:",
+      "options": [
+        "A. Sự trưởng thành của các yếu tố thể chất.",
+        "B. Môi trường sống của trẻ.",
+        "C. Sự tương tác và phát triển của chính hoạt động và giao tiếp của trẻ em với hoàn cảnh sống và với người lớn.",
+        "D. Sự tác động của người lớn."
+      ],
+      "answer": "C. Sự tương tác và phát triển của chính hoạt động và giao tiếp của trẻ em với hoàn cảnh sống và với người lớn."
+    },
+    {
+      "id": "C1_29",
+      "question": "Trong quá trình phát triển của trẻ em diễn ra:",
+      "options": [
+        "A. Sự bù trừ và tác động lẫn nhau giữa các chức năng tâm lí đã có.",
+        "B. Không có sự bù trừ các chức năng tâm lí đã hình thành.",
+        "C. Sự điều chỉnh trong quá trình phát triển do sự mềm dẻo của các yếu tố tâm - sinh lí của chủ thể.",
+        "D. Cả a và c."
+      ],
+      "answer": "D. Cả a và c."
+    },
+    {
+      "id": "C1_30",
+      "question": "Hoạt động và giao tiếp của trẻ em trong quá trình phát triển được diễn ra:",
+      "options": [
+        "A. Độc lập.",
+        "B. Dưới sự định hướng, hướng dẫn và kiểm soát của người lớn.",
+        "C. Quy định bởi sự trưởng thành của các yếu tố thể chất.",
+        "D. Quy định bởi người lớn và xã hội."
+      ],
+      "answer": "B. Dưới sự định hướng, hướng dẫn và kiểm soát của người lớn."
+    },
+    {
+      "id": "C2_1",
+      "question": "Mệnh đề nào dưới đây thể hiện đúng bản chất giai đoạn lứa tuổi học sinh THCS (tuổi thiếu niên)?",
+      "options": [
+        "A. Tuổi dậy thì.",
+        "B. Tuổi khủng hoảng, khó khăn.",
+        "C. Tuổi chuyển tiếp từ tuổi thơ sang tuổi trưởng thành.",
+        "D. Về cơ bản, thiếu niên vẫn là trẻ con không hơn không kém."
+      ],
+      "answer": "C. Tuổi chuyển tiếp từ tuổi thơ sang tuổi trưởng thành."
+    },
+    {
+      "id": "C2_2",
+      "question": "Nguyên nhân khiến thiếu niên thường mỏi mệt, chóng mặt, hoa mắt... chủ yếu là do:",
+      "options": [
+        "A. Sự phát triển mạnh nhưng thiếu cân đối của hệ tuần hoàn.",
+        "B. Sự phát dục.",
+        "C. Sự phát triển mạnh nhưng thiếu cân đối của hệ cơ.",
+        "D. Sự phát triển mạnh nhưng thiếu cân đối của hệ xương."
+      ],
+      "answer": "A. Sự phát triển mạnh nhưng thiếu cân đối của hệ tuần hoàn."
+    },
+    {
+      "id": "C2_3",
+      "question": "Sự phát triển thể chất của lứa tuổi thiếu niên về cơ bản là giai đoạn:",
+      "options": [
+        "A. Phát triển chậm, theo hướng hoàn thiện các yếu tố từ lứa tuổi nhi đồng.",
+        "B. Phát triển với tốc độ nhanh, không đồng đều, không cân đối.",
+        "C. Phát triển với tốc độ nhanh, đồng đều, cân đối.",
+        "D. Phát triển mạnh về tầm vóc cơ thể (chiều cao, cân nặng)."
+      ],
+      "answer": "B. Phát triển với tốc độ nhanh, không đồng đều, không cân đối."
+    },
+    {
+      "id": "C2_4",
+      "question": "Sự phát dục ở tuổi thiếu niên, khiến các em:",
+      "options": [
+        "A. Ngại tiếp xúc với người khác giới.",
+        "B. Quan tâm nhiều hơn đến người khác giới.",
+        "C. Tâm lí mặc cảm, lo lắng về cơ thể.",
+        "D. Quan tâm nhiều hơn đến bạn cùng giới cùng tuổi."
+      ],
+      "answer": "B. Quan tâm nhiều hơn đến người khác giới."
+    },
+    {
+      "id": "C2_5",
+      "question": "Nguyên nhân chủ yếu khiến thiếu niên thường nói \"nhát gừng\", \"cộc lốc\" là:",
+      "options": [
+        "A. Muốn khẳng định tính người lớn của mình trong quan hệ với người xung quanh.",
+        "B. Muốn che đậy sự lóng ngóng, vụng về của mình do sự phát triển thiếu cân đối của cơ thể gây ra.",
+        "C. Do phản xạ với tín hiệu trực tiếp hình thành nhanh hơn phản xạ với tín hiệu từ ngữ.",
+        "D. Sự phát triển không cân đối của cơ thể làm các em thấy mệt mỏi, ngại giao tiếp."
+      ],
+      "answer": "C. Do phản xạ với tín hiệu trực tiếp hình thành nhanh hơn phản xạ với tín hiệu từ ngữ."
+    },
+    {
+      "id": "C2_6",
+      "question": "Nguyên nhân chủ yếu khiến thiếu niên thường dễ bị kích động, có cảm xúc mạnh, dễ bực tức, nổi khùng, phản ứng mạnh mẽ với các tác động bên ngoài là do:",
+      "options": [
+        "A. Sự phát triển hệ xương mạnh hơn hệ cơ.",
+        "B. Tuyến nội tiết hoạt động mạnh, ảnh hưởng tới hệ thần kinh.",
+        "C. Sự phát triển mạnh nhưng thiếu cân đối của hệ tuần hoàn, ảnh hưởng tới hệ thần kinh.",
+        "D. Trẻ em ý thức về sự phát triển không cân đối của cơ thể."
+      ],
+      "answer": "B. Tuyến nội tiết hoạt động mạnh, ảnh hưởng tới hệ thần kinh."
+    },
+    {
+      "id": "C2_7",
+      "question": "Hệ xương của thiếu niên phát triển như thế nào?",
+      "options": [
+        "A. Có sự phát triển nhảy vọt về chiều cao.",
+        "B. Hệ xương phát triển không đồng đều, thiếu cân đối.",
+        "C. Phần nối giữa các đốt sống vẫn còn sụn nên xương sống dễ bị biến dạng nếu đứng ngồi không đúng tư thế.",
+        "D. Cả a, b, c."
+      ],
+      "answer": "D. Cả a, b, c."
+    },
+    {
+      "id": "C2_8",
+      "question": "Quá trình hoạt động thần kinh cấp cao ở thiếu niên có đặc điểm:",
+      "options": [
+        "A. Quá trình hưng phấn chiếm ưu thế rõ rệt so với ức chế.",
+        "B. Phản xạ có điều kiện với tín hiệu trực tiếp thành lập nhanh hơn phản xạ với tín hiệu từ ngữ.",
+        "C. Khả năng chịu đựng các kích thích mạnh, đơn điệu, kéo dài còn yếu, nên dễ bị ức chế, hoặc dễ bị kích động mạnh.",
+        "D. Cả a, b, c."
+      ],
+      "answer": "D. Cả a, b, c."
+    },
+    {
+      "id": "C2_9",
+      "question": "Biểu hiện của hiện tượng dậy thì là:",
+      "options": [
+        "A. Tuyến sinh dục bắt đầu hoạt động.",
+        "B. Cơ thể xuất hiện các dấu hiệu giới tính phụ (nách mọc lông, nam mọc ria mép...).",
+        "C. Nam có sự xuất tinh, nữ có kinh nguyệt.",
+        "D. Cả a, b, c."
+      ],
+      "answer": "D. Cả a, b, c."
+    },
+    {
+      "id": "C2_10",
+      "question": "Trong giai đoạn phát dục (dậy thì), đa số các em thiếu niên:",
+      "options": [
+        "A. Thiết lập được sự cân bằng giữa sự phát triển yếu tố tâm lí tính dục với tâm lí xã hội.",
+        "B. Đã trưởng thành về mặt tâm lí tính dục nhưng chưa phát triển về mặt tâm lí xã hội.",
+        "C. Đã trưởng thành về mặt tính dục nhưng chưa trưởng thành về cơ thể, đặc biệt là chưa trưởng thành về mặt tâm lí và xã hội.",
+        "D. Cơ thể phát triển không cân đối, còn mang nhiều nét trẻ con."
+      ],
+      "answer": "C. Đã trưởng thành về mặt tính dục nhưng chưa trưởng thành về cơ thể, đặc biệt là chưa trưởng thành về mặt tâm lí và xã hội."
+    },
+    {
+      "id": "C2_11",
+      "question": "Điểm nào dưới đây không đặc trưng cho sự phát triển tâm lí của tuổi thiếu niên?",
+      "options": [
+        "A. Sự phát triển mạnh mẽ, cân đối các yếu tố thể chất và tâm lí.",
+        "B. Sự phát triển mạnh mẽ, thiếu cân đối về mặt trí tuệ, cảm xúc và xu hướng, đạo đức.",
+        "C. Sự phát triển mạnh mẽ tính tích cực xã hội hướng đến các chuẩn mực văn hoá - xã hội.",
+        "D. Sự phát triển diễn ra không đều, tạo ra tính hai mặt: \"vừa là trẻ con vừa là người lớn\"."
+      ],
+      "answer": "A. Sự phát triển mạnh mẽ, cân đối các yếu tố thể chất và tâm lí."
+    },
+    {
+      "id": "C2_12",
+      "question": "Những đặc trưng tâm lí của tuổi thiếu niên có được là do điều kiện nào?",
+      "options": [
+        "A. Sự phát triển cơ thể và hoạt động hệ thần kinh mạnh mẽ nhưng không cân đối.",
+        "B. Hiện tượng dậy thì xảy ra ở tuổi này.",
+        "C. Sự thay đổi các điều kiện xã hội và hoạt động chủ đạo.",
+        "D. Cả a, b, c."
+      ],
+      "answer": "D. Cả a, b, c."
+    },
+    {
+      "id": "C2_13",
+      "question": "Hoàn cảnh sống và hoạt động của thiếu niên thường:",
+      "options": [
+        "A. Không thay đổi nhiều so với lứa tuổi nhi đồng.",
+        "B. Bao hàm cả yếu tố thúc đẩy và kìm hãm phát triển tính người lớn ở các em.",
+        "C. Chỉ bao hàm những yếu tố thúc đẩy tính người lớn.",
+        "D. Chỉ bao hàm những yếu tố thúc đẩy duy trì tính trẻ con."
+      ],
+      "answer": "B. Bao hàm cả yếu tố thúc đẩy và kìm hãm phát triển tính người lớn ở các em."
+    },
+    {
+      "id": "C2_14",
+      "question": "Những thay đổi về vị trí của thiếu niên trong gia đình có tác động như thế nào đối với thiếu niên?",
+      "options": [
+        "A. Tăng cường sự lệ thuộc của các em vào cha mẹ.",
+        "B. Thúc đẩy tính tích cực, độc lập trong suy nghĩ và hành động.",
+        "C. Một mặt thúc đẩy phát triển tính người lớn nhưng mặt khác lại làm kìm hãm tính người lớn ở các em.",
+        "D. Cả a, b, c."
+      ],
+      "answer": "C. Một mặt thúc đẩy phát triển tính người lớn nhưng mặt khác lại làm kìm hãm tính người lớn ở các em."
+    },
+    {
+      "id": "C2_15",
+      "question": "Thiếu niên thích tham gia công tác xã hội, vì các em:",
+      "options": [
+        "A. Có sức lực và hiểu biết nhiều hơn.",
+        "B. Muốn được thừa nhận là người lớn, vì cho rằng công tác xã hội là của người lớn.",
+        "C. Muốn được làm việc có tính chất tập thể, muốn được nhiều người biết đến.",
+        "D. Cả a, b, c."
+      ],
+      "answer": "D. Cả a, b, c."
+    },
+    {
+      "id": "C2_16",
+      "question": "Sự khủng hoảng trong sự phát triển tâm lí ở tuổi thiếu niên chủ yếu là do:",
+      "options": [
+        "A. Bản chất, hoàn cảnh xã hội và quan hệ xã hội của trẻ em và sự cải tổ lại hệ thống quan hệ đó của trẻ em.",
+        "B. Sự phát triển nhanh, mạnh và không cân đối về thể chất và tâm lí.",
+        "C. Quan niệm của người lớn về sự phát triển của trẻ em",
+        "D. Sự phát dục."
+      ],
+      "answer": "A. Bản chất, hoàn cảnh xã hội và quan hệ xã hội của trẻ em và sự cải tổ lại hệ thống quan hệ đó của trẻ em."
+    },
+    {
+      "id": "C2_17",
+      "question": "Sự chuyển tiếp từ tính chất không chủ định sang tính có chủ định là đặc điểm chung của sự phát triển trí tuệ. Đặc điểm này được thể hiện trong các quá trình nhận thức của thiếu niên ở chỗ:",
+      "options": [
+        "A. Tính chất không chủ định giảm mạnh, tính chất chủ định tăng lên.",
+        "B. Tính chất không chủ định giữ nguyên, tính chủ định tăng nhanh.",
+        "C. Tính chất có chủ định chiếm ưu thế hơn so với tính không chủ định.",
+        "D. Tính chất có chủ định phát triển mạnh nhưng chưa chiếm ưu thế, tính không chủ định không giảm."
+      ],
+      "answer": "C. Tính chất có chủ định chiếm ưu thế hơn so với tính không chủ định."
+    },
+    {
+      "id": "C2_18",
+      "question": "Đặc điểm trí nhớ của học sinh THCS là:",
+      "options": [
+        "A. Có tiến bộ trong ghi nhớ tài liệu từ ngữ trừu tượng.",
+        "B. Có tiến bộ trong khả năng ghi nhớ ý nghĩa.",
+        "C. Coi thường ghi nhớ máy móc, nhưng khi ghi nhớ ý nghĩa gặp khó khăn sẽ sử dụng ghi nhớ máy móc.",
+        "D. Cả a, b, c."
+      ],
+      "answer": "D. Cả a, b, c."
+    },
+    {
+      "id": "C2_19",
+      "question": "Đặc điểm chú ý của thiếu niên là:",
+      "options": [
+        "A. Chú ý có chủ định tăng.",
+        "B. Tính bền vững của chú ý thấp.",
+        "C. Khối lượng chú ý tăng, khả năng di chuyển tốt hơn học sinh nhỏ.",
+        "D. Cả a, b, c."
+      ],
+      "answer": "D. Cả a, b, c."
+    },
+    {
+      "id": "C2_20",
+      "question": "Đặc điểm cơ bản trong hoạt động tư duy của thiếu niên là:",
+      "options": [
+        "A. Tư duy trừu tượng phát triển mạnh chiếm ưu thế.",
+        "B. Sự phát triển tư duy hình tượng dừng lại, tư duy trừu tượng phát triển mạnh.",
+        "C. Tư duy trừu tượng và tư duy hình tượng đều phát triển, nhưng chất lượng của tư duy trừu tượng là không đồng đều ở mỗi học sinh.",
+        "D. Tư duy trực quan - hình tượng phát triển mạnh."
+      ],
+      "answer": "C. Tư duy trừu tượng và tư duy hình tượng đều phát triển, nhưng chất lượng của tư duy trừu tượng là không đồng đều ở mỗi học sinh."
+    },
+    {
+      "id": "C2_21",
+      "question": "Hãy chỉ ra đặc điểm không thể hiện tính phê phán của tư duy ở thiếu niên:",
+      "options": [
+        "A. Luôn bướng bỉnh, nghi ngờ dù không có căn cứ.",
+        "B. Biết lập luận giải quyết vấn đề một cách có căn cứ.",
+        "C. Không dễ tin.",
+        "D. Chỉ tiếp thu khi được chứng minh rõ ràng."
+      ],
+      "answer": "A. Luôn bướng bỉnh, nghi ngờ dù không có căn cứ."
+    },
+    {
+      "id": "C2_22",
+      "question": "Nội dung cơ bản của \"cảm giác mình là người lớn\" ở thiếu niên là:",
+      "options": [
+        "A. Mình không còn là trẻ con.",
+        "B. Chưa là người lớn, nhưng không còn là trẻ con, sẵn sàng làm người lớn.",
+        "C. Mình đã là người lớn.",
+        "D. Chưa là người lớn nhưng sẵn sàng làm người lớn."
+      ],
+      "answer": "B. Chưa là người lớn, nhưng không còn là trẻ con, sẵn sàng làm người lớn."
+    },
+    {
+      "id": "C2_23",
+      "question": "\"Cảm giác mình làm người lớn\" khiến thiếu niên quan tâm nhiều hơn đến bản thân. Lĩnh vực đầu tiên các em quan tâm đến là:",
+      "options": [
+        "A. Những phẩm chất tâm lí cá nhân.",
+        "B. Hình thức tác phong cử chỉ của bản thân.",
+        "C. Những khả năng của bản thân.",
+        "D. Cả a, b, c."
+      ],
+      "answer": "B. Hình thức tác phong cử chỉ của bản thân."
+    },
+    {
+      "id": "C2_24",
+      "question": "Nguyên nhân nảy sinh ở thiếu niên cảm giác về sự trưởng thành:",
+      "options": [
+        "A. Các em nhận thấy sự phát triển mạnh mẽ về cơ thể và sức lực.",
+        "B. Các em nhận thấy sự mở rộng tri thức, kĩ năng, kĩ xảo.",
+        "C. Các em tham gia nhiều hơn vào cuộc sống xã hội và có tính tự lập giống người lớn.",
+        "D. Cả a, b, c."
+      ],
+      "answer": "D. Cả a, b, c."
+    },
+    {
+      "id": "C2_25",
+      "question": "Nguyện vọng muốn được độc lập hơn trong quan hệ với người lớn của thiếu niên biểu hiện ở chỗ:",
+      "options": [
+        "A. Thiếu niên bảo vệ ý kiến quan điểm của mình.",
+        "B. Thiếu niên chống đối lại những yêu cầu của người lớn mà trước kia các em tự nguyện thực hiện.",
+        "C. Thiếu niên tích cực hoạt động, chấp nhận những yêu cầu đạo đức và phương thức hành vi trong thế giới người lớn.",
+        "D. Cả a, b, c."
+      ],
+      "answer": "D. Cả a, b, c."
+    },
+    {
+      "id": "C2_26",
+      "question": "Nguyên nhân chủ yếu gây ra sự xung đột giữa thiếu niên và người lớn là:",
+      "options": [
+        "A. Người lớn không hiểu thiếu niên và vẫn đối xử với các em như trẻ con.",
+        "B. Hoạt động thần kinh của thiếu niên không cân bằng.",
+        "C. Thiếu niên luôn ngang bướng để chứng tỏ mình đã lớn.",
+        "D. Phản ứng tất yếu của lứa tuổi không thể khắc phục được."
+      ],
+      "answer": "A. Người lớn không hiểu thiếu niên và vẫn đối xử với các em như trẻ con."
+    },
+    {
+      "id": "C2_27",
+      "question": "Cách đối xử nào với thiếu niên là thích hợp nhất?",
+      "options": [
+        "A. Người lớn cần tôn trọng tính độc lập của các em, để các em hoàn toàn tự quyết định các vấn đề của mình.",
+        "B. Thiếu niên vẫn chưa thực sự là người lớn nên cần quan tâm kiểm soát từng cử chỉ, hành động của các em.",
+        "C. Người lớn cần có quan hệ hợp tác giúp đỡ thiếu niên trên cơ sở tôn trọng, tin tưởng các em.",
+        "D. Đây là lứa tuổi bướng bỉnh, cần có sự kiểm soát chặt chẽ và biện pháp cứng rắn với các em."
+      ],
+      "answer": "C. Người lớn cần có quan hệ hợp tác giúp đỡ thiếu niên trên cơ sở tôn trọng, tin tưởng các em."
+    },
+    {
+      "id": "C2_28",
+      "question": "Phạm vi giao tiếp của thiếu niên với bạn bè là:",
+      "options": [
+        "A. Rộng rãi và bền vững.",
+        "B. Hẹp hơn học sinh nhỏ nhưng bền vững.",
+        "C. Từ phạm vi rộng nhưng chưa bền vững đến hẹp nhưng bền vững, sâu sắc.",
+        "D. Ban đầu phạm vi giao tiếp hẹp sau mở rộng dần."
+      ],
+      "answer": "C. Từ phạm vi rộng nhưng chưa bền vững đến hẹp nhưng bền vững, sâu sắc."
+    },
+    {
+      "id": "C2_29",
+      "question": "Yếu tố nào có ý nghĩa nhất trong mối quan hệ bạn bè của thiếu niên?",
+      "options": [
+        "A. Hình thức diện mạo của bạn.",
+        "B. Bằng tuổi và học cùng lớp.",
+        "C. Các phẩm chất tình bạn: tôn trọng, giúp đỡ nhau, trung thành...",
+        "D. Gần nhà nhau và gia đình có quan hệ thân thiện."
+      ],
+      "answer": "C. Các phẩm chất tình bạn: tôn trọng, giúp đỡ nhau, trung thành..."
+    },
+    {
+      "id": "C2_30",
+      "question": "Phẩm chất đạo đức đầu tiên được thiếu niên tự nhận thức là:",
+      "options": [
+        "A. Phẩm chất liên quan đến hoàn thành nhiệm vụ học tập.",
+        "B. Phẩm chất thể hiện thái độ đối với người khác.",
+        "C. Phẩm chất thể hiện thái độ đối với bản thân.",
+        "D. Cả a, b, c cùng xuất hiện."
+      ],
+      "answer": "A. Phẩm chất liên quan đến hoàn thành nhiệm vụ học tập."
+    },
+    {
+      "id": "C2_31",
+      "question": "Nhu cầu tự ý thức xuất hiện là do:",
+      "options": [
+        "A. Sự phát triển của cơ thể.",
+        "B. Sự phát triển của trí tuệ.",
+        "C. Sự phát triển của các quan hệ xã hội.",
+        "D. Cả a, b, c."
+      ],
+      "answer": "D. Cả a, b, c."
+    },
+    {
+      "id": "C2_32",
+      "question": "Nội dung tự ý thức của thiếu niên được xuất hiện dần theo thứ tự nào ?",
+      "options": [
+        "A. Tự ý thức hành vi -> phẩm chất liên quan đến tình bạn -> phẩm chất liên quan đến bản thân -> phẩm chất liên quan đến học tập -> phẩm chất thể hiện nhiều mặt của nhân cách.",
+        "B. Tự ý thức hành vi -> đồng thời tự ý thức những phẩm chất liên quan đến tình bạn, đến học tập, đến bản thân -> phẩm chất liên quan đến nhiều mặt của nhân cách.",
+        "C. Tự ý thức hành vi -> phẩm chất liên quan đến học tập -> phẩm chất liên quan đến người khác -> phẩm chất liên quan đến bản thân -> phẩm chất liên quan đến nhiều mặt của nhân cách.",
+        "D. Tự ý thức hành vi -> phẩm chất liên quan đến bản thân -> phẩm chất liên quan đến người khác -> phẩm chất liên quan đến công việc -> phẩm chất liên quan đến nhiều mặt của nhân cách."
+      ],
+      "answer": "C. Tự ý thức hành vi -> phẩm chất liên quan đến học tập -> phẩm chất liên quan đến người khác -> phẩm chất liên quan đến bản thân -> phẩm chất liên quan đến nhiều mặt của nhân cách."
+    },
+    {
+      "id": "C2_33",
+      "question": "Lí do khiến người lớn không thay đổi thái độ đối xử với thiếu niên là:",
+      "options": [
+        "A. Các em sống phụ thuộc kinh tế vào bố mẹ, là đối tượng giáo dục của bố mẹ.",
+        "B. Biểu hiện bên ngoài và đặc điểm tâm lí bên trong của các em còn nhiều nét thể hiện trẻ con.",
+        "C. Người lớn thương yêu và có thói quen chăm sóc trẻ.",
+        "D. Cả a, b, c."
+      ],
+      "answer": "D. Cả a, b, c."
+    },
+    {
+      "id": "C2_34",
+      "question": "\"Con Hà nhà tôi đã 13 tuổi rồi, tay chân thì dài ngoẵng ra mà làm gì thì \"hậu đậu\" ơi là \"hậu đậu\": Rửa bát thì bát vỡ, cắt bìa đậu thì nát cả đậu\"- một bà mẹ than thở. \"Ô, thế thì giống hệt con Thu nhà tôi, nó học cùng lớp với con Hà đấy\". Mẹ Thu hưởng ứng\". Những lời phàn nàn trên của hai bà mẹ là vì:",
+      "options": [
+        "A. Tính cách cá nhân của lứa tuổi thiếu niên.",
+        "B. Đặc điểm hoạt động thần kinh cấp cao của thiếu niên.",
+        "C. Sự phát triển cơ thể thiếu cân đối, hài hoà của thiếu niên.",
+        "D. Hành vi muốn chống đối người lớn."
+      ],
+      "answer": "C. Sự phát triển cơ thể thiếu cân đối, hài hoà của thiếu niên."
+    },
+    {
+      "id": "C2_35",
+      "question": "Điểm nào dưới đây không phản ánh rõ đặc trưng trong quan hệ khác giới của tuổi thiếu niên?",
+      "options": [
+        "A. Quan hệ khác giới là những tình cảm chứa đựng nhiều yếu tố của tình yêu nam nữ.",
+        "B. Quan hệ bạn khác giới là quan hệ thuần tuý mang cảm xúc xã hội, nảy sinh trong hoạt động và giao tiếp bạn bè.",
+        "C. Quan hệ khác giới đượm màu cảm xúc giới tính do tác động của yếu tố phát dục.",
+        "D. Quan hệ khác giới mang màu sắc cảm xúc giới tính kết hợp với những rung cảm xã hội nhẹ nhàng, kín đáo, bồng bột, pha chút kịch hoá."
+      ],
+      "answer": "A. Quan hệ khác giới là những tình cảm chứa đựng nhiều yếu tố của tình yêu nam nữ."
+    },
+    {
+      "id": "C3_1",
+      "question": "Trong xã hội ngày nay, hiện tượng \"gia tốc phát triển\" đã khiến cho tuổi thanh niên:",
+      "options": [
+        "A. Bắt đầu và kết thúc sớm hơn trước đây.",
+        "B. Bắt đầu sớm, nhưng kết thúc muộn hơn.",
+        "C. Bắt đầu muộn, nhưng kết thúc sớm hơn.",
+        "D. Bắt đầu và kết thúc muộn hơn trước đây."
+      ],
+      "answer": "B. Bắt đầu sớm, nhưng kết thúc muộn hơn."
+    },
+    {
+      "id": "C3_2",
+      "question": "Sự phát triển về cơ thể ở tuổi học sinh THPT diễn ra:",
+      "options": [
+        "A. Tương đối êm ả và cân đối.",
+        "B. Nhanh, mạnh và có nhiều biến động.",
+        "C. Mạnh mẽ nhưng không cân đối.",
+        "D. Mạnh mẽ và cân đối."
+      ],
+      "answer": "A. Tương đối êm ả và cân đối."
+    },
+    {
+      "id": "C3_3",
+      "question": "Đặc trưng trong nội dung phát triển của tuổi học sinh THPT được quy định chủ yếu bởi yếu tố:",
+      "options": [
+        "A. Độ tuổi sinh học.",
+        "B. Sự phát triển cơ thể.",
+        "C. Điều kiện xã hội mà trẻ em sống và hoạt động.",
+        "D. Đặc trưng hoạt động học tập, họat động xã hội và giao tiếp của học sinh trong điều kiện xã hội nhất định."
+      ],
+      "answer": "D. Đặc trưng hoạt động học tập, họat động xã hội và giao tiếp của học sinh trong điều kiện xã hội nhất định."
+    },
+    {
+      "id": "C3_4",
+      "question": "Điều nào không đúng với sự phát triển thể chất của lứa tuổi học sinh THPT?",
+      "options": [
+        "A. Đa số các em đang trong thời kì phát dục (thời kì dậy thì).",
+        "B. Đa số có cơ thể phát triển cân đối, khoẻ, đẹp như cơ thể người lớn.",
+        "C. Sự phát triển hệ thần kinh gần tương đương với hệ thần kinh của người trưởng thành.",
+        "D. Chiều cao và cân nặng tuy vẫn phát triển nhưng đã có chiều hướng chững lại."
+      ],
+      "answer": "A. Đa số các em đang trong thời kì phát dục (thời kì dậy thì)."
+    },
+    {
+      "id": "C3_5",
+      "question": "Điểm nào không thể hiện tính hai mặt trong điều kiện xã hội của sự phát triển tâm lí ở tuổi học sinh THPT?",
+      "options": [
+        "A. Trong gia đình các em đã có nhiều vai trò và trách nhiệm như của người lớn, nhưng các em vẫn bị phụ thuộc vào kinh tế gia đình.",
+        "B. Trong xã hội, các em đã có quyền công dân nhưng hoạt động chủ đạo của các em vẫn là hoạt động học tập.",
+        "C. Thái độ và ứng xử của người lớn vừa khuyến khích xu hướng người lớn của các em, vừa yêu cầu các em tuân theo các yêu cầu của cha mẹ, giáo viên.",
+        "D. Thể chất của các em đang phát triển với tốc độ và nhịp độ nhanh dần đến cân đối, hài hoà."
+      ],
+      "answer": "D. Thể chất của các em đang phát triển với tốc độ và nhịp độ nhanh dần đến cân đối, hài hoà."
+    },
+    {
+      "id": "C3_6",
+      "question": "Điểm nào không đúng với việc mở rộng vai trò người lớn của tuổi đầu thanh niên?",
+      "options": [
+        "A. Trong gia đình, các em có nhiều quyền lợi và trách nhiệm của người lớn hơn.",
+        "B. Ngoài xã hội, các em đã có quyền công dân.",
+        "C. Trong nhà trường và ngoài xã hội, thái độ của người lớn thể hiện tính chất hai mặt đối với các em tuổi đầu thanh niên: vừa đòi hỏi ở các em tính độc lập, ý thức trách nhiệm, vừa đòi hỏi các em phải thích ứng với yêu cầu của người lớn.",
+        "D. Cơ thể các em đã trưởng thành, cân đối và khoẻ mạnh có thể làm được nhiều việc của người lớn."
+      ],
+      "answer": "C. Trong nhà trường và ngoài xã hội, thái độ của người lớn thể hiện tính chất hai mặt đối với các em tuổi đầu thanh niên: vừa đòi hỏi ở các em tính độc lập, ý thức trách nhiệm, vừa đòi hỏi các em phải thích ứng với yêu cầu của người lớn."
+    },
+    {
+      "id": "C3_7",
+      "question": "Trong quan hệ với tuổi đầu thanh niên, người lớn thường:",
+      "options": [
+        "A. Yêu cầu ở các em tính độc lập và ý thức trách nhiệm.",
+        "B. Đòi hỏi các em phục tùng những yêu cầu của mình đề ra.",
+        "C. Một mặt đòi hỏi các em phục tùng những yêu cầu của mình, mặt khác lại mong muốn ở các em tính độc lập, tự giác và ý thức trách nhiệm.",
+        "D. Mong muốn các em có cách cư xử và khả năng thực hiện các công việc như người lớn."
+      ],
+      "answer": "C. Một mặt đòi hỏi các em phục tùng những yêu cầu của mình, mặt khác lại mong muốn ở các em tính độc lập, tự giác và ý thức trách nhiệm."
+    },
+    {
+      "id": "C3_8",
+      "question": "Trong các mối quan hệ xã hội, vị trí của học sinh THPT thường có tính chất:",
+      "options": [
+        "A. Hoàn toàn ổn định.",
+        "B. Xác định.",
+        "C. Không xác định.",
+        "D. Tương đối ổn định."
+      ],
+      "answer": "C. Không xác định."
+    },
+    {
+      "id": "C3_9",
+      "question": "Thái độ học tập của học sinh THPT được thúc đẩy trước hết bởi:",
+      "options": [
+        "A. Động cơ thực tiễn và động cơ nhận thức.",
+        "B. Động cơ thực tiễn, động cơ nhận thức và ý nghĩa xã hội của môn học.",
+        "C. Động cơ nhận thức và ý nghĩa xã hội của môn học.",
+        "D. Động cơ quan hệ xã hội."
+      ],
+      "answer": "B. Động cơ thực tiễn, động cơ nhận thức và ý nghĩa xã hội của môn học."
+    },
+    {
+      "id": "C3_10",
+      "question": "Hứng thú học tập các môn học của học sinh THPT thường gắn liền với:",
+      "options": [
+        "A. Tính chất của môn học.",
+        "B. Phương pháp giảng dạy của giáo viên bộ môn.",
+        "C. Kết quả học tập của môn học.",
+        "D. Khuynh hướng nghề nghiệp mà các em lựa chọn."
+      ],
+      "answer": "D. Khuynh hướng nghề nghiệp mà các em lựa chọn."
+    },
+    {
+      "id": "C3_11",
+      "question": "Điểm đặc trưng trong nhận thức của học sinh THPT là:",
+      "options": [
+        "A. Chuyển từ tính không chủ định sang có chủ định.",
+        "B. Tính có chủ định phát triển mạnh, chiếm ưu thế.",
+        "C. Cả tính có chủ định và tính không chủ định cùng phát triển.",
+        "D. Tính không chủ định phát triển mạnh và chiếm ưu thế."
+      ],
+      "answer": "B. Tính có chủ định phát triển mạnh, chiếm ưu thế."
+    },
+    {
+      "id": "C3_12",
+      "question": "Loại tư duy nào phát triển mạnh ở lứa tuổi học sinh THPT?",
+      "options": [
+        "A. Trực quan hình ảnh.",
+        "B. Trực quan hành động.",
+        "C. Trừu tượng, lí luận.",
+        "D. Cả a, b,c."
+      ],
+      "answer": "C. Trừu tượng, lí luận."
+    },
+    {
+      "id": "C3_13",
+      "question": "Điểm nào không phản ánh đặc điểm tư duy của tuổi học sinh THPT?",
+      "options": [
+        "A. Tính phê phán của tư duy phát triển mạnh.",
+        "B. Tính độc lập của tư duy phát triển.",
+        "C. Tính trực quan của tư duy phát triển.",
+        "D. Tính chặt chẽ và nhất quán phát triển."
+      ],
+      "answer": "C. Tính trực quan của tư duy phát triển."
+    },
+    {
+      "id": "C3_14",
+      "question": "Đặc điểm nổi bật về trí nhớ của lứa tuổi học sinh THPT là:",
+      "options": [
+        "A. Ghi nhớ có chủ định phát triển mạnh, nhưng chưa hoàn toàn chiếm ưu thế.",
+        "B. Các em chưa biết vận dụng các biện pháp ghi nhớ lôgíc.",
+        "C. Ghi nhớ chủ định giữ vai trò chủ đạo, các em đã tạo được tâm thế phân hoá trong ghi nhớ.",
+        "D. Cả a, b."
+      ],
+      "answer": "C. Ghi nhớ chủ định giữ vai trò chủ đạo, các em đã tạo được tâm thế phân hoá trong ghi nhớ."
+    },
+    {
+      "id": "C3_15",
+      "question": "Tính lựa chọn của chú ý ở lứa tuổi học sinh THPT được quyết định bởi:",
+      "options": [
+        "A. Thái độ lựa chọn đối với môn học của các em.",
+        "B. Tính hấp dẫn của môn học.",
+        "C. Thái độ của các em đối với giáo viên giảng dạy bộ môn.",
+        "D. Cả a, b, c."
+      ],
+      "answer": "A. Thái độ lựa chọn đối với môn học của các em."
+    },
+    {
+      "id": "C3_16",
+      "question": "Ở lứa tuổi học sinh THPT, các em có khả năng vừa nghe giảng, vừa ghi chép, đồng thời vẫn theo dõi được câu trả lời của bạn trong giờ học... Điều này chứng tỏ sự phát triển và hoàn thiện của khả năng:",
+      "options": [
+        "A. Tri giác.",
+        "B. Ghi nhớ hình tượng cụ thể và ghi nhớ ý nghĩa.",
+        "C. Di chuyển và phân phối chú ý.",
+        "D. Tư duy trực quan hành động và tư duy ngôn ngữ."
+      ],
+      "answer": "C. Di chuyển và phân phối chú ý."
+    },
+    {
+      "id": "C3_17",
+      "question": "Những môn học hấp dẫn đối với học sinh THPT là những môn học:",
+      "options": [
+        "A. Đòi hỏi ở các em sự tư duy tích cực, độc lập.",
+        "B. Có nội dung cụ thể, không đòi hỏi nhiều khả năng tư duy trừu tượng.",
+        "C. Có ý nghĩa xã hội cao.",
+        "D. Mới lạ và các em được tiếp xúc lần đầu."
+      ],
+      "answer": "C. Có ý nghĩa xã hội cao."
+    },
+    {
+      "id": "C3_18",
+      "question": "Điểm nào không phù hợp với đặc điểm tự ý thức của tuổi học sinh THPT:",
+      "options": [
+        "A. Học sinh THPT bắt đầu tri giác đặc điểm cơ thể của bản thân.",
+        "B. Hình ảnh về cơ thể là thành tố quan trọng của tự ý thức ở tuổi học sinh THPT.",
+        "C. Tuổi học sinh THPT có nhu cầu tìm hiểu và đánh giá những đặc điểm tâm lí của mình theo quan điểm về mục đích và hoài bão cuộc sống của bản thân.",
+        "D. Tự ý thức của tuổi học sinh THPT xuất phát từ yêu cầu của cuộc sống và hoạt động của bản thân trong tập thể."
+      ],
+      "answer": "A. Học sinh THPT bắt đầu tri giác đặc điểm cơ thể của bản thân."
+    },
+    {
+      "id": "C3_19",
+      "question": "Nguyên nhân cơ bản khiến học sinh THPT rất quan tâm đến diện mạo, hình thức bề ngoài của bản thân là:",
+      "options": [
+        "A. Sự biến đổi mạnh mẽ về mặt cơ thể ở lứa tuổi này.",
+        "B. Sự thúc đẩy của nhu cầu trở thành người lớn.",
+        "C. Hình ảnh về thân thể của mình là một thành tố quan trọng trong sự tự ý thức ở lứa tuổi này."
+      ],
+      "answer": "C. Hình ảnh về thân thể của mình là một thành tố quan trọng trong sự tự ý thức ở lứa tuổi này."
+    },
+    {
+      "id": "C3_20",
+      "question": "Tự ý thức của thanh niên học sinh được xuất phát từ:",
+      "options": [
+        "A. Yêu cầu của cuộc sống và hoạt động.",
+        "B. Sự biến đổi và phát triển mạnh mẽ của cơ thể.",
+        "C. Mong muốn thay đổi kiểu quan hệ với người lớn của các em.",
+        "D. Cả a, b, c."
+      ],
+      "answer": "D. Cả a, b, c."
+    },
+    {
+      "id": "C3_21",
+      "question": "Trong tự ý thức của mình, học sinh THPT thường coi trọng hơn:",
+      "options": [
+        "A. Những hình thức bề ngoài của bản thân.",
+        "B. Những phẩm chất nhân cách và năng lực của cá nhân.",
+        "C. Hành vi, cử chỉ của bản thân.",
+        "D. Cả a, c."
+      ],
+      "answer": "B. Những phẩm chất nhân cách và năng lực của cá nhân."
+    },
+    {
+      "id": "C3_22",
+      "question": "Trong quyển sổ của Liên đã dày cộp lên những câu danh ngôn của các nhà hiền triết. Không hiểu sao Liên rất thích chép những câu danh ngôn và suy nghĩ rất lâu về chúng. Tối, ngồi vào bàn học, Liên tự hỏi: mình 18 tuổi rồi ư? Mình đã làm gì được gì rồi nhỉ? Không, trước hết phải học thật tốt đã, rồi mới tính đến việc khác... Việc làm và suy nghĩ của Liên phản ánh đặc trưng nào trong tâm lí tuổi đầu thanh niên?",
+      "options": [
+        "A. Tuổi giàu chất lãng mạn.",
+        "B. Tuổi phát triển mạnh mẽ tự ý thức, tự tu dưỡng cá nhân.",
+        "C. Tuổi phát triển tư duy trừu tượng.",
+        "D. Tuổi đầy hoài bão, ước mơ."
+      ],
+      "answer": "B. Tuổi phát triển mạnh mẽ tự ý thức, tự tu dưỡng cá nhân."
+    },
+    {
+      "id": "C3_23",
+      "question": "Ở lứa tuổi học sinh THPT:",
+      "options": [
+        "A. Quan hệ với người lớn vẫn chiếm ưu thế hơn so với bạn cùng tuổi.",
+        "B. Quan hệ bạn cùng tuổi chiếm vị trí lớn hơn quan hệ với người lớn.",
+        "C. Quan hệ với bạn cùng tuổi và quan hệ với người lớn có vị trí ngang bằng.",
+        "D. Quan hệ với bạn cùng tuổi có khuynh hướng thu hẹp về phạm vi, nhưng ảnh hưởng của nó đối với tuổi đầu thanh niên lại sâu sắc hơn quan hệ với người lớn."
+      ],
+      "answer": "D. Quan hệ với bạn cùng tuổi có khuynh hướng thu hẹp về phạm vi, nhưng ảnh hưởng của nó đối với tuổi đầu thanh niên lại sâu sắc hơn quan hệ với người lớn."
+    },
+    {
+      "id": "C3_24",
+      "question": "Thanh niên học sinh thường chịu ảnh hưởng nhiều hơn từ phía quan hệ nào?",
+      "options": [
+        "A. Với bạn cùng tuổi.",
+        "B. Với người lớn.",
+        "C. Cả người lớn và bạn cùng tuổi ảnh hưởng như nhau.",
+        "D. Bạn bè cùng tuổi, hoặc người lớn ảnh hưởng nhiều tuỳ theo từng lĩnh vực và quan hệ."
+      ],
+      "answer": "D. Bạn bè cùng tuổi, hoặc người lớn ảnh hưởng nhiều tuỳ theo từng lĩnh vực và quan hệ."
+    },
+    {
+      "id": "C3_25",
+      "question": "Sự xuất hiện nhiều nhóm pha trộn bên cạnh những nhóm thuần nhất ở lứa tuổi đầu thanh niên là dấu hiệu chứng tỏ:",
+      "options": [
+        "A. Sự tích cực hoá rõ rệt trong quan hệ bạn khác giới ở lứa tuổi này.",
+        "B. Sự phức tạp hoá trong nhu cầu giao tiếp ở lứa tuổi này.",
+        "C. Sự đa dạng hoá các nhu cầu hoạt động của lứa tuổi này.",
+        "D. Sự lí tưởng hoá tình bạn của các em ở lứa tuổi này."
+      ],
+      "answer": "B. Sự phức tạp hoá trong nhu cầu giao tiếp ở lứa tuổi này."
+    },
+    {
+      "id": "C3_26",
+      "question": "Điểm nào không phù hợp với tình bạn của lứa tuổi học sinh THPT?",
+      "options": [
+        "A. Rất sâu sắc và yêu cầu cao trong tình bạn.",
+        "B. Nhu cầu rất cao về bạn tâm tình.",
+        "C. Tình bạn rất bền vững.",
+        "D. Tình bạn chỉ được thiết lập trong lĩnh vực hoạt động học tập."
+      ],
+      "answer": "C. Tình bạn rất bền vững."
+    },
+    {
+      "id": "C3_27",
+      "question": "Tình yêu nam nữ của tuổi học sinh THPT thường:",
+      "options": [
+        "A. Mang đậm màu sắc tính dục.",
+        "B. Mang tính hồn nhiên.",
+        "C. Tương đối bền vững.",
+        "D. Rất lãng mạn."
+      ],
+      "answer": "B. Mang tính hồn nhiên."
+    },
+    {
+      "id": "C3_28",
+      "question": "Trong lĩnh vực chọn nghề, với đa số học sinh THPT:",
+      "options": [
+        "A. Chưa thực sự có nhu cầu lựa chọn nghề nghiệp cho tương lai của mình.",
+        "B. Nhu cầu lựa chọn nghề đã trở lên cấp thiết, nhất là các lớp cuối cấp.",
+        "C. Ít quan tâm, suy nghĩ, trăn trở trong việc quyết định lựa chọn nghề và trường học nghề sau khi tốt nghiệp THPT.",
+        "D. Chọn nghề và trường học nghề thường đúng đắn, phù hợp với bản thân và xã hội."
+      ],
+      "answer": "B. Nhu cầu lựa chọn nghề đã trở lên cấp thiết, nhất là các lớp cuối cấp."
+    },
+    {
+      "id": "C3_29",
+      "question": "Điểm nào không phù hợp trong việc giáo dục của người lớn đối với tuổi học sinh THPT?",
+      "options": [
+        "A. Thiết lập quan hệ bình đẳng, tôn trọng và tin cậy các em.",
+        "B. Quan tâm chỉ dẫn và giám sát thường xuyên, trực tiếp các hoạt động và quan hệ của các em trong mọi lĩnh vực.",
+        "C. Trợ giúp các em theo hướng tăng dần tính tự quyết định của các em trong họat động và quan hệ của mình.",
+        "D. Thường xuyên chú ý đến tính hai mặt của sự phát triển ở lứa tuổi này khi ra các quyết định giáo dục."
+      ],
+      "answer": "B. Quan tâm chỉ dẫn và giám sát thường xuyên, trực tiếp các hoạt động và quan hệ của các em trong mọi lĩnh vực."
+    },
+    {
+      "id": "C3_30",
+      "question": "Điểm nào không đúng với đặc điểm tâm lí tuổi đầu thanh niên hiện nay?",
+      "options": [
+        "A. Quan hệ bạn bè chiếm vị trí thứ yếu so với quan hệ với người lớn hay với trẻ em nhỏ tuổi hơn.",
+        "B. Nhu cầu kết bạn của tuổi đầu thanh niên rất cao và tình bạn rất bền vững",
+        "C. Nhu cầu lựa chọn nghề nghiệp dần trở thành vấn đề cấp thiết trong đời sống của các em.",
+        "D. Hình ảnh về thân thể của mình là một thành tố quan trọng trong tự ý thức của các em."
+      ],
+      "answer": "A. Quan hệ bạn bè chiếm vị trí thứ yếu so với quan hệ với người lớn hay với trẻ em nhỏ tuổi hơn."
+    },
+    {
+      "id": "C4_1",
+      "question": "Đối tượng của hoạt động dạy là:",
+      "options": [
+        "A. Sự phát triển trí tuệ của học sinh.",
+        "B. Tri thức và những kĩ năng, kĩ xảo tương ứng với nó.",
+        "C. Sự phát triển nhân cách của học sinh.",
+        "D. Quá trình dạy học."
+      ],
+      "answer": "C. Sự phát triển nhân cách của học sinh."
+    },
+    {
+      "id": "C4_2",
+      "question": "Tiến hành hoạt động dạy, người thầy có nhiệm vụ:",
+      "options": [
+        "A. Sáng tạo ra tri thức mới.",
+        "B. Tái tạo lại tri thức, nền văn hoá xã hội cho bản thân.",
+        "C. Tổ chức, điều khiển quá trình tái tạo lại tri thức, nền văn hoá xã hội ở học sinh."
+      ],
+      "answer": "C. Tổ chức, điều khiển quá trình tái tạo lại tri thức, nền văn hoá xã hội ở học sinh."
+    },
+    {
+      "id": "C4_3",
+      "question": "Muốn tổ chức thành công quá trình tái tạo nền văn hoá xã hội ở người học, người dạy cần:",
+      "options": [
+        "A. Tạo ra tính tích cực trong hoạt động học của học sinh.",
+        "B. Biết cách truyền đạt có hiệu quả nhất đối với học sinh.",
+        "C. Tạo ra tính tích cực trong hoạt động dạy.",
+        "D. Biết cách chế biến tài liệu học tập cho phù hợp với đặc điểm nhận thức của học sinh."
+      ],
+      "answer": "A. Tạo ra tính tích cực trong hoạt động học của học sinh."
+    },
+    {
+      "id": "C4_4",
+      "question": "Để tạo ra được tính tích cực trong hoạt động học tập của học sinh, giáo viên cần:",
+      "options": [
+        "A. Biết cách cụ thể hoá, đơn giản hoá các nội dung học tập.",
+        "B. Làm cho học sinh vừa có ý thức được đối tượng cần chiếm lĩnh, vừa biết cách chiếm lĩnh đối tượng.",
+        "C. Thực hiện chặt chẽ các quy định, nội quy dạy học trong nhà trường.",
+        "D. Cả a, b và c."
+      ],
+      "answer": "D. Cả a, b và c."
+    },
+    {
+      "id": "C4_5",
+      "question": "Việc nắm được những tri thức, kĩ năng, kĩ xảo thông qua thực hiện một hoạt động nào đó trong cuộc sống hàng ngày, được gọi là:",
+      "options": [
+        "A. Hoạt động học.",
+        "B. Hoạt động tự học.",
+        "C. Học kĩ năng.",
+        "D. Học ngẫu nhiên."
+      ],
+      "answer": "D. Học ngẫu nhiên."
+    },
+    {
+      "id": "C4_6",
+      "question": "Hoạt động lĩnh hội những tri thức, kĩ năng, kĩ xảo theo một mục đích tự giác, được gọi là:",
+      "options": [
+        "A. Học ngẫu nhiên.",
+        "B. Học không chủ định.",
+        "C. Hoạt động học.",
+        "D. Học kinh nghiệm."
+      ],
+      "answer": "C. Hoạt động học."
+    },
+    {
+      "id": "C4_7",
+      "question": "Đối tượng của hoạt động học là :",
+      "options": [
+        "A. Tri thức khoa học.",
+        "B. Tri thức và những kĩ năng, kĩ xảo tương ứng với nó.",
+        "C. Sự tiếp thu tri thức.",
+        "D. Quá trình nhận thức."
+      ],
+      "answer": "B. Tri thức và những kĩ năng, kĩ xảo tương ứng với nó."
+    },
+    {
+      "id": "C4_8",
+      "question": "Hoạt động học hướng vào làm thay đổi:",
+      "options": [
+        "A. Chủ thể của hoạt động.",
+        "B. Khách thể của hoạt động.",
+        "C. Đối tượng của hoạt động.",
+        "D. Động cơ của hoạt động."
+      ],
+      "answer": "A. Chủ thể của hoạt động."
+    },
+    {
+      "id": "C4_9",
+      "question": "Trong hoạt động học, việc tiếp thu những tri thức về bản thân hoạt động học được tiến hành:",
+      "options": [
+        "A. Độc lập với việc tiếp thu những tri thức, kĩ năng, kĩ xảo.",
+        "B. Đồng thời với việc tiếp thu những tri thức, kĩ năng, kĩ xảo.",
+        "C. Trước khi tiếp thu những tri thức, kĩ năng, kĩ xảo.",
+        "D. Sau khi tiếp thu những tri thức, kĩ năng, kĩ xảo."
+      ],
+      "answer": "B. Đồng thời với việc tiếp thu những tri thức, kĩ năng, kĩ xảo."
+    },
+    {
+      "id": "C4_10",
+      "question": "Nếu hoạt động học tập của học sinh được thúc đẩy bởi động cơ quan hệ xã hội thì:",
+      "options": [
+        "A. Học sinh thường không say sưa, không có khát vọng học tập.",
+        "B. Học sinh vẫn say sưa học tập do sự hấp dẫn của bản thân tri thức.",
+        "C. Học sinh vẫn say sưa học tập, nhưng sự say sưa đó thường do sự hấp dẫn, lôi cuốn của một “cái khác” nằm ngoài mục đích trực tiếp của việc học.",
+        "D. Học sinh say sưa học vì bị hấp dẫn bởi tiến trình và kết quả học tập."
+      ],
+      "answer": "C. Học sinh vẫn say sưa học tập, nhưng sự say sưa đó thường do sự hấp dẫn, lôi cuốn của một “cái khác” nằm ngoài mục đích trực tiếp của việc học."
+    },
+    {
+      "id": "C4_11",
+      "question": "Mục đích của các hành động học tập là:",
+      "options": [
+        "A. Các khái niệm môn học.",
+        "B. Các quá trình nhận thức.",
+        "C. Tri thức, kĩ năng, kĩ xảo.",
+        "D. Biến đổi chủ thể hoạt động."
+      ],
+      "answer": "D. Biến đổi chủ thể hoạt động."
+    },
+    {
+      "id": "C4_12",
+      "question": "Mục đích học tập bắt đầu được hình thành:",
+      "options": [
+        "A. Trước khi học sinh thực hiện hành động học.",
+        "B. Sau khi học sinh thực hiện xong hành động học.",
+        "C. Khi học sinh bắt đầu có ý thức về việc học.",
+        "D. Khi học sinh bắt đầu thực hiện hành động học."
+      ],
+      "answer": "D. Khi học sinh bắt đầu thực hiện hành động học."
+    },
+    {
+      "id": "C4_13",
+      "question": "Trong hình thức “mã hoá”, lôgíc của khái niệm được tồn tại ở:",
+      "options": [
+        "A. Vật thật.",
+        "B. Trong tâm lí cá thể.",
+        "C. Một vật liệu khác thay thế vật thật.",
+        "D. Cả a, b và c."
+      ],
+      "answer": "C. Một vật liệu khác thay thế vật thật."
+    },
+    {
+      "id": "C4_14",
+      "question": "Để hình thành khái niệm lí luận cho học sinh trong dạy học, ta cần hình thành ở các em những thao tác tư duy nào?",
+      "options": [
+        "A. Phân tích, so sánh, tổng hợp, trừu tượng hoá, khái quát hoá.",
+        "B. Phân tích, trừu tượng hoá, khái quát hoá.",
+        "C. Phân tích, mô hình hoá, cụ thể hoá.",
+        "D. Trừu tượng hoá, khái quát hoá, cụ thể hoá."
+      ],
+      "answer": "A. Phân tích, so sánh, tổng hợp, trừu tượng hoá, khái quát hoá."
+    },
+    {
+      "id": "C4_15",
+      "question": "Loại mô hình học tập có tính trực quan cao nhất là:",
+      "options": [
+        "A. Mô hình gần giống vật thật.",
+        "B. Mô hình tượng trưng.",
+        "C. Mô hình mã hoá.",
+        "D. Tính trực quan của cả 3 loại mô hình trên là tương đương nhau."
+      ],
+      "answer": "A. Mô hình gần giống vật thật."
+    },
+    {
+      "id": "C4_16",
+      "question": "Hành động giúp học sinh diễn đạt lôgíc tổng quát của khái niệm dưới hình thức trực quan là hành động:",
+      "options": [
+        "A. Phân tích.",
+        "B. Mô hình hoá.",
+        "C. Cụ thể hoá.",
+        "D. Cả a,b,c."
+      ],
+      "answer": "B. Mô hình hoá."
+    },
+    {
+      "id": "C4_17",
+      "question": "Khái niệm về một đối tượng nào đó của hiện thực khách quan là:",
+      "options": [
+        "A. Hình ảnh tâm lí về đối tượng.",
+        "B. Hệ thống những dấu hiệu khái quát và bản chất của đối tượng.",
+        "C. Bản thân đối tượng.",
+        "D. Năng lực thực tiễn của con người được kết tinh lại và được “gửi vào” đối tượng."
+      ],
+      "answer": "D. Năng lực thực tiễn của con người được kết tinh lại và được “gửi vào” đối tượng."
+    },
+    {
+      "id": "C4_18",
+      "question": "Khái niệm về một đối tượng nào đó có nguồn gốc trong:",
+      "options": [
+        "A. Tâm lí, tinh thần của con người.",
+        "B. Tên gọi của đối tượng.",
+        "C. Bản thân đối tượng.",
+        "D. Định nghĩa khái niệm."
+      ],
+      "answer": "C. Bản thân đối tượng."
+    },
+    {
+      "id": "C4_19",
+      "question": "Quá trình hình thành khái niệm cho học sinh trong dạy học là quá trình:",
+      "options": [
+        "A. Chuyển hoá khái niệm từ đầu giáo viên sang đầu học sinh.",
+        "B. Giáo viên mô tả, giảng giải để học sinh nắm được định nghĩa, khái niệm.",
+        "C. Giáo viên tổ chức, điều khiển hoạt động học của học sinh nhằm giúp các em tái tạo lại những năng lực thực tiễn của loài người được gửi gắm trong thế giới đối tượng cho bản thân.",
+        "D. Giáo viên hệ thống hoá những kinh nghiệm vốn có trong bản thân học sinh để hình thành ở các em những khái niệm khoa học."
+      ],
+      "answer": "C. Giáo viên tổ chức, điều khiển hoạt động học của học sinh nhằm giúp các em tái tạo lại những năng lực thực tiễn của loài người được gửi gắm trong thế giới đối tượng cho bản thân."
+    },
+    {
+      "id": "C4_20",
+      "question": "Theo quan điểm Sư phạm, cách tốt nhất để làm nảy sinh nhu cầu nhận thức ở học sinh là:",
+      "options": [
+        "A. Tạo ra những tình huống sư phạm.",
+        "B. Khen thưởng, khích lệ.",
+        "C. Kỉ luật, trừng phạt.",
+        "D. Cả a, b và c."
+      ],
+      "answer": "A. Tạo ra những tình huống sư phạm."
+    },
+    {
+      "id": "C4_21",
+      "question": "Sự phát triển trí tuệ được biểu hiện ở sự thay đổi về:",
+      "options": [
+        "A. Số lượng tri thức.",
+        "B. Cấu trúc của tri thức được phản ánh trong hoạt động nhận thức.",
+        "C. Phương thức phản ánh tri thức.",
+        "D. Cả b và c."
+      ],
+      "answer": "D. Cả b và c."
+    },
+    {
+      "id": "C4_22",
+      "question": "Chỉ sau hai lần giải các bài tập cùng loại, học sinh đã nắm được cách giải tổng quát của loại bài tập đó. Điều này chứng tỏ sự phát triển cao của phẩm chất trí tuệ nào?",
+      "options": [
+        "A. Tốc độ định hướng trí tuệ.",
+        "B. Tốc độ khái quát hoá.",
+        "C. Tính tiết kiệm của tư duy.",
+        "D. Tính mềm dẻo của trí tuệ."
+      ],
+      "answer": "B. Tốc độ khái quát hoá."
+    },
+    {
+      "id": "C4_23",
+      "question": "Dạy học là:",
+      "options": [
+        "A. Một quá trình truyền đạt tri thức, kĩ năng, kĩ xảo cho học sinh.",
+        "B. Một quá trình tổ chức, điều khiển hoạt động học của học sinh nhằm giúp các em lĩnh hội nền văn hoá - xã hội.",
+        "C. Một quá trình nêu vấn đề để học sinh giải quyết, thông qua đó học sinh lĩnh hội được tri thức, kĩ năng, kĩ xảo.",
+        "D. Một quá trình tác động qua lại giữa giáo viên với học sinh, nhằm làm cho học sinh lĩnh hội những tri thức, kĩ năng, kĩ xảo."
+      ],
+      "answer": "B. Một quá trình tổ chức, điều khiển hoạt động học của học sinh nhằm giúp các em lĩnh hội nền văn hoá - xã hội."
+    },
+    {
+      "id": "C4_24",
+      "question": "Học ngẫu nhiên trong cuộc sống thường ngày là:",
+      "options": [
+        "A. Học không có mục đích, không có chương trình, nội dung xác định.",
+        "B. Học thường đi kèm theo một hoạt động khác, mà sự lĩnh hội tri thức, kĩ năng, kĩ xảo không phải là mục đích chính của hoạt động đó.",
+        "C. Học mà kiến thức nắm được không hệ thống.",
+        "D. Cả a, b, c."
+      ],
+      "answer": "D. Cả a, b, c."
+    },
+    {
+      "id": "C4_25",
+      "question": "Hoạt động học là:",
+      "options": [
+        "A. Hoạt động theo phương thức nhà trường.",
+        "B. Hoạt động được điều khiển bởi mục đích tự giác là lĩnh hội những tri thức, kĩ năng, kĩ xảo và những phương thức hành vi nhất định.",
+        "C. Hoạt động được điều khiển bởi giáo viên để lĩnh hội những tri thức, kĩ năng, kĩ xảo và những hình thức hành vi nhất định.",
+        "D. Cả a, b, c ."
+      ],
+      "answer": "D. Cả a, b, c ."
+    },
+    {
+      "id": "C4_26",
+      "question": "Đối tượng của hoạt động dạy là:",
+      "options": [
+        "A. Những tri thức, kĩ năng, kĩ xảo.",
+        "B. Hoạt động học của học sinh.",
+        "C. Sự phát triển trí tuệ và nhân cách của học sinh.",
+        "D. Nền văn hóa - xã hội."
+      ],
+      "answer": "C. Sự phát triển trí tuệ và nhân cách của học sinh."
+    },
+    {
+      "id": "C4_27",
+      "question": "Đối tượng của hoạt động học là:",
+      "options": [
+        "A. Những tri thức, kĩ năng, kĩ xảo của nhân loại.",
+        "B. Nền văn hoá - xã hội.",
+        "C. Sự phát triển trí tuệ và nhân cách của bản thân.",
+        "D. Những tri thức, kĩ năng, kĩ xảo tiếp thu được trong quá trình học tập."
+      ],
+      "answer": "A. Những tri thức, kĩ năng, kĩ xảo của nhân loại."
+    },
+    {
+      "id": "C4_28",
+      "question": "Mục đích của hoạt động dạy là:",
+      "options": [
+        "A. Hình thành tri thức, kĩ năng, kĩ xảo cho học sinh.",
+        "B. Làm cho học sinh chiếm lĩnh nền văn hoá - xã hội, phát triển tâm lí, hình thành nhân cách.",
+        "C. Làm cho học sinh thay đổi về trí tuệ và nhân cách.",
+        "D. Biểu tượng về sự thay đổi trí tuệ và nhân cách của học sinh trong quá trình dạy học."
+      ],
+      "answer": "B. Làm cho học sinh chiếm lĩnh nền văn hoá - xã hội, phát triển tâm lí, hình thành nhân cách."
+    },
+    {
+      "id": "C4_29",
+      "question": "Mục đích của hoạt động học là:",
+      "options": [
+        "A. Thay đổi bản thân chủ thể hoạt động.",
+        "B. Biểu tượng về kết quả học tập.",
+        "C. Thay đổi hoạt động và hành vi của mình.",
+        "D. Thay đổi nhận thức, tình cảm và hoạt động."
+      ],
+      "answer": "A. Thay đổi bản thân chủ thể hoạt động."
+    },
+    {
+      "id": "C4_30",
+      "question": "Bản chất của hoạt động học là:",
+      "options": [
+        "A. Hoạt động hướng vào làm thay đổi đối tượng học.",
+        "B. Hoạt động tích cực của học sinh nhằm tiếp thu tri thức, kĩ năng, kĩ xảo mới.",
+        "C. Hoạt động đặc thù của con người nhằm lĩnh hội những tri thức, kĩ năng, kĩ xảo mới và lĩnh hội chính bản thân hoạt động học.",
+        "D. Hoạt động làm thay đổi bản thân người học, do họ tiếp thu tri thức, kĩ năng, kĩ xảo mới."
+      ],
+      "answer": "C. Hoạt động đặc thù của con người nhằm lĩnh hội những tri thức, kĩ năng, kĩ xảo mới và lĩnh hội chính bản thân hoạt động học."
+    },
+    {
+      "id": "C4_31",
+      "question": "Động cơ hoàn thiện tri thức là:",
+      "options": [
+        "A. Sự hấp dẫn, lôi cuốn bởi tri thức và phương pháp giành lấy tri thức đó của học sinh.",
+        "B. Nhu cầu học và nhu cầu nhận thức của học sinh.",
+        "C. Nguyện vọng hoàn thiện tri thức của học sinh.",
+        "D. Cả a, b và c."
+      ],
+      "answer": "D. Cả a, b và c."
+    },
+    {
+      "id": "C4_32",
+      "question": "Động cơ quan hệ xã hội là:",
+      "options": [
+        "A. Sự giảng dạy hấp dẫn của giáo viên.",
+        "B. Sự động viên, khuyến khích của cha mẹ, bạn bè...",
+        "C. Địa vị cá nhân trong xã hội.",
+        "D. Cả a, b và c."
+      ],
+      "answer": "D. Cả a, b và c."
+    },
+    {
+      "id": "C4_33",
+      "question": "Khái niệm là:",
+      "options": [
+        "A. Hiện tượng tinh thần, tâm lí của con người.",
+        "B. Sản phẩm nhận thức của con người, bao gồm những thuộc tính chung, bản chất của nhiều sự vật, hiện tượng cùng loại.",
+        "C. Chức năng tâm lí được tư duy phản ánh.",
+        "D. Hình ảnh của sự vật, hiện tượng của thế giới khách quan."
+      ],
+      "answer": "B. Sản phẩm nhận thức của con người, bao gồm những thuộc tính chung, bản chất của nhiều sự vật, hiện tượng cùng loại."
+    },
+    {
+      "id": "C4_34",
+      "question": "Khái niệm có nguồn gốc:",
+      "options": [
+        "A. Trong đầu của con người.",
+        "B. Trong các thuật ngữ, các định nghĩa.",
+        "C. Trong các sự vật, hiện tượng của thế giới khách quan.",
+        "D. Cả a, b và c."
+      ],
+      "answer": "C. Trong các sự vật, hiện tượng của thế giới khách quan."
+    },
+    {
+      "id": "C4_35",
+      "question": "Điểm nào dưới đây không thuộc về các khâu của việc hình thành khái niệm khoa học cho học sinh?",
+      "options": [
+        "A. Làm xuất hiện nhu cầu nhận thức ở học sinh.",
+        "B. Tổ chức học hành động trên đối tượng để phát hiện ra các dấu hiệu bản chất của đối tượng và mô hình hoá các dấu hiệu đó (phát biểu định nghĩa).",
+        "C. Vận dụng định nghĩa (triển khai mô hình).",
+        "D. Tổ chức cho học sinh hành động với các đối tượng chứa đựng khái niệm, nhằm tách những thuộc tính chung, bản chất để khái quát thành khái niệm."
+      ],
+      "answer": "D. Tổ chức cho học sinh hành động với các đối tượng chứa đựng khái niệm, nhằm tách những thuộc tính chung, bản chất để khái quát thành khái niệm."
+    },
+    {
+      "id": "C4_36",
+      "question": "Bản chất của quá trình hình thành khái niệm là:",
+      "options": [
+        "A. Quá trình học sinh thực hiện những hành động nhất định để đưa khái niệm từ ngoài vào trong.",
+        "B. Quá trình giáo viên tổ chức cho học sinh hành động với các đối tượng chứa đựng khái niệm, nhằm tách những thuộc tính chung, bản chất để khái quát thành khái niệm.",
+        "C. Quá trình giáo viên giúp học sinh thực hiện một hệ thống hành động nhất định để đưa khái niệm từ ngoài vào trong.",
+        "D. Quá trình giáo viên mô tả, giảng giải, minh hoạ, cho ví dụ để học sinh hiểu khái niệm."
+      ],
+      "answer": "B. Quá trình giáo viên tổ chức cho học sinh hành động với các đối tượng chứa đựng khái niệm, nhằm tách những thuộc tính chung, bản chất để khái quát thành khái niệm."
+    },
+    {
+      "id": "C4_37",
+      "question": "Kĩ năng là:",
+      "options": [
+        "A. Khả năng vận dụng tri thức và phương pháp giải quyết các nhiệm vụ học tập.",
+        "B. Hành động được luyện tập nhiều lần.",
+        "C. Hành động trí tuệ giải quyết các nhiệm vụ học tập.",
+        "D. Khả năng giải quyết các nhiệm vụ khác nhau của học tập."
+      ],
+      "answer": "A. Khả năng vận dụng tri thức và phương pháp giải quyết các nhiệm vụ học tập."
+    },
+    {
+      "id": "C4_38",
+      "question": "Cơ sở của kĩ năng là:",
+      "options": [
+        "A. Năng lực học tập của học sinh.",
+        "B. Tri thức và phương pháp đã học.",
+        "C. Khả năng trí tuệ của học sinh.",
+        "D. Sự nhanh trí và tháo vát của học sinh."
+      ],
+      "answer": "B. Tri thức và phương pháp đã học."
+    },
+    {
+      "id": "C4_39",
+      "question": "Trong dạy học, muốn phát triển trí tuệ cho học sinh thì:",
+      "options": [
+        "A. Nội dung dạy học phải cải cách cho phù hợp với yêu cầu của xã hội.",
+        "B. Phương pháp dạy học phải kích thích được tính tích cực học tập của học sinh.",
+        "C. Phải cung cấp cho học sinh một hệ thống tri thức và các biện pháp tư duy.",
+        "D. Cả a, b và c."
+      ],
+      "answer": "D. Cả a, b và c."
+    },
+    {
+      "id": "C4_40",
+      "question": "Dạy học và sự phát triển trí tuệ có mối quan hệ với nhau, vì:",
+      "options": [
+        "A. Dạy học định hướng và thúc đẩy sự phát triển trí tuệ.",
+        "B. Mục dích của dạy học là phát triển trí tuệ cho học sinh và phát triển trí tuệ là điều kiện của dạy học.",
+        "C. Dạy học và phát triển trí tuệ là hai vấn đề khác nhau của một quá trình đi đến sự phát triển trí tuệ của học sinh.",
+        "D. Dạy học bao giờ cũng gắn liền với sự phát triển trí tuệ và không thể có sự phát triển trí tuệ ngoài quá trình dạy học."
+      ],
+      "answer": "D. Dạy học bao giờ cũng gắn liền với sự phát triển trí tuệ và không thể có sự phát triển trí tuệ ngoài quá trình dạy học."
+    },
+    {
+      "id": "C5_1",
+      "question": "Trong tâm lí học mác xít, đạo đức được hiểu là:",
+      "options": [
+        "A. Hệ thống những yêu cầu con người đặt ra trong các mối quan hệ xã hội.",
+        "B. Một trong những hình thái của ý thức xã hội.",
+        "C. Hệ thống những chuẩn mực được con người tự đặt ra và tự giác tuân theo trong quá trình quan hệ xã hội.",
+        "D. Cả a, b, c."
+      ],
+      "answer": "D. Cả a, b, c."
+    },
+    {
+      "id": "C5_2",
+      "question": "Hành vi đạo đức là:",
+      "options": [
+        "A. Hành vi được thúc đẩy bởi động cơ có ý nghĩa về mặt đạo đức do cá nhân tự giác làm.",
+        "B. Một hành vi có ích cho xã hội và cho cá nhân, không vi phạm các chuẩn mực đạo đức.",
+        "C. Một hành vi do cá nhân tự nguyện thực hiện.",
+        "D. Cả a, b, c."
+      ],
+      "answer": "D. Cả a, b, c."
+    },
+    {
+      "id": "C5_3",
+      "question": "Tiêu chuẩn để đánh giá một hành vi đạo đức là:",
+      "options": [
+        "A. Tính tự giác.",
+        "B. Tính có ích.",
+        "C. Tính không vụ lợi cá nhân.",
+        "D. Cả a, b, c."
+      ],
+      "answer": "D. Cả a, b, c."
+    },
+    {
+      "id": "C5_4",
+      "question": "Hành vi nào được xem là hành vi đạo đức trong các hành vi sau?",
+      "options": [
+        "A. Hôm nay, Hải làm được một việc tốt và được nhà trường tuyên dương: em đã giúp được một cụ già bị ngất vào trạm xá gần trường. Em rất vui khi nghĩ đến phần thưởng của bố vì bố đã hứa: \"Nếu con làm được một việc tốt thì bố sẽ có phần thưởng\".",
+        "B. Hương rất chăm chỉ học hành, nhưng do chưa có phương pháp tốt nên kết quả học tập của em năm nào cũng thấp.",
+        "C. Nhìn thấy cụ già chuẩn bị qua đường giữa dòng xe tấp nập, Hồng vội vàng chạy tới nói: “Ông ơi, ông để cháu dắt ông qua đường\".",
+        "D. Cả a, b, c."
+      ],
+      "answer": "C. Nhìn thấy cụ già chuẩn bị qua đường giữa dòng xe tấp nập, Hồng vội vàng chạy tới nói: “Ông ơi, ông để cháu dắt ông qua đường\"."
+    },
+    {
+      "id": "C5_5",
+      "question": "Thiện chí được hiểu là:",
+      "options": [
+        "A. Việc làm hữu ích.",
+        "B. Ý chí hướng vào việc tạo ra giá trị đạo đức.",
+        "C. Khả năng bắt con người phải thực hiện các giá trị đạo đức.",
+        "D. Cả a, b, c."
+      ],
+      "answer": "B. Ý chí hướng vào việc tạo ra giá trị đạo đức."
+    },
+    {
+      "id": "C5_6",
+      "question": "Yếu tố xoá đi khoảng cách giữa ý thức đạo đức với hành vi đạo đức, làm ý thức đạo đức thống nhất với hành vi đạo đức là:",
+      "options": [
+        "A. Niềm tin đạo đức.",
+        "B. Tình cảm đạo đức.",
+        "C. Thói quen đạo đức.",
+        "D. Thiện chí."
+      ],
+      "answer": "C. Thói quen đạo đức."
+    },
+    {
+      "id": "C5_7",
+      "question": "Yếu tố quyết định trực tiếp trình độ đạo đức của mỗi học sinh là:",
+      "options": [
+        "A. Sự tự tu dưỡng của học sinh.",
+        "B. Việc tổ chức giáo dục của nhà trường.",
+        "C. Không khí rèn luyện đạo đức của tập thể học sinh.",
+        "D. Nền nếp sinh hoạt và tổ chức giáo dục của gia đình."
+      ],
+      "answer": "A. Sự tự tu dưỡng của học sinh."
+    },
+    {
+      "id": "C5_8",
+      "question": "Tính tự giác của hành vi đạo đức được thể hiện ở:",
+      "options": [
+        "A. Tính tích cực của chủ thể hành động.",
+        "B. Ý thức được kết quả hành động và tự nguyện thực hiện.",
+        "C. Tính tự nguyện của chủ thể hành động.",
+        "D. Ý thức được mục đích và ý nghĩa hành động."
+      ],
+      "answer": "B. Ý thức được kết quả hành động và tự nguyện thực hiện."
+    },
+    {
+      "id": "C5_9",
+      "question": "Cách hiểu nào không đúng về động cơ đạo đức trong các động cơ sau?",
+      "options": [
+        "A. Động cơ đạo đức thể hiện giá trị của hành vi đạo đức.",
+        "B. Động cơ đạo đức là động cơ có ý nghĩa về đạo đức.",
+        "C. Động cơ có thể mâu thuẫn với mục đích trực tiếp của hành động cụ thể.",
+        "D. Động cơ thể hiện sức mạnh của hành vi đạo đức."
+      ],
+      "answer": "C. Động cơ có thể mâu thuẫn với mục đích trực tiếp của hành động cụ thể."
+    },
+    {
+      "id": "C5_10",
+      "question": "Yếu tố nào thể hiện sức mạnh ý chí trong thực hiện hành vi đạo đức trong các yếu tố sau?",
+      "options": [
+        "A. Thiện chí.",
+        "B. Nghị lực.",
+        "C. Thói quen.",
+        "D. Cả a, b, c."
+      ],
+      "answer": "C. Thói quen."
+    },
+    {
+      "id": "C5_11",
+      "question": "Trong tình huống phải đấu tranh giữa cái “tôi cần” và “tôi muốn” thì việc thực hiện hành vi đạo đức là kết quả của những yếu tố nào trong các yếu tố sau?",
+      "options": [
+        "A. Thiện chí và tri thức đạo đức.",
+        "B. Nghị lực và niềm tin đạo đức.",
+        "C. Thói quen đạo đức.",
+        "D. Thiện chí, nghị lực và tri thức đạo đức."
+      ],
+      "answer": "C. Thói quen đạo đức."
+    },
+    {
+      "id": "C5_12",
+      "question": "Giáo dục đạo đức thực chất là:",
+      "options": [
+        "A. Hình thành ý thức đạo đức.",
+        "B. Hình thành hành vi đúng với chuẩn mực đạo đức.",
+        "C. Hình thành phẩm chất đạo đức.",
+        "D. Cả a, b, c."
+      ],
+      "answer": "D. Cả a, b, c."
+    },
+    {
+      "id": "C5_13",
+      "question": "Yếu tố nào trong các yếu tố sau tác động vào niềm tin đạo đức?",
+      "options": [
+        "A. Học môn đạo đức được nghe giáo viên giảng về những tri thức đạo đức khái quát và hệ thống.",
+        "B. Tác động của các môn văn hoá khác (đặc biệt các môn khoa học xã hội).",
+        "C. Tiếp xúc với người thực, việc thực.",
+        "D. Các hình tượng nghệ thuật trong hoạt động ngoại khoá."
+      ],
+      "answer": "C. Tiếp xúc với người thực, việc thực."
+    },
+    {
+      "id": "C5_14",
+      "question": "Không khí đạo đức của tập thể là:",
+      "options": [
+        "A. Tâm trạng chung bao trùm lên các hoạt động của tập thể.",
+        "B. Dư luận của tập thể về hành vi đạo đức của mỗi thành viên.",
+        "C. Nội quy của tập thể.",
+        "D. Cả a, b, c."
+      ],
+      "answer": "D. Cả a, b, c."
+    },
+    {
+      "id": "C5_15",
+      "question": "Để có được dư luận tập thể tốt, người thầy giáo cần có khả năng nào trong các khả năng sau?",
+      "options": [
+        "A. Khả năng xây dựng được một tập thể học sinh tốt.",
+        "B. Khả năng làm cho dư luận của tập thể khác nhau, có sự thống nhất về cùng một vấn đề.",
+        "C. Biết hướng dư luận tập thể theo một hướng có chủ định và dẹp đi những dư luận không có lợi cho giáo dục đạo đức.",
+        "D. Cả a, b, c."
+      ],
+      "answer": "D. Cả a, b, c."
+    },
+    {
+      "id": "C5_16",
+      "question": "Để gia đình có ảnh hưởng giáo dục đạo đức tốt cho con em mình, gia đình không nên làm điều nào dưới đây?",
+      "options": [
+        "A. Ngăn cấm con em tiếp xúc với ảnh hưởng xấu từ bên ngoài.",
+        "B. Xác định rõ mục đích giáo dục cho con cái.",
+        "C. Giáo dục con ngay cả khi có mặt hay vắng mặt bố mẹ.",
+        "D. Vừa khuyên răn con em vừa nêu tấm gương tốt của bố mẹ."
+      ],
+      "answer": "A. Ngăn cấm con em tiếp xúc với ảnh hưởng xấu từ bên ngoài."
+    },
+    {
+      "id": "C5_17",
+      "question": "Uy quyền của cha mẹ có tác dụng tốt đến giáo dục đạo đức cho con cái là uy quyền được xây dựng trên cơ sở:",
+      "options": [
+        "A. Tình yêu thương mãnh liệt.",
+        "B. Thái độ, hành vi mẫu mực của cha mẹ trong cuộc sống.",
+        "C. Thoả mãn mọi nhu cầu của con.",
+        "D. Những lời khuyên răn về đạo đức, những câu chuyện kể về người tốt, việc tốt (giáo dục đạo đức)."
+      ],
+      "answer": "B. Thái độ, hành vi mẫu mực của cha mẹ trong cuộc sống."
+    },
+    {
+      "id": "C5_18",
+      "question": "Cách hiểu nào không đúng về sự tự tu dưỡng?",
+      "options": [
+        "A. Là nhu cầu tự nhiên của con người. Trẻ thơ hay người lớn đều có sự tự tu dưỡng.",
+        "B. Hệ thống hành động tự giác nhằm hoàn thiện bản thân.",
+        "C. Là con đường giáo dục đạo đức quan trọng của cá nhân.",
+        "D. Là khả năng chỉ có ở con người."
+      ],
+      "answer": "A. Là nhu cầu tự nhiên của con người. Trẻ thơ hay người lớn đều có sự tự tu dưỡng."
+    },
+    {
+      "id": "C5_19",
+      "question": "Nguồn gốc của sự tự tu dưỡng ở cá nhân là do yếu tố nào trong các yếu tố sau?",
+      "options": [
+        "A. Hoàn cảnh bên ngoài.",
+        "B. Giáo dục.",
+        "C. Kinh nghiệm sống.",
+        "D. Cả a, b, c."
+      ],
+      "answer": "D. Cả a, b, c."
+    },
+    {
+      "id": "C5_20",
+      "question": "Để có sự tu dưỡng tốt cần những điều kiện nào trong các điều kiện sau?",
+      "options": [
+        "A. Được giáo dục để tạo cơ sở về nhận thức, tình cảm, ý chí cần thiết.",
+        "B. Được giáo viên và tập thể giúp đỡ.",
+        "C. Có động cơ trong sáng.",
+        "D. Cả a, b, c."
+      ],
+      "answer": "D. Cả a, b, c."
+    },
+    {
+      "id": "C5_21",
+      "question": "Điều nào không phải là công việc của giáo viên khi giúp đỡ cho học sinh tự tu dưỡng?",
+      "options": [
+        "A. Lập kế hoạch tự tu dưỡng cho học sinh, trong đó nêu rõ nét đạo đức cần rèn luyện, củng cố hay khắc phục.",
+        "B. Làm cho học sinh hiểu rằng phải tự tu dưỡng trong hoạt động thực tiễn mới đạt kết quả.",
+        "C. Làm cho học sinh hiểu rằng tự kiểm tra đánh giá thường xuyên là việc làm không thể thiếu của sự tự tu dưỡng.",
+        "D. Cần nắm mục đích, phương pháp, tổ chức tu dưỡng của học sinh để giúp các em định hướng đúng."
+      ],
+      "answer": "A. Lập kế hoạch tự tu dưỡng cho học sinh, trong đó nêu rõ nét đạo đức cần rèn luyện, củng cố hay khắc phục."
+    },
+    {
+      "id": "C5_22",
+      "question": "Trong tự tu dưỡng của cá nhân thì:",
+      "options": [
+        "A. Phải tự cá nhân lên kế hoạch và thực hiện, không cần sự tác động của bên ngoài.",
+        "B. Ý chí là quan trọng hơn mục đích.",
+        "C. Không phụ thuộc sự phát triển của cá nhân mà phụ thuộc ý chí của cá nhân đó.",
+        "D. Cá nhân lên kế hoạch và quyết tâm thực hiện với sự hỗ trợ của bên ngoài."
+      ],
+      "answer": "D. Cá nhân lên kế hoạch và quyết tâm thực hiện với sự hỗ trợ của bên ngoài."
+    },
+    {
+      "id": "C5_23",
+      "question": "Cách hiểu nào là đúng về mối quan hệ giữa nhu cầu và hành vi đạo đức trong các cách hiểu sau?",
+      "options": [
+        "A. Nhu cầu đạo đức quy định hành vi đạo đức.",
+        "B. Nhu cầu đạo đức chỉ được thể hiện qua hành vi đạo đức.",
+        "C. Hành vi đạo đức có thể làm biến đổi nhu cầu đạo đức.",
+        "D. Cả a, b, c."
+      ],
+      "answer": "D. Cả a, b, c."
+    },
+    {
+      "id": "C5_24",
+      "question": "Hiểu như thế nào là đúng về mối quan hệ giữa các yếu tố trong cấu trúc tâm lí của hành vi đạo đức?",
+      "options": [
+        "A. Tri thức đạo đức soi sáng con đường tới mục đích của hành vi. Nó là cơ sở của niềm tin, tình cảm và động cơ, thiện chí, thói quen đạo đức.",
+        "B. Nghị lực phải do tri thức, thiện chí và tình cảm đạo đức tạo ra mới giúp con người biến ý thức thành hành vi đạo đức.",
+        "C. Thói quen làm cho ý thức và hành vi đạo đức được thực hiện thống nhất mà không đòi hỏi nỗ lực ý chí.",
+        "D. Cả a, b, c."
+      ],
+      "answer": "D. Cả a, b, c."
+    },
+    {
+      "id": "C5_25",
+      "question": "Thói quen đạo đức có thể hiểu là:",
+      "options": [
+        "A. Hành vi sẵn sàng thực hiện chuẩn mực đạo đức.",
+        "B. Hành vi đạo đức ổn định đã trở thành nhu cầu của con người.",
+        "C. Hành động tự động hoá.",
+        "D. Cả a, b, c."
+      ],
+      "answer": "D. Cả a, b, c."
+    },
+    {
+      "id": "C5_26",
+      "question": "Trong việc giáo dục trẻ em, phong cách giáo dục tốt nhất là:",
+      "options": [
+        "A. Phong cách dân chủ.",
+        "B. Phong cách độc đoán, gia trưởng.",
+        "C. Phong cách tự do.",
+        "D. Cả a,b,c."
+      ],
+      "answer": "A. Phong cách dân chủ."
+    },
+    {
+      "id": "C5_27",
+      "question": "Phương pháp giáo dục tốt nhất là:",
+      "options": [
+        "A. Áp đặt, cưỡng bức thực hiện theo mệnh lệnh.",
+        "B. Giảng giải, thuyết phục, động viên , giám sát.",
+        "C. Hoàn toàn để trẻ tự do làm theo ý mình.",
+        "D. Cả a,b,c."
+      ],
+      "answer": "B. Giảng giải, thuyết phục, động viên , giám sát."
+    },
+    {
+      "id": "C6_1",
+      "question": "Điểm nào dưới đây không phù hợp với nghề dạy học?",
+      "options": [
+        "A. Nghề có đối tượng là con người đang phát triển.",
+        "B. Nghề có công cụ lao động là nhân cách của chính người thầy.",
+        "C. Nghề được phép tạo ra thứ phẩm.",
+        "D. Nghề sáng tạo sư phạm cao."
+      ],
+      "answer": "C. Nghề được phép tạo ra thứ phẩm."
+    },
+    {
+      "id": "C6_2",
+      "question": "Điểm nào dưới đây không phù hợp với nghề dạy học?",
+      "options": [
+        "A. Nghề tạo ra sản phẩm tiêu dùng cho xã hội.",
+        "B. Nghề tạo ra nhân cách con người.",
+        "C. Nghề tái sản xuất sức lao động cho xã hội.",
+        "D. Nghề làm cầu nối giữa quá khứ và tương lai."
+      ],
+      "answer": "A. Nghề tạo ra sản phẩm tiêu dùng cho xã hội."
+    },
+    {
+      "id": "C6_3",
+      "question": "Lòng yêu trẻ của người thầy giáo được thể hiện qua:",
+      "options": [
+        "A. Thái độ hài lòng, sung sướng khi được tiếp xúc với trẻ em.",
+        "B. Sự quan tâm đầy thiện chí đối với trẻ em.",
+        "C. Sẵn sàng giúp đỡ trẻ em trong mọi điều kiện.",
+        "D. Cả a, b, c"
+      ],
+      "answer": "D. Cả a, b, c"
+    },
+    {
+      "id": "C6_4",
+      "question": "Phẩm chất nào không phù hợp với tình cảm nghề dạy học?",
+      "options": [
+        "A. Thế giới quan Mác - Lênin, lí tưởng đào tạo thế hệ trẻ.",
+        "B. Lòng yêu người, yêu nghề.",
+        "C. Sự uỷ mị, yếu mềm đối với trẻ.",
+        "D. Các phẩm chất đạo đức nghề nghiệp."
+      ],
+      "answer": "C. Sự uỷ mị, yếu mềm đối với trẻ."
+    },
+    {
+      "id": "C6_5",
+      "question": "Năng lực sư phạm của người thầy giáo bao gồm:",
+      "options": [
+        "A. Các năng lực dạy học.",
+        "B. Các năng lực tổ chức.",
+        "C. Các năng lực giáo dục.",
+        "D. Cả a, b, c"
+      ],
+      "answer": "D. Cả a, b, c"
+    },
+    {
+      "id": "C6_6",
+      "question": "Người thầy giáo có năng lực chế biến tài liệu là người:",
+      "options": [
+        "A. Biết xác định đúng đắn và chính xác tài liệu cần truyền đạt cho học sinh.",
+        "B. Biết chế biến tài liệu theo lôgíc khoa học và lôgíc sư phạm.",
+        "C. Dự kiến các hành động học tập của học sinh và những tình huống sư phạm sẽ xảy ra khi học sinh tiếp nhận tài liệu học tập.",
+        "D. Cả a, b, c."
+      ],
+      "answer": "D. Cả a, b, c."
+    },
+    {
+      "id": "C6_7",
+      "question": "Yếu tố quan trọng trong cấu trúc nhân cách, quyết định niềm tin chính trị, quyết định hành vi và ảnh hưởng của thầy giáo đối với trẻ là:",
+      "options": [
+        "A. Lí tưởng đào tạo thế hệ trẻ.",
+        "B. Thế giới quan khoa học.",
+        "C. Phẩm chất đạo đức.",
+        "D. Lòng yêu trẻ."
+      ],
+      "answer": "B. Thế giới quan khoa học."
+    },
+    {
+      "id": "C6_8",
+      "question": "Năng lực hiểu học sinh trong quá trình dạy học trên lớp là:",
+      "options": [
+        "A. Dự đoán được mức độ căng thẳng của học sinh khi tiếp thu bài mới.",
+        "B. Xây dựng biểu tượng chính xác về mức độ lĩnh hội bài của học sinh.",
+        "C. Xác định mức độ hiểu bài của học sinh qua nét mặt.",
+        "D. Cả a, b và c."
+      ],
+      "answer": "D. Cả a, b và c."
+    },
+    {
+      "id": "C6_9",
+      "question": "Cơ sở để hình thành thế giới quan khoa học của người thầy giáo là:",
+      "options": [
+        "A. Có tình cảm nghề nghiệp.",
+        "B. Có tư tưởng đúng.",
+        "C. Có hiểu biết sâu rộng.",
+        "D. Thực tiễn cuộc sống."
+      ],
+      "answer": "C. Có hiểu biết sâu rộng."
+    },
+    {
+      "id": "C6_10",
+      "question": "Khả năng đánh giá đúng đắn tài liệu học tập là thành phần của năng lực:",
+      "options": [
+        "A. Tri thức và tầm hiểu biết rộng.",
+        "B. Hiểu học sinh trong dạy học và giáo dục.",
+        "C. Chế biến tài liệu.",
+        "D. Nắm vững kĩ thuật dạy học."
+      ],
+      "answer": "C. Chế biến tài liệu."
+    },
+    {
+      "id": "C6_11",
+      "question": "Tri thức và tầm hiểu biết của người thầy giáo là:",
+      "options": [
+        "A. Nắm vững và hiểu biết sâu rộng môn mình phụ trách.",
+        "B. Có vốn hiểu biết các khoa học khác và kiến thức văn hoá chung.",
+        "C. Khả năng nghiên cứu khoa học, tự học, tự bồi dưỡng kiến thức chuyên môn, nghiệp vụ.",
+        "D. Cả a, b, c"
+      ],
+      "answer": "D. Cả a, b, c"
+    },
+    {
+      "id": "C6_12",
+      "question": "Những phẩm chất nhân cách cần có ở người thầy giáo là:",
+      "options": [
+        "A. Thế giới quan khoa học",
+        "B. Lí tưởng đào tạo thế hệ trẻ. Yêu người, yêu nghề.",
+        "C. Các phẩm chất đạo đức nghề nghiệp.",
+        "D. Cả a, b, c."
+      ],
+      "answer": "D. Cả a, b, c."
+    },
+    {
+      "id": "C6_13",
+      "question": "Muốn trở thành người đánh thức được những sức mạnh tiềm ẩn bên trong đứa trẻ, người thầy giáo cần phải có:",
+      "options": [
+        "A. Năng lực hiểu học sinh.",
+        "B. Lòng yêu nghề, yêu trẻ.",
+        "C. Lí tưởng đào tạo thế hệ trẻ.",
+        "D. Tri thức và tầm hiểu biết rộng."
+      ],
+      "answer": "C. Lí tưởng đào tạo thế hệ trẻ."
+    },
+    {
+      "id": "C6_14",
+      "question": "Việc nhận thức sâu sắc về tính có ích của nghề nghiệp là biểu hiện của:",
+      "options": [
+        "A. Thế giới quan khoa học.",
+        "B. Lòng yêu thương con người.",
+        "C. Lòng yêu nghề.",
+        "D. Năng lực khéo léo ứng xử sư phạm."
+      ],
+      "answer": "C. Lòng yêu nghề."
+    },
+    {
+      "id": "C6_15",
+      "question": "Yếu tố nào dưới đây không phải là đặc trưng của năng lực dạy học của người thầy giáo?",
+      "options": [
+        "A. Năng lực cảm hoá học sinh.",
+        "B. Năng lực hiểu học sinh trong quá trình dạy học.",
+        "C. Tri thức và tầm hiểu biết, năng lực chế biến tài liệu.",
+        "D. Năng lực ngôn ngữ và kĩ thuật dạy học."
+      ],
+      "answer": "A. Năng lực cảm hoá học sinh."
+    },
+    {
+      "id": "C6_16",
+      "question": "Yếu tố nào dưới đây không phải là đặc trưng của năng lực của người thầy giáo?",
+      "options": [
+        "A. Năng lực vạch dự án phát triển nhân cách người học sinh.",
+        "B. Năng lực thiết kế tài liệu.",
+        "C. Năng lực giao tiếp.",
+        "D. Năng lực cảm hoá học sinh và năng lực khéo léo ứng xử sư phạm."
+      ],
+      "answer": "B. Năng lực thiết kế tài liệu."
+    },
+    {
+      "id": "C6_17",
+      "question": "Năng lực hiểu học sinh trong quá trình dạy học và giáo dục là:",
+      "options": [
+        "A. Hạt nhân trong cấu trúc nhân cách người thầy giáo.",
+        "B. Chỉ số cơ bản trong năng lực sư phạm.",
+        "C. Là yếu tố quyết định sự thành bại của giáo viên trong hoạt động sư phạm.",
+        "D. Là phẩm chất đặc trưng của nghề dạy học."
+      ],
+      "answer": "B. Chỉ số cơ bản trong năng lực sư phạm."
+    },
+    {
+      "id": "C6_18",
+      "question": "Kĩ năng thiết kế được những bước đi dẫn dắt học sinh phát hiện ra khái niệm là thuộc về:",
+      "options": [
+        "A. Năng lực hiểu học sinh.",
+        "B. Năng lực nắm vững kĩ thuật dạy học.",
+        "C. Năng lực chế biến tài liệu.",
+        "D. Năng lực ngôn ngữ."
+      ],
+      "answer": "C. Năng lực chế biến tài liệu."
+    },
+    {
+      "id": "C6_19",
+      "question": "Biểu hiện cơ bản nhất của năng lực khéo léo ứng xử sư phạm là:",
+      "options": [
+        "A. Nhanh chóng phát hiện vấn đề.",
+        "B. Biết biến cái bị động thành cái chủ động.",
+        "C. Nhạy bén về mức độ sử dụng các tác động sư phạm.",
+        "D. Cả a, b, c."
+      ],
+      "answer": "D. Cả a, b, c."
+    },
+    {
+      "id": "C6_20",
+      "question": "Biết lường trước phản ứng của học sinh khi tác động đến các em là biểu hiện của:",
+      "options": [
+        "A. Năng lực chế biến tài liệu.",
+        "B. Năng lực hiểu học sinh.",
+        "C. Năng lực nắm vững kĩ thuật dạy học.",
+        "D. Năng lực cảm hoá học sinh."
+      ],
+      "answer": "B. Năng lực hiểu học sinh."
+    },
+    {
+      "id": "C6_21",
+      "question": "Yếu tố nào dưới đây không phải là đặc trưng của năng lực chế biến tài liệu:",
+      "options": [
+        "A. Trình bày tài liệu theo suy nghĩ và lập luận riêng của mình.",
+        "B. Dự đoán được những thuận lợi và khó khăn, mức độ căng thẳng cần thiết của học sinh khi tiếp nhận tài liệu.",
+        "C. Tìm ra những phương pháp mới, hiệu nghiệm để làm cho bài giảng sẽ hấp dẫn, lôi cuốn học sinh.",
+        "D. Nhạy cảm với cái mới và giàu cảm xúc sáng tạo sư phạm."
+      ],
+      "answer": "D. Nhạy cảm với cái mới và giàu cảm xúc sáng tạo sư phạm."
+    },
+    {
+      "id": "C6_22",
+      "question": "Biết vạch kế hoạch hoạt động một cách cụ thể, khoa học và kế hoạch kiểm tra đánh giá, điều chỉnh kế hoạch hoạt động là biểu hiện của:",
+      "options": [
+        "A. Năng lực dạy học.",
+        "B. Năng lực tổ chức các hoạt động sư phạm.",
+        "C. Năng lực giao tiếp sư phạm.",
+        "D. Năng lực giáo dục."
+      ],
+      "answer": "D. Năng lực giáo dục."
+    },
+    {
+      "id": "C6_23",
+      "question": "Đặc điểm đặc trưng của nghề thầy giáo là:",
+      "options": [
+        "A. Nghề có đối tượng là con người đang phát triển.",
+        "B. Nghề mà công cụ lao động là nhân cách của chính người thầy.",
+        "C. Nghề hình thành và phát triển nhân cách cá nhân, tái sản xuất sức lao động.",
+        "D. Cả a, b, c"
+      ],
+      "answer": "D. Cả a, b, c"
+    },
+    {
+      "id": "C6_24",
+      "question": "Người ta đã làm một thực nghiệm: Đề nghị 10 giáo viên dạy giỏi, 10 giáo viên dạy khá và 10 giáo viên dạy trung bình, mỗi người phân tích một bảng câu hỏi môn học của học sinh lớp 10 và cho biết số câu hỏi mà học sinh sẽ trả lời được, số câu hỏi khó, không trả lời được. Đồng thời cho 100 học sinh lớp 10 làm các câu hỏi đó. So sánh các kết quả dự đoán của các giáo viên dạy giỏi, khá và trung bình với kết quả làm bài của học sinh. Thực nghiệm trên nhằm phát hiện năng lực gì trong hệ thống năng lực dạy học của giáo viên?",
+      "options": [
+        "A. Năng lực hiểu học sinh.",
+        "B. Năng lực nắm vững kĩ thuật dạy học.",
+        "C. Năng lực chế biến tài liệu.",
+        "D. Năng lực ngôn ngữ."
+      ],
+      "answer": "A. Năng lực hiểu học sinh."
+    },
+    {
+      "id": "C6_25",
+      "question": "Giờ tập làm văn. Cô giáo ra đề: \" Hãy viết cảm xúc về mẹ của em\". An cầm bút suy nghĩ, rồi nó hãnh diện. Nó nhủ thầm đây là dịp để bày tỏ cảm xúc của mình. Nó viết:\"... chưa một lần được nhìn thấy mẹ, nhưng em đã sống trong vòng tay thương yêu của dì. Dì thương yêu như một người mẹ thực thụ, không như gièm pha của người đời: mấy đời bánh đúc có xương...\". Giờ trả bài nó hồi hộp trong tâm trạng hạnh phúc. Nhưng thật bàng hoàng, trước mắt nó, bài văn chỉ được điểm 1 đỏ chót với lời phê của cô giáo: \"Lạc đề\". Nó chua xót: Mẹ ơi! Tình huống trên thể hiện hạn chế trong năng lực nào của giáo viên?",
+      "options": [
+        "A. Năng lực kiểm tra đánh giá học sinh.",
+        "B. Năng lực hiểu học sinh trong dạy học và giáo dục.",
+        "C. Năng lực cảm hoá học sinh trong dạy học.",
+        "D. Năng lực giao tiếp."
+      ],
+      "answer": "B. Năng lực hiểu học sinh trong dạy học và giáo dục."
+    },
+    {
+      "id": "C6_26",
+      "question": "Yếu tố nào không đặc trưng của năng lực nắm vững kĩ thuật dạy học?",
+      "options": [
+        "A. Nắm vững các phương pháp, kĩ thuật dạy học mới, tạo ra cho học sinh vị trí của người \"phát minh\", \"sáng tạo\" trong quá trình học tập.",
+        "B. Gây hứng thú và kích thích tính độc lập sáng tạo trong tư duy và trong hành động học tập.",
+        "C. Trình bày tài liệu theo suy nghĩ và lập luận riêng của mình.",
+        "D. Tạo tâm thế có lợi cho việc lĩnh hội tri thức, kĩ năng, kĩ xảo cho học sinh."
+      ],
+      "answer": "C. Trình bày tài liệu theo suy nghĩ và lập luận riêng của mình."
+    },
+    {
+      "id": "C6_27",
+      "question": "Năng lực ngôn ngữ của người thầy giáo thể hiện ở chỗ:",
+      "options": [
+        "A. Nội dung ngôn ngữ chứa đựng mật độ thông tin cao, chính xác và lôgíc chặt chẽ.",
+        "B. Có cách diễn đạt giản dị, sinh động, giàu hình ảnh, có ngữ điệu, mạch lạc và đúng ngữ pháp v.v..",
+        "C. Có sự kết hợp hài hoà ngôn ngữ nói với các phương tiện phi ngôn ngữ khác.",
+        "D. Cả a, b, c."
+      ],
+      "answer": "D. Cả a, b, c."
+    },
+    {
+      "id": "C6_28",
+      "question": "Trong lớp có một học sinh nói tục. Thầy giáo nghe thấy, nhưng không hề quát nạt, thầy bảo một học sinh khác mang đến một cốc nước sạch. Thầy cầm lấy, đưa cho học sinh nói tục và nói: “Em hãy ra ngoài kia súc miệng cho sạch rồi vào lớp học tiếp”. Cậu học trò cúi đầu ngượng với lỗi lầm của mình. Cả lớp im lặng. Từ đó không ai còn nghe thấy lời nói tục nữa. Tình huống trên thể hiện năng lực nào là chủ yếu của giáo viên?",
+      "options": [
+        "A. Năng lực giao tiếp.",
+        "B. Năng lực hiểu học sinh trong dạy học và giáo dục.",
+        "C. Năng lực cảm hoá học sinh trong dạy học.",
+        "D. Năng lực khéo léo ứng xử sư phạm."
+      ],
+      "answer": "C. Năng lực cảm hoá học sinh trong dạy học."
+    },
+    {
+      "id": "C6_29",
+      "question": "Cuối tiết toán, thầy đi xuống lớp và nói: “Ca dao Việt Nam rất phong phú. Em nào có thể đọc cho cả lớp nghe một bài hợp cảnh bây giờ”. Cả lớp không đọc được. Thầy nói tiếp: “Không ai đọc được thì thầy đọc giùm nhé”: Năng mưa thì giếng năng đầy. Sao không có nước cho thầy.... rửa tay. Cả lớp ...ồ lên, cười ...rồi im lặng. Tình huống trên thể hiện năng lực nào là chủ yếu của giáo viên?",
+      "options": [
+        "A. Năng lực khéo léo ứng xử sư phạm.",
+        "B. Năng lực giao tiếp.",
+        "C. Năng lực hiểu học sinh trong dạy học và giáo dục.",
+        "D. Năng lực cảm hoá học sinh trong dạy học."
+      ],
+      "answer": "A. Năng lực khéo léo ứng xử sư phạm."
+    },
+    {
+      "id": "C6_30",
+      "question": "Khi trả bài kiểm tra, Đạt ngồi ở cuối lớp đập tay lên bàn nói to: \"Thầy không công bằng\". Tôi bình tĩnh gọi em lên: \"Sao không công bằng, em nói cho thầy nghe\". Đạt trả lời: \"Bài của em và của bạn Hiệp làm đúng như nhau nhưng bài của Hiệp được 7 điểm còn của em chỉ có 6 điểm\". Tôi bảo: \"Hai em đưa bài cho thầy xem\". Tôi đọc kĩ hai bài và chỉ ra chỗ thiếu trong bài của Đạt cho em xem. Lúc này, em bắt đầu tái mặt rồi xin lỗi thầy. Tôi nói:\" Khi muốn nói điều gì, em phải suy nghĩ cho kĩ. Lần này thầy tha lỗi cho em.\" Tình huống trên thể hiện năng lực nào là chủ yếu của giáo viên?",
+      "options": [
+        "A. Năng lực giao tiếp.",
+        "B. Năng lực hiểu học sinh trong dạy học và giáo dục.",
+        "C. Năng lực cảm hoá học sinh trong dạy học.",
+        "D. Năng lực khéo léo ứng xử sư phạm."
+      ],
+      "answer": "C. Năng lực cảm hoá học sinh trong dạy học."
+    }
+  ]
+}
