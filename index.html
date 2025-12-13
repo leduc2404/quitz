@@ -848,6 +848,17 @@
             <span class="stat-item" id="triet5Count">⏳ Đang tải...</span>
           </div>
         </div>
+        <div class="subject-card triet" onclick="selectSubject('triet6')">
+          <span class="subject-icon">📙</span>
+          <h2>Triết Học 6 - Phần 3 & 4</h2>
+          <p>
+            Trắc nghiệm Triết học Mác-Lênin Phần 3 & 4...
+          </p>
+          <div class="subject-stats">
+            <span class="stat-item">📚 Phần 3 & 4</span>
+            <span class="stat-item" id="triet6Count">⏳ Đang tải...</span>
+          </div>
+        </div>
         <div class="subject-card tamly" onclick="selectSubject('tamly2')">
           <span class="subject-icon">🧠</span>
           <h2>Tâm Lý 2 - Sư Phạm</h2>
@@ -989,6 +1000,7 @@
             triet3: "Triết Học 3",
             triet4: "Triết Học 4",
             triet5: "Triết Học 5",
+            triet6: "Triết Học 6",
             tamly2: "Tâm Lý 2",
           };
           const subjectName = subjectNames[data.subject] || "Quiz";
@@ -1117,6 +1129,15 @@
             "triet5Count"
           ).textContent = `📝 ${triet5Count} câu hỏi`;
 
+          // Load TrietHoc6.json (single object format)
+          const trietHoc6Data = await fetch("TrietHoc6.json").then((r) =>
+            r.json()
+          );
+          subjectData.triet6 = trietHoc6Data;
+          document.getElementById(
+            "triet6Count"
+          ).textContent = `📝 ${trietHoc6Data.questions.length} câu hỏi`;
+
           // Load TamLy2.json (single object format)
           const tamLy2Data = await fetch("TamLy2.json").then((r) =>
             r.json()
@@ -1196,6 +1217,14 @@
             card.innerHTML = `<h3>${topic.topic}</h3><p class="question-count">📝 ${topic.questions.length} câu hỏi</p>`;
             topicGrid.appendChild(card);
           });
+        } else if (subject === "triet6") {
+          document.getElementById("subjectTitle").textContent =
+            "📙 Triết Học 6 - Phần 3 & 4";
+          const card = document.createElement("div");
+          card.className = "topic-card";
+          card.onclick = () => startQuizTopic(0);
+          card.innerHTML = `<h3>${subjectData.triet6.topic}</h3><p class="question-count">📝 ${subjectData.triet6.questions.length} câu hỏi</p>`;
+          topicGrid.appendChild(card);
         } else if (subject === "tamly2") {
           document.getElementById("subjectTitle").textContent =
             "🧠 Tâm Lý 2 - Sư Phạm";
@@ -1245,6 +1274,10 @@
               currentQuestions.push({ ...q, topic: topic.topic });
             });
           });
+        } else if (currentSubject === "triet6") {
+          subjectData.triet6.questions.forEach((q) => {
+            currentQuestions.push({ ...q, topic: subjectData.triet6.topic });
+          });
         } else if (currentSubject === "tamly2") {
           subjectData.tamly2.questions.forEach((q) => {
             currentQuestions.push({ ...q, topic: subjectData.tamly2.topic });
@@ -1285,6 +1318,10 @@
           const topic = subjectData.triet5[topicIndex];
           topic.questions.forEach((q) => {
             currentQuestions.push({ ...q, topic: topic.topic });
+          });
+        } else if (currentSubject === "triet6") {
+          subjectData.triet6.questions.forEach((q) => {
+            currentQuestions.push({ ...q, topic: subjectData.triet6.topic });
           });
         } else if (currentSubject === "tamly2") {
           subjectData.tamly2.questions.forEach((q) => {
